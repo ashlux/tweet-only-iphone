@@ -1,0 +1,2854 @@
+<mockup version="1.0" skin="sketch" measuredW="1347" measuredH="753" mockupW="1271" mockupH="708">
+  <controls>
+    <control controlID="224" controlTypeID="com.balsamiq.mockups::Title" x="364" y="36" w="-1" h="-1" measuredW="155" measuredH="32" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Safari%20Keyboard</text>
+        <size>20</size>
+      </controlProperties>
+    </control>
+    <control controlID="226" controlTypeID="com.balsamiq.mockups::Paragraph" x="299" y="657" w="85" h="64" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>this%20one%20is%20the%20same%20as%20the%20built-in%20one%2C%20but%20editable</text>
+        <size>10</size>
+        <align>left</align>
+      </controlProperties>
+    </control>
+    <control controlID="227" controlTypeID="com.balsamiq.mockups::VRule" x="308" y="36" w="-1" h="606" measuredW="5" measuredH="100" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="421" controlTypeID="__group__" x="329" y="414" w="-1" h="-1" measuredW="227" measuredH="160" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="393" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="227" h="160" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="421">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="394" controlTypeID="com.balsamiq.mockups::PointyButton" x="57" y="118" w="36" h="-1" measuredW="25" measuredH="27" zOrder="1" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.</text>
+            <size>13</size>
+          </controlProperties>
+        </control>
+        <control controlID="395" controlTypeID="com.balsamiq.mockups::PointyButton" x="96" y="118" w="33" h="-1" measuredW="28" measuredH="27" zOrder="2" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>/</text>
+          </controlProperties>
+        </control>
+        <control controlID="396" controlTypeID="com.balsamiq.mockups::PointyButton" x="132" y="118" w="33" h="-1" measuredW="43" measuredH="27" zOrder="3" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.com</text>
+            <size>11</size>
+          </controlProperties>
+        </control>
+        <control controlID="397" controlTypeID="com.balsamiq.mockups::PointyButton" x="3" y="118" w="52" h="-1" measuredW="43" measuredH="27" zOrder="4" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>ABC</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="398" controlTypeID="com.balsamiq.mockups::PointyButton" x="168" y="118" w="54" h="-1" measuredW="35" measuredH="27" zOrder="5" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Go</text>
+            <color>2848996</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="399" controlTypeID="com.balsamiq.mockups::PointyButton" x="4" y="17" w="23" h="-1" measuredW="26" measuredH="27" zOrder="6" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="400" controlTypeID="com.balsamiq.mockups::PointyButton" x="26" y="17" w="23" h="-1" measuredW="29" measuredH="27" zOrder="7" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>2</text>
+          </controlProperties>
+        </control>
+        <control controlID="401" controlTypeID="com.balsamiq.mockups::PointyButton" x="48" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="8" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>3</text>
+          </controlProperties>
+        </control>
+        <control controlID="402" controlTypeID="com.balsamiq.mockups::PointyButton" x="70" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="9" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>4</text>
+          </controlProperties>
+        </control>
+        <control controlID="403" controlTypeID="com.balsamiq.mockups::PointyButton" x="92" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="10" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>5</text>
+          </controlProperties>
+        </control>
+        <control controlID="404" controlTypeID="com.balsamiq.mockups::PointyButton" x="114" y="17" w="23" h="-1" measuredW="29" measuredH="27" zOrder="11" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>6</text>
+          </controlProperties>
+        </control>
+        <control controlID="405" controlTypeID="com.balsamiq.mockups::PointyButton" x="136" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="12" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>7</text>
+          </controlProperties>
+        </control>
+        <control controlID="406" controlTypeID="com.balsamiq.mockups::PointyButton" x="158" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="13" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>8</text>
+          </controlProperties>
+        </control>
+        <control controlID="407" controlTypeID="com.balsamiq.mockups::PointyButton" x="180" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="14" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>9</text>
+          </controlProperties>
+        </control>
+        <control controlID="408" controlTypeID="com.balsamiq.mockups::PointyButton" x="202" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="15" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>0</text>
+          </controlProperties>
+        </control>
+        <control controlID="409" controlTypeID="com.balsamiq.mockups::PointyButton" x="16" y="50" w="30" h="-1" measuredW="27" measuredH="27" zOrder="16" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>*</text>
+          </controlProperties>
+        </control>
+        <control controlID="410" controlTypeID="com.balsamiq.mockups::PointyButton" x="4" y="87" w="30" h="-1" measuredW="38" measuredH="27" zOrder="17" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>123</text>
+            <color>5263440</color>
+            <size>11</size>
+          </controlProperties>
+        </control>
+        <control controlID="411" controlTypeID="com.balsamiq.mockups::PointyButton" x="195" y="87" w="30" h="-1" measuredW="37" measuredH="27" zOrder="18" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>BackSpaceIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="412" controlTypeID="com.balsamiq.mockups::PointyButton" x="49" y="50" w="30" h="-1" measuredW="29" measuredH="27" zOrder="19" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%24</text>
+          </controlProperties>
+        </control>
+        <control controlID="413" controlTypeID="com.balsamiq.mockups::PointyButton" x="82" y="50" w="30" h="-1" measuredW="31" measuredH="27" zOrder="20" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%23</text>
+          </controlProperties>
+        </control>
+        <control controlID="414" controlTypeID="com.balsamiq.mockups::PointyButton" x="115" y="50" w="30" h="-1" measuredW="24" measuredH="27" zOrder="21" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%21</text>
+          </controlProperties>
+        </control>
+        <control controlID="415" controlTypeID="com.balsamiq.mockups::PointyButton" x="148" y="50" w="30" h="-1" measuredW="24" measuredH="27" zOrder="22" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%27</text>
+          </controlProperties>
+        </control>
+        <control controlID="416" controlTypeID="com.balsamiq.mockups::PointyButton" x="181" y="50" w="30" h="-1" measuredW="27" measuredH="27" zOrder="23" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%5E</text>
+          </controlProperties>
+        </control>
+        <control controlID="417" controlTypeID="com.balsamiq.mockups::PointyButton" x="42" y="86" w="34" h="-1" measuredW="29" measuredH="27" zOrder="24" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%7E</text>
+          </controlProperties>
+        </control>
+        <control controlID="418" controlTypeID="com.balsamiq.mockups::PointyButton" x="80" y="86" w="34" h="-1" measuredW="26" measuredH="27" zOrder="25" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3B</text>
+          </controlProperties>
+        </control>
+        <control controlID="419" controlTypeID="com.balsamiq.mockups::PointyButton" x="117" y="86" w="34" h="-1" measuredW="25" measuredH="27" zOrder="26" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%28</text>
+          </controlProperties>
+        </control>
+        <control controlID="420" controlTypeID="com.balsamiq.mockups::PointyButton" x="155" y="86" w="34" h="-1" measuredW="25" measuredH="27" zOrder="27" locked="false" isInGroup="421">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%29</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="422" controlTypeID="__group__" x="329" y="244" w="-1" h="-1" measuredW="227" measuredH="160" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="358" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="227" h="160" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="422">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="359" controlTypeID="com.balsamiq.mockups::PointyButton" x="57" y="118" w="36" h="-1" measuredW="25" measuredH="27" zOrder="1" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.</text>
+            <size>13</size>
+          </controlProperties>
+        </control>
+        <control controlID="360" controlTypeID="com.balsamiq.mockups::PointyButton" x="96" y="118" w="33" h="-1" measuredW="28" measuredH="27" zOrder="2" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>/</text>
+          </controlProperties>
+        </control>
+        <control controlID="361" controlTypeID="com.balsamiq.mockups::PointyButton" x="132" y="118" w="33" h="-1" measuredW="43" measuredH="27" zOrder="3" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.com</text>
+            <size>11</size>
+          </controlProperties>
+        </control>
+        <control controlID="362" controlTypeID="com.balsamiq.mockups::PointyButton" x="3" y="118" w="52" h="-1" measuredW="43" measuredH="27" zOrder="4" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>ABC</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="363" controlTypeID="com.balsamiq.mockups::PointyButton" x="168" y="118" w="54" h="-1" measuredW="35" measuredH="27" zOrder="5" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Go</text>
+            <color>2848996</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="364" controlTypeID="com.balsamiq.mockups::PointyButton" x="4" y="17" w="23" h="-1" measuredW="26" measuredH="27" zOrder="6" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="365" controlTypeID="com.balsamiq.mockups::PointyButton" x="26" y="17" w="23" h="-1" measuredW="29" measuredH="27" zOrder="7" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>2</text>
+          </controlProperties>
+        </control>
+        <control controlID="366" controlTypeID="com.balsamiq.mockups::PointyButton" x="48" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="8" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>3</text>
+          </controlProperties>
+        </control>
+        <control controlID="367" controlTypeID="com.balsamiq.mockups::PointyButton" x="70" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="9" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>4</text>
+          </controlProperties>
+        </control>
+        <control controlID="368" controlTypeID="com.balsamiq.mockups::PointyButton" x="92" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="10" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>5</text>
+          </controlProperties>
+        </control>
+        <control controlID="369" controlTypeID="com.balsamiq.mockups::PointyButton" x="114" y="17" w="23" h="-1" measuredW="29" measuredH="27" zOrder="11" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>6</text>
+          </controlProperties>
+        </control>
+        <control controlID="370" controlTypeID="com.balsamiq.mockups::PointyButton" x="136" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="12" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>7</text>
+          </controlProperties>
+        </control>
+        <control controlID="371" controlTypeID="com.balsamiq.mockups::PointyButton" x="158" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="13" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>8</text>
+          </controlProperties>
+        </control>
+        <control controlID="372" controlTypeID="com.balsamiq.mockups::PointyButton" x="180" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="14" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>9</text>
+          </controlProperties>
+        </control>
+        <control controlID="373" controlTypeID="com.balsamiq.mockups::PointyButton" x="202" y="17" w="23" h="-1" measuredW="28" measuredH="27" zOrder="15" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>0</text>
+          </controlProperties>
+        </control>
+        <control controlID="374" controlTypeID="com.balsamiq.mockups::PointyButton" x="16" y="50" w="30" h="-1" measuredW="32" measuredH="27" zOrder="16" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>@</text>
+          </controlProperties>
+        </control>
+        <control controlID="375" controlTypeID="com.balsamiq.mockups::PointyButton" x="4" y="87" w="30" h="-1" measuredW="41" measuredH="27" zOrder="17" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%23+%3D</text>
+            <color>5263440</color>
+            <size>11</size>
+          </controlProperties>
+        </control>
+        <control controlID="376" controlTypeID="com.balsamiq.mockups::PointyButton" x="195" y="87" w="30" h="-1" measuredW="37" measuredH="27" zOrder="18" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>BackSpaceIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="377" controlTypeID="com.balsamiq.mockups::PointyButton" x="49" y="50" w="30" h="-1" measuredW="30" measuredH="27" zOrder="19" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%26</text>
+          </controlProperties>
+        </control>
+        <control controlID="378" controlTypeID="com.balsamiq.mockups::PointyButton" x="82" y="50" w="30" h="-1" measuredW="32" measuredH="27" zOrder="20" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%25</text>
+          </controlProperties>
+        </control>
+        <control controlID="379" controlTypeID="com.balsamiq.mockups::PointyButton" x="115" y="50" w="30" h="-1" measuredW="27" measuredH="27" zOrder="21" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3F</text>
+          </controlProperties>
+        </control>
+        <control controlID="380" controlTypeID="com.balsamiq.mockups::PointyButton" x="148" y="50" w="30" h="-1" measuredW="24" measuredH="27" zOrder="22" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%2C</text>
+          </controlProperties>
+        </control>
+        <control controlID="381" controlTypeID="com.balsamiq.mockups::PointyButton" x="181" y="50" w="30" h="-1" measuredW="27" measuredH="27" zOrder="23" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3D</text>
+          </controlProperties>
+        </control>
+        <control controlID="382" controlTypeID="com.balsamiq.mockups::PointyButton" x="42" y="86" w="34" h="-1" measuredW="29" measuredH="27" zOrder="24" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>_</text>
+          </controlProperties>
+        </control>
+        <control controlID="383" controlTypeID="com.balsamiq.mockups::PointyButton" x="80" y="86" w="34" h="-1" measuredW="25" measuredH="27" zOrder="25" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="384" controlTypeID="com.balsamiq.mockups::PointyButton" x="117" y="86" w="34" h="-1" measuredW="27" measuredH="27" zOrder="26" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>-</text>
+          </controlProperties>
+        </control>
+        <control controlID="385" controlTypeID="com.balsamiq.mockups::PointyButton" x="155" y="86" w="34" h="-1" measuredW="28" measuredH="27" zOrder="27" locked="false" isInGroup="422">
+          <controlProperties>
+            <direction>center</direction>
+            <text>+</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="423" controlTypeID="__group__" x="329" y="74" w="-1" h="-1" measuredW="227" measuredH="160" zOrder="6" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="386" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="227" h="160" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="423">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="387" controlTypeID="com.balsamiq.mockups::PointyButton" x="57" y="118" w="36" h="-1" measuredW="25" measuredH="27" zOrder="1" locked="false" isInGroup="423">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.</text>
+            <size>13</size>
+          </controlProperties>
+        </control>
+        <control controlID="388" controlTypeID="com.balsamiq.mockups::PointyButton" x="96" y="118" w="33" h="-1" measuredW="28" measuredH="27" zOrder="2" locked="false" isInGroup="423">
+          <controlProperties>
+            <direction>center</direction>
+            <text>/</text>
+          </controlProperties>
+        </control>
+        <control controlID="389" controlTypeID="com.balsamiq.mockups::PointyButton" x="132" y="118" w="33" h="-1" measuredW="43" measuredH="27" zOrder="3" locked="false" isInGroup="423">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.com</text>
+            <size>11</size>
+          </controlProperties>
+        </control>
+        <control controlID="390" controlTypeID="com.balsamiq.mockups::PointyButton" x="3" y="118" w="52" h="-1" measuredW="49" measuredH="27" zOrder="4" locked="false" isInGroup="423">
+          <controlProperties>
+            <direction>center</direction>
+            <text>@123</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="391" controlTypeID="com.balsamiq.mockups::PointyButton" x="168" y="118" w="54" h="-1" measuredW="35" measuredH="27" zOrder="5" locked="false" isInGroup="423">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Go</text>
+            <color>2848996</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="392" controlTypeID="__group__" x="3" y="15" w="221" h="98" measuredW="221" measuredH="98" zOrder="6" locked="false" isInGroup="423">
+          <groupChildrenDescriptors>
+            <control controlID="14" controlTypeID="com.balsamiq.mockups::PointyButton" x="0" y="0" w="23" h="-1" measuredW="31" measuredH="27" zOrder="0" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>Q</text>
+              </controlProperties>
+            </control>
+            <control controlID="15" controlTypeID="com.balsamiq.mockups::PointyButton" x="22" y="0" w="23" h="-1" measuredW="34" measuredH="27" zOrder="1" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>W</text>
+              </controlProperties>
+            </control>
+            <control controlID="16" controlTypeID="com.balsamiq.mockups::PointyButton" x="44" y="0" w="23" h="-1" measuredW="28" measuredH="27" zOrder="2" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>E</text>
+              </controlProperties>
+            </control>
+            <control controlID="17" controlTypeID="com.balsamiq.mockups::PointyButton" x="66" y="0" w="23" h="-1" measuredW="29" measuredH="27" zOrder="3" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>R</text>
+              </controlProperties>
+            </control>
+            <control controlID="18" controlTypeID="com.balsamiq.mockups::PointyButton" x="88" y="0" w="23" h="-1" measuredW="28" measuredH="27" zOrder="4" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>T</text>
+              </controlProperties>
+            </control>
+            <control controlID="19" controlTypeID="com.balsamiq.mockups::PointyButton" x="110" y="0" w="23" h="-1" measuredW="29" measuredH="27" zOrder="5" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>Y</text>
+              </controlProperties>
+            </control>
+            <control controlID="20" controlTypeID="com.balsamiq.mockups::PointyButton" x="132" y="0" w="23" h="-1" measuredW="30" measuredH="27" zOrder="6" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>U</text>
+              </controlProperties>
+            </control>
+            <control controlID="21" controlTypeID="com.balsamiq.mockups::PointyButton" x="154" y="0" w="23" h="-1" measuredW="27" measuredH="27" zOrder="7" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>I</text>
+              </controlProperties>
+            </control>
+            <control controlID="22" controlTypeID="com.balsamiq.mockups::PointyButton" x="176" y="0" w="23" h="-1" measuredW="30" measuredH="27" zOrder="8" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>O</text>
+              </controlProperties>
+            </control>
+            <control controlID="23" controlTypeID="com.balsamiq.mockups::PointyButton" x="198" y="0" w="23" h="-1" measuredW="29" measuredH="27" zOrder="9" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>P</text>
+              </controlProperties>
+            </control>
+            <control controlID="24" controlTypeID="com.balsamiq.mockups::PointyButton" x="11" y="35" w="23" h="-1" measuredW="29" measuredH="27" zOrder="10" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>A</text>
+              </controlProperties>
+            </control>
+            <control controlID="25" controlTypeID="com.balsamiq.mockups::PointyButton" x="33" y="35" w="23" h="-1" measuredW="29" measuredH="27" zOrder="11" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>S</text>
+              </controlProperties>
+            </control>
+            <control controlID="26" controlTypeID="com.balsamiq.mockups::PointyButton" x="55" y="35" w="23" h="-1" measuredW="30" measuredH="27" zOrder="12" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>D</text>
+              </controlProperties>
+            </control>
+            <control controlID="27" controlTypeID="com.balsamiq.mockups::PointyButton" x="77" y="35" w="23" h="-1" measuredW="28" measuredH="27" zOrder="13" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>F</text>
+              </controlProperties>
+            </control>
+            <control controlID="28" controlTypeID="com.balsamiq.mockups::PointyButton" x="99" y="35" w="23" h="-1" measuredW="30" measuredH="27" zOrder="14" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>G</text>
+              </controlProperties>
+            </control>
+            <control controlID="29" controlTypeID="com.balsamiq.mockups::PointyButton" x="121" y="35" w="23" h="-1" measuredW="29" measuredH="27" zOrder="15" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>H</text>
+              </controlProperties>
+            </control>
+            <control controlID="30" controlTypeID="com.balsamiq.mockups::PointyButton" x="143" y="35" w="23" h="-1" measuredW="28" measuredH="27" zOrder="16" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>J</text>
+              </controlProperties>
+            </control>
+            <control controlID="31" controlTypeID="com.balsamiq.mockups::PointyButton" x="165" y="35" w="23" h="-1" measuredW="29" measuredH="27" zOrder="17" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>K</text>
+              </controlProperties>
+            </control>
+            <control controlID="32" controlTypeID="com.balsamiq.mockups::PointyButton" x="187" y="35" w="23" h="-1" measuredW="28" measuredH="27" zOrder="18" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>L</text>
+              </controlProperties>
+            </control>
+            <control controlID="34" controlTypeID="com.balsamiq.mockups::PointyButton" x="34" y="71" w="23" h="-1" measuredW="30" measuredH="27" zOrder="19" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>Z</text>
+              </controlProperties>
+            </control>
+            <control controlID="35" controlTypeID="com.balsamiq.mockups::PointyButton" x="56" y="71" w="23" h="-1" measuredW="30" measuredH="27" zOrder="20" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>X</text>
+              </controlProperties>
+            </control>
+            <control controlID="36" controlTypeID="com.balsamiq.mockups::PointyButton" x="78" y="71" w="23" h="-1" measuredW="29" measuredH="27" zOrder="21" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>C</text>
+              </controlProperties>
+            </control>
+            <control controlID="37" controlTypeID="com.balsamiq.mockups::PointyButton" x="100" y="71" w="23" h="-1" measuredW="29" measuredH="27" zOrder="22" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>V</text>
+              </controlProperties>
+            </control>
+            <control controlID="38" controlTypeID="com.balsamiq.mockups::PointyButton" x="122" y="71" w="23" h="-1" measuredW="28" measuredH="27" zOrder="23" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>B</text>
+              </controlProperties>
+            </control>
+            <control controlID="39" controlTypeID="com.balsamiq.mockups::PointyButton" x="144" y="71" w="23" h="-1" measuredW="30" measuredH="27" zOrder="24" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>N</text>
+              </controlProperties>
+            </control>
+            <control controlID="40" controlTypeID="com.balsamiq.mockups::PointyButton" x="166" y="71" w="23" h="-1" measuredW="32" measuredH="27" zOrder="25" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text>M</text>
+              </controlProperties>
+            </control>
+            <control controlID="43" controlTypeID="com.balsamiq.mockups::PointyButton" x="0" y="70" w="30" h="-1" measuredW="37" measuredH="27" zOrder="26" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text/>
+                <color>5263440</color>
+                <icon>ShiftIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="44" controlTypeID="com.balsamiq.mockups::PointyButton" x="191" y="70" w="30" h="-1" measuredW="37" measuredH="27" zOrder="27" locked="false" isInGroup="55">
+              <controlProperties>
+                <direction>center</direction>
+                <text/>
+                <color>5263440</color>
+                <icon>BackSpaceIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="424" controlTypeID="__group__" x="66" y="583" w="-1" h="-1" measuredW="227" measuredH="160" zOrder="7" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="228" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="227" h="160" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="424">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="229" controlTypeID="com.balsamiq.mockups::PointyButton" x="57" y="118" w="36" h="-1" measuredW="45" measuredH="27" zOrder="1" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>space</text>
+            <size>10</size>
+          </controlProperties>
+        </control>
+        <control controlID="230" controlTypeID="com.balsamiq.mockups::PointyButton" x="96" y="118" w="33" h="-1" measuredW="32" measuredH="27" zOrder="2" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>@</text>
+          </controlProperties>
+        </control>
+        <control controlID="231" controlTypeID="com.balsamiq.mockups::PointyButton" x="132" y="118" w="33" h="-1" measuredW="25" measuredH="27" zOrder="3" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.</text>
+          </controlProperties>
+        </control>
+        <control controlID="232" controlTypeID="com.balsamiq.mockups::PointyButton" x="3" y="118" w="51" h="-1" measuredW="48" measuredH="27" zOrder="4" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.%3F123</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="233" controlTypeID="com.balsamiq.mockups::PointyButton" x="168" y="118" w="54" h="-1" measuredW="54" measuredH="27" zOrder="5" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>return</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="235" controlTypeID="com.balsamiq.mockups::PointyButton" x="3" y="15" w="23" h="-1" measuredW="31" measuredH="27" zOrder="6" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Q</text>
+          </controlProperties>
+        </control>
+        <control controlID="236" controlTypeID="com.balsamiq.mockups::PointyButton" x="25" y="15" w="23" h="-1" measuredW="34" measuredH="27" zOrder="7" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>W</text>
+          </controlProperties>
+        </control>
+        <control controlID="237" controlTypeID="com.balsamiq.mockups::PointyButton" x="47" y="15" w="23" h="-1" measuredW="28" measuredH="27" zOrder="8" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>E</text>
+          </controlProperties>
+        </control>
+        <control controlID="238" controlTypeID="com.balsamiq.mockups::PointyButton" x="69" y="15" w="23" h="-1" measuredW="29" measuredH="27" zOrder="9" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>R</text>
+          </controlProperties>
+        </control>
+        <control controlID="239" controlTypeID="com.balsamiq.mockups::PointyButton" x="91" y="15" w="23" h="-1" measuredW="28" measuredH="27" zOrder="10" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>T</text>
+          </controlProperties>
+        </control>
+        <control controlID="240" controlTypeID="com.balsamiq.mockups::PointyButton" x="113" y="15" w="23" h="-1" measuredW="29" measuredH="27" zOrder="11" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Y</text>
+          </controlProperties>
+        </control>
+        <control controlID="241" controlTypeID="com.balsamiq.mockups::PointyButton" x="135" y="15" w="23" h="-1" measuredW="30" measuredH="27" zOrder="12" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>U</text>
+          </controlProperties>
+        </control>
+        <control controlID="242" controlTypeID="com.balsamiq.mockups::PointyButton" x="157" y="15" w="23" h="-1" measuredW="27" measuredH="27" zOrder="13" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>I</text>
+          </controlProperties>
+        </control>
+        <control controlID="243" controlTypeID="com.balsamiq.mockups::PointyButton" x="179" y="15" w="23" h="-1" measuredW="30" measuredH="27" zOrder="14" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>O</text>
+          </controlProperties>
+        </control>
+        <control controlID="244" controlTypeID="com.balsamiq.mockups::PointyButton" x="201" y="15" w="23" h="-1" measuredW="29" measuredH="27" zOrder="15" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>P</text>
+          </controlProperties>
+        </control>
+        <control controlID="245" controlTypeID="com.balsamiq.mockups::PointyButton" x="14" y="50" w="23" h="-1" measuredW="29" measuredH="27" zOrder="16" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>A</text>
+          </controlProperties>
+        </control>
+        <control controlID="246" controlTypeID="com.balsamiq.mockups::PointyButton" x="36" y="50" w="23" h="-1" measuredW="29" measuredH="27" zOrder="17" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>S</text>
+          </controlProperties>
+        </control>
+        <control controlID="247" controlTypeID="com.balsamiq.mockups::PointyButton" x="58" y="50" w="23" h="-1" measuredW="30" measuredH="27" zOrder="18" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>D</text>
+          </controlProperties>
+        </control>
+        <control controlID="248" controlTypeID="com.balsamiq.mockups::PointyButton" x="80" y="50" w="23" h="-1" measuredW="28" measuredH="27" zOrder="19" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>F</text>
+          </controlProperties>
+        </control>
+        <control controlID="249" controlTypeID="com.balsamiq.mockups::PointyButton" x="102" y="50" w="23" h="-1" measuredW="30" measuredH="27" zOrder="20" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>G</text>
+          </controlProperties>
+        </control>
+        <control controlID="250" controlTypeID="com.balsamiq.mockups::PointyButton" x="124" y="50" w="23" h="-1" measuredW="29" measuredH="27" zOrder="21" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>H</text>
+          </controlProperties>
+        </control>
+        <control controlID="251" controlTypeID="com.balsamiq.mockups::PointyButton" x="146" y="50" w="23" h="-1" measuredW="28" measuredH="27" zOrder="22" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>J</text>
+          </controlProperties>
+        </control>
+        <control controlID="252" controlTypeID="com.balsamiq.mockups::PointyButton" x="168" y="50" w="23" h="-1" measuredW="29" measuredH="27" zOrder="23" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>K</text>
+          </controlProperties>
+        </control>
+        <control controlID="253" controlTypeID="com.balsamiq.mockups::PointyButton" x="190" y="50" w="23" h="-1" measuredW="28" measuredH="27" zOrder="24" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>L</text>
+          </controlProperties>
+        </control>
+        <control controlID="254" controlTypeID="com.balsamiq.mockups::PointyButton" x="37" y="86" w="23" h="-1" measuredW="30" measuredH="27" zOrder="25" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Z</text>
+          </controlProperties>
+        </control>
+        <control controlID="255" controlTypeID="com.balsamiq.mockups::PointyButton" x="59" y="86" w="23" h="-1" measuredW="30" measuredH="27" zOrder="26" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>X</text>
+          </controlProperties>
+        </control>
+        <control controlID="256" controlTypeID="com.balsamiq.mockups::PointyButton" x="81" y="86" w="23" h="-1" measuredW="29" measuredH="27" zOrder="27" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>C</text>
+          </controlProperties>
+        </control>
+        <control controlID="257" controlTypeID="com.balsamiq.mockups::PointyButton" x="103" y="86" w="23" h="-1" measuredW="29" measuredH="27" zOrder="28" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>V</text>
+          </controlProperties>
+        </control>
+        <control controlID="258" controlTypeID="com.balsamiq.mockups::PointyButton" x="125" y="86" w="23" h="-1" measuredW="28" measuredH="27" zOrder="29" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>B</text>
+          </controlProperties>
+        </control>
+        <control controlID="259" controlTypeID="com.balsamiq.mockups::PointyButton" x="147" y="86" w="23" h="-1" measuredW="30" measuredH="27" zOrder="30" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>N</text>
+          </controlProperties>
+        </control>
+        <control controlID="260" controlTypeID="com.balsamiq.mockups::PointyButton" x="169" y="86" w="23" h="-1" measuredW="32" measuredH="27" zOrder="31" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text>M</text>
+          </controlProperties>
+        </control>
+        <control controlID="261" controlTypeID="com.balsamiq.mockups::PointyButton" x="3" y="85" w="30" h="-1" measuredW="37" measuredH="27" zOrder="32" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>ShiftIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="262" controlTypeID="com.balsamiq.mockups::PointyButton" x="194" y="85" w="30" h="-1" measuredW="37" measuredH="27" zOrder="33" locked="false" isInGroup="424">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>BackSpaceIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="425" controlTypeID="__group__" x="66" y="74" w="-1" h="-1" measuredW="227" measuredH="160" zOrder="8" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="263" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="227" h="160" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="425">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="264" controlTypeID="com.balsamiq.mockups::PointyButton" x="59" y="117" w="106" h="-1" measuredW="50" measuredH="27" zOrder="1" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>space</text>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="265" controlTypeID="com.balsamiq.mockups::PointyButton" x="4" y="117" w="51" h="-1" measuredW="48" measuredH="27" zOrder="2" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.%3F123</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="266" controlTypeID="com.balsamiq.mockups::PointyButton" x="169" y="117" w="54" h="-1" measuredW="54" measuredH="27" zOrder="3" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>return</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="268" controlTypeID="com.balsamiq.mockups::PointyButton" x="4" y="15" w="23" h="-1" measuredW="31" measuredH="27" zOrder="4" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Q</text>
+          </controlProperties>
+        </control>
+        <control controlID="269" controlTypeID="com.balsamiq.mockups::PointyButton" x="26" y="15" w="23" h="-1" measuredW="34" measuredH="27" zOrder="5" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>W</text>
+          </controlProperties>
+        </control>
+        <control controlID="270" controlTypeID="com.balsamiq.mockups::PointyButton" x="48" y="15" w="23" h="-1" measuredW="28" measuredH="27" zOrder="6" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>E</text>
+          </controlProperties>
+        </control>
+        <control controlID="271" controlTypeID="com.balsamiq.mockups::PointyButton" x="70" y="15" w="23" h="-1" measuredW="29" measuredH="27" zOrder="7" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>R</text>
+          </controlProperties>
+        </control>
+        <control controlID="272" controlTypeID="com.balsamiq.mockups::PointyButton" x="92" y="15" w="23" h="-1" measuredW="28" measuredH="27" zOrder="8" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>T</text>
+          </controlProperties>
+        </control>
+        <control controlID="273" controlTypeID="com.balsamiq.mockups::PointyButton" x="114" y="15" w="23" h="-1" measuredW="29" measuredH="27" zOrder="9" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Y</text>
+          </controlProperties>
+        </control>
+        <control controlID="274" controlTypeID="com.balsamiq.mockups::PointyButton" x="136" y="15" w="23" h="-1" measuredW="30" measuredH="27" zOrder="10" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>U</text>
+          </controlProperties>
+        </control>
+        <control controlID="275" controlTypeID="com.balsamiq.mockups::PointyButton" x="158" y="15" w="23" h="-1" measuredW="27" measuredH="27" zOrder="11" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>I</text>
+          </controlProperties>
+        </control>
+        <control controlID="276" controlTypeID="com.balsamiq.mockups::PointyButton" x="180" y="15" w="23" h="-1" measuredW="30" measuredH="27" zOrder="12" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>O</text>
+          </controlProperties>
+        </control>
+        <control controlID="277" controlTypeID="com.balsamiq.mockups::PointyButton" x="202" y="15" w="23" h="-1" measuredW="29" measuredH="27" zOrder="13" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>P</text>
+          </controlProperties>
+        </control>
+        <control controlID="278" controlTypeID="com.balsamiq.mockups::PointyButton" x="15" y="50" w="23" h="-1" measuredW="29" measuredH="27" zOrder="14" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>A</text>
+          </controlProperties>
+        </control>
+        <control controlID="279" controlTypeID="com.balsamiq.mockups::PointyButton" x="37" y="50" w="23" h="-1" measuredW="29" measuredH="27" zOrder="15" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>S</text>
+          </controlProperties>
+        </control>
+        <control controlID="280" controlTypeID="com.balsamiq.mockups::PointyButton" x="59" y="50" w="23" h="-1" measuredW="30" measuredH="27" zOrder="16" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>D</text>
+          </controlProperties>
+        </control>
+        <control controlID="281" controlTypeID="com.balsamiq.mockups::PointyButton" x="81" y="50" w="23" h="-1" measuredW="28" measuredH="27" zOrder="17" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>F</text>
+          </controlProperties>
+        </control>
+        <control controlID="282" controlTypeID="com.balsamiq.mockups::PointyButton" x="103" y="50" w="23" h="-1" measuredW="30" measuredH="27" zOrder="18" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>G</text>
+          </controlProperties>
+        </control>
+        <control controlID="283" controlTypeID="com.balsamiq.mockups::PointyButton" x="125" y="50" w="23" h="-1" measuredW="29" measuredH="27" zOrder="19" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>H</text>
+          </controlProperties>
+        </control>
+        <control controlID="284" controlTypeID="com.balsamiq.mockups::PointyButton" x="147" y="50" w="23" h="-1" measuredW="28" measuredH="27" zOrder="20" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>J</text>
+          </controlProperties>
+        </control>
+        <control controlID="285" controlTypeID="com.balsamiq.mockups::PointyButton" x="169" y="50" w="23" h="-1" measuredW="29" measuredH="27" zOrder="21" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>K</text>
+          </controlProperties>
+        </control>
+        <control controlID="286" controlTypeID="com.balsamiq.mockups::PointyButton" x="191" y="50" w="23" h="-1" measuredW="28" measuredH="27" zOrder="22" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>L</text>
+          </controlProperties>
+        </control>
+        <control controlID="287" controlTypeID="com.balsamiq.mockups::PointyButton" x="38" y="86" w="23" h="-1" measuredW="30" measuredH="27" zOrder="23" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Z</text>
+          </controlProperties>
+        </control>
+        <control controlID="288" controlTypeID="com.balsamiq.mockups::PointyButton" x="60" y="86" w="23" h="-1" measuredW="30" measuredH="27" zOrder="24" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>X</text>
+          </controlProperties>
+        </control>
+        <control controlID="289" controlTypeID="com.balsamiq.mockups::PointyButton" x="82" y="86" w="23" h="-1" measuredW="29" measuredH="27" zOrder="25" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>C</text>
+          </controlProperties>
+        </control>
+        <control controlID="290" controlTypeID="com.balsamiq.mockups::PointyButton" x="104" y="86" w="23" h="-1" measuredW="29" measuredH="27" zOrder="26" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>V</text>
+          </controlProperties>
+        </control>
+        <control controlID="291" controlTypeID="com.balsamiq.mockups::PointyButton" x="126" y="86" w="23" h="-1" measuredW="28" measuredH="27" zOrder="27" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>B</text>
+          </controlProperties>
+        </control>
+        <control controlID="292" controlTypeID="com.balsamiq.mockups::PointyButton" x="148" y="86" w="23" h="-1" measuredW="30" measuredH="27" zOrder="28" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>N</text>
+          </controlProperties>
+        </control>
+        <control controlID="293" controlTypeID="com.balsamiq.mockups::PointyButton" x="170" y="86" w="23" h="-1" measuredW="32" measuredH="27" zOrder="29" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text>M</text>
+          </controlProperties>
+        </control>
+        <control controlID="294" controlTypeID="com.balsamiq.mockups::PointyButton" x="4" y="85" w="30" h="-1" measuredW="37" measuredH="27" zOrder="30" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>ShiftIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="295" controlTypeID="com.balsamiq.mockups::PointyButton" x="195" y="85" w="30" h="-1" measuredW="37" measuredH="27" zOrder="31" locked="false" isInGroup="425">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>BackSpaceIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="426" controlTypeID="__group__" x="66" y="244" w="-1" h="-1" measuredW="227" measuredH="160" zOrder="9" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="296" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="227" h="160" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="426">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="297" controlTypeID="com.balsamiq.mockups::PointyButton" x="4" y="15" w="23" h="-1" measuredW="26" measuredH="27" zOrder="1" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="298" controlTypeID="com.balsamiq.mockups::PointyButton" x="26" y="15" w="23" h="-1" measuredW="29" measuredH="27" zOrder="2" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>2</text>
+          </controlProperties>
+        </control>
+        <control controlID="299" controlTypeID="com.balsamiq.mockups::PointyButton" x="48" y="15" w="23" h="-1" measuredW="28" measuredH="27" zOrder="3" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>3</text>
+          </controlProperties>
+        </control>
+        <control controlID="300" controlTypeID="com.balsamiq.mockups::PointyButton" x="70" y="15" w="23" h="-1" measuredW="28" measuredH="27" zOrder="4" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>4</text>
+          </controlProperties>
+        </control>
+        <control controlID="301" controlTypeID="com.balsamiq.mockups::PointyButton" x="92" y="15" w="23" h="-1" measuredW="28" measuredH="27" zOrder="5" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>5</text>
+          </controlProperties>
+        </control>
+        <control controlID="302" controlTypeID="com.balsamiq.mockups::PointyButton" x="114" y="15" w="23" h="-1" measuredW="29" measuredH="27" zOrder="6" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>6</text>
+          </controlProperties>
+        </control>
+        <control controlID="303" controlTypeID="com.balsamiq.mockups::PointyButton" x="136" y="15" w="23" h="-1" measuredW="28" measuredH="27" zOrder="7" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>7</text>
+          </controlProperties>
+        </control>
+        <control controlID="304" controlTypeID="com.balsamiq.mockups::PointyButton" x="158" y="15" w="23" h="-1" measuredW="28" measuredH="27" zOrder="8" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>8</text>
+          </controlProperties>
+        </control>
+        <control controlID="305" controlTypeID="com.balsamiq.mockups::PointyButton" x="180" y="15" w="23" h="-1" measuredW="28" measuredH="27" zOrder="9" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>9</text>
+          </controlProperties>
+        </control>
+        <control controlID="306" controlTypeID="com.balsamiq.mockups::PointyButton" x="202" y="15" w="23" h="-1" measuredW="28" measuredH="27" zOrder="10" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>0</text>
+          </controlProperties>
+        </control>
+        <control controlID="307" controlTypeID="com.balsamiq.mockups::PointyButton" x="37" y="84" w="28" h="-1" measuredW="25" measuredH="27" zOrder="11" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.</text>
+          </controlProperties>
+        </control>
+        <control controlID="308" controlTypeID="com.balsamiq.mockups::PointyButton" x="4" y="85" w="30" h="-1" measuredW="41" measuredH="27" zOrder="12" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%23+%3D</text>
+            <color>5263440</color>
+            <size>11</size>
+          </controlProperties>
+        </control>
+        <control controlID="309" controlTypeID="com.balsamiq.mockups::PointyButton" x="195" y="85" w="30" h="-1" measuredW="37" measuredH="27" zOrder="13" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>BackSpaceIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="310" controlTypeID="com.balsamiq.mockups::PointyButton" x="4" y="50" w="23" h="-1" measuredW="27" measuredH="27" zOrder="14" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>-</text>
+          </controlProperties>
+        </control>
+        <control controlID="311" controlTypeID="com.balsamiq.mockups::PointyButton" x="26" y="50" w="23" h="-1" measuredW="28" measuredH="27" zOrder="15" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>/</text>
+          </controlProperties>
+        </control>
+        <control controlID="312" controlTypeID="com.balsamiq.mockups::PointyButton" x="48" y="50" w="23" h="-1" measuredW="25" measuredH="27" zOrder="16" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="313" controlTypeID="com.balsamiq.mockups::PointyButton" x="70" y="50" w="23" h="-1" measuredW="26" measuredH="27" zOrder="17" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3B</text>
+          </controlProperties>
+        </control>
+        <control controlID="314" controlTypeID="com.balsamiq.mockups::PointyButton" x="92" y="50" w="23" h="-1" measuredW="25" measuredH="27" zOrder="18" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%28</text>
+          </controlProperties>
+        </control>
+        <control controlID="315" controlTypeID="com.balsamiq.mockups::PointyButton" x="114" y="50" w="23" h="-1" measuredW="25" measuredH="27" zOrder="19" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%29</text>
+          </controlProperties>
+        </control>
+        <control controlID="316" controlTypeID="com.balsamiq.mockups::PointyButton" x="136" y="50" w="23" h="-1" measuredW="29" measuredH="27" zOrder="20" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%24</text>
+          </controlProperties>
+        </control>
+        <control controlID="317" controlTypeID="com.balsamiq.mockups::PointyButton" x="158" y="50" w="23" h="-1" measuredW="30" measuredH="27" zOrder="21" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%26</text>
+          </controlProperties>
+        </control>
+        <control controlID="318" controlTypeID="com.balsamiq.mockups::PointyButton" x="180" y="50" w="23" h="-1" measuredW="32" measuredH="27" zOrder="22" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>@</text>
+          </controlProperties>
+        </control>
+        <control controlID="319" controlTypeID="com.balsamiq.mockups::PointyButton" x="202" y="50" w="23" h="-1" measuredW="27" measuredH="27" zOrder="23" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%22</text>
+          </controlProperties>
+        </control>
+        <control controlID="320" controlTypeID="com.balsamiq.mockups::PointyButton" x="68" y="84" w="28" h="-1" measuredW="24" measuredH="27" zOrder="24" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%2C</text>
+          </controlProperties>
+        </control>
+        <control controlID="321" controlTypeID="com.balsamiq.mockups::PointyButton" x="99" y="84" w="28" h="-1" measuredW="27" measuredH="27" zOrder="25" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3F</text>
+          </controlProperties>
+        </control>
+        <control controlID="322" controlTypeID="com.balsamiq.mockups::PointyButton" x="130" y="84" w="28" h="-1" measuredW="24" measuredH="27" zOrder="26" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%21</text>
+          </controlProperties>
+        </control>
+        <control controlID="323" controlTypeID="com.balsamiq.mockups::PointyButton" x="161" y="84" w="28" h="-1" measuredW="24" measuredH="27" zOrder="27" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%27</text>
+          </controlProperties>
+        </control>
+        <control controlID="324" controlTypeID="com.balsamiq.mockups::PointyButton" x="58" y="117" w="106" h="-1" measuredW="50" measuredH="27" zOrder="28" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>space</text>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="325" controlTypeID="com.balsamiq.mockups::PointyButton" x="3" y="117" w="52" h="-1" measuredW="43" measuredH="27" zOrder="29" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>ABC</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="326" controlTypeID="com.balsamiq.mockups::PointyButton" x="168" y="117" w="54" h="-1" measuredW="54" measuredH="27" zOrder="30" locked="false" isInGroup="426">
+          <controlProperties>
+            <direction>center</direction>
+            <text>return</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="427" controlTypeID="__group__" x="66" y="414" w="-1" h="-1" measuredW="227" measuredH="160" zOrder="10" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="327" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="227" h="160" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="427">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="328" controlTypeID="com.balsamiq.mockups::PointyButton" x="4" y="15" w="23" h="-1" measuredW="25" measuredH="27" zOrder="1" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%5B</text>
+          </controlProperties>
+        </control>
+        <control controlID="329" controlTypeID="com.balsamiq.mockups::PointyButton" x="26" y="15" w="23" h="-1" measuredW="25" measuredH="27" zOrder="2" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%5D</text>
+          </controlProperties>
+        </control>
+        <control controlID="330" controlTypeID="com.balsamiq.mockups::PointyButton" x="48" y="15" w="23" h="-1" measuredW="25" measuredH="27" zOrder="3" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%7B</text>
+          </controlProperties>
+        </control>
+        <control controlID="331" controlTypeID="com.balsamiq.mockups::PointyButton" x="70" y="15" w="23" h="-1" measuredW="26" measuredH="27" zOrder="4" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%7D</text>
+          </controlProperties>
+        </control>
+        <control controlID="332" controlTypeID="com.balsamiq.mockups::PointyButton" x="92" y="15" w="23" h="-1" measuredW="31" measuredH="27" zOrder="5" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%23</text>
+          </controlProperties>
+        </control>
+        <control controlID="333" controlTypeID="com.balsamiq.mockups::PointyButton" x="114" y="15" w="23" h="-1" measuredW="32" measuredH="27" zOrder="6" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%25</text>
+          </controlProperties>
+        </control>
+        <control controlID="334" controlTypeID="com.balsamiq.mockups::PointyButton" x="136" y="15" w="23" h="-1" measuredW="27" measuredH="27" zOrder="7" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%5E</text>
+          </controlProperties>
+        </control>
+        <control controlID="335" controlTypeID="com.balsamiq.mockups::PointyButton" x="158" y="15" w="23" h="-1" measuredW="27" measuredH="27" zOrder="8" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>*</text>
+          </controlProperties>
+        </control>
+        <control controlID="336" controlTypeID="com.balsamiq.mockups::PointyButton" x="180" y="15" w="23" h="-1" measuredW="28" measuredH="27" zOrder="9" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>+</text>
+          </controlProperties>
+        </control>
+        <control controlID="337" controlTypeID="com.balsamiq.mockups::PointyButton" x="202" y="15" w="23" h="-1" measuredW="27" measuredH="27" zOrder="10" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3D</text>
+          </controlProperties>
+        </control>
+        <control controlID="338" controlTypeID="com.balsamiq.mockups::PointyButton" x="37" y="84" w="28" h="-1" measuredW="25" measuredH="27" zOrder="11" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.</text>
+          </controlProperties>
+        </control>
+        <control controlID="339" controlTypeID="com.balsamiq.mockups::PointyButton" x="4" y="85" w="30" h="-1" measuredW="38" measuredH="27" zOrder="12" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>123</text>
+            <color>5263440</color>
+            <size>11</size>
+          </controlProperties>
+        </control>
+        <control controlID="340" controlTypeID="com.balsamiq.mockups::PointyButton" x="195" y="85" w="30" h="-1" measuredW="37" measuredH="27" zOrder="13" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>BackSpaceIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="341" controlTypeID="com.balsamiq.mockups::PointyButton" x="4" y="50" w="23" h="-1" measuredW="29" measuredH="27" zOrder="14" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>_</text>
+          </controlProperties>
+        </control>
+        <control controlID="342" controlTypeID="com.balsamiq.mockups::PointyButton" x="26" y="50" w="23" h="-1" measuredW="28" measuredH="27" zOrder="15" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%5C</text>
+          </controlProperties>
+        </control>
+        <control controlID="343" controlTypeID="com.balsamiq.mockups::PointyButton" x="48" y="50" w="23" h="-1" measuredW="24" measuredH="27" zOrder="16" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%7C</text>
+          </controlProperties>
+        </control>
+        <control controlID="344" controlTypeID="com.balsamiq.mockups::PointyButton" x="70" y="50" w="23" h="-1" measuredW="29" measuredH="27" zOrder="17" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%7E</text>
+          </controlProperties>
+        </control>
+        <control controlID="345" controlTypeID="com.balsamiq.mockups::PointyButton" x="92" y="50" w="23" h="-1" measuredW="27" measuredH="27" zOrder="18" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3C</text>
+          </controlProperties>
+        </control>
+        <control controlID="346" controlTypeID="com.balsamiq.mockups::PointyButton" x="114" y="50" w="23" h="-1" measuredW="27" measuredH="27" zOrder="19" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3E</text>
+          </controlProperties>
+        </control>
+        <control controlID="347" controlTypeID="com.balsamiq.mockups::PointyButton" x="136" y="50" w="23" h="-1" measuredW="28" measuredH="27" zOrder="20" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>e</text>
+          </controlProperties>
+        </control>
+        <control controlID="348" controlTypeID="com.balsamiq.mockups::PointyButton" x="158" y="50" w="23" h="-1" measuredW="28" measuredH="27" zOrder="21" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>L</text>
+          </controlProperties>
+        </control>
+        <control controlID="349" controlTypeID="com.balsamiq.mockups::PointyButton" x="180" y="50" w="23" h="-1" measuredW="29" measuredH="27" zOrder="22" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Y</text>
+          </controlProperties>
+        </control>
+        <control controlID="350" controlTypeID="com.balsamiq.mockups::PointyButton" x="202" y="50" w="23" h="-1" measuredW="37" measuredH="27" zOrder="23" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <icon>DotIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="351" controlTypeID="com.balsamiq.mockups::PointyButton" x="68" y="84" w="28" h="-1" measuredW="24" measuredH="27" zOrder="24" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%2C</text>
+          </controlProperties>
+        </control>
+        <control controlID="352" controlTypeID="com.balsamiq.mockups::PointyButton" x="99" y="84" w="28" h="-1" measuredW="27" measuredH="27" zOrder="25" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3F</text>
+          </controlProperties>
+        </control>
+        <control controlID="353" controlTypeID="com.balsamiq.mockups::PointyButton" x="130" y="84" w="28" h="-1" measuredW="24" measuredH="27" zOrder="26" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%21</text>
+          </controlProperties>
+        </control>
+        <control controlID="354" controlTypeID="com.balsamiq.mockups::PointyButton" x="161" y="84" w="28" h="-1" measuredW="24" measuredH="27" zOrder="27" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%27</text>
+          </controlProperties>
+        </control>
+        <control controlID="355" controlTypeID="com.balsamiq.mockups::PointyButton" x="58" y="116" w="106" h="-1" measuredW="50" measuredH="27" zOrder="28" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>space</text>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="356" controlTypeID="com.balsamiq.mockups::PointyButton" x="3" y="116" w="52" h="-1" measuredW="43" measuredH="27" zOrder="29" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>ABC</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="357" controlTypeID="com.balsamiq.mockups::PointyButton" x="168" y="116" w="54" h="-1" measuredW="54" measuredH="27" zOrder="30" locked="false" isInGroup="427">
+          <controlProperties>
+            <direction>center</direction>
+            <text>return</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="428" controlTypeID="com.balsamiq.mockups::Title" x="701" y="36" w="-1" h="-1" measuredW="170" measuredH="32" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Regular%20Keyboard</text>
+        <size>20</size>
+      </controlProperties>
+    </control>
+    <control controlID="429" controlTypeID="com.balsamiq.mockups::Title" x="1088" y="36" w="-1" h="-1" measuredW="155" measuredH="32" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Safari%20Keyboard</text>
+        <size>20</size>
+      </controlProperties>
+    </control>
+    <control controlID="430" controlTypeID="com.balsamiq.mockups::Paragraph" x="963" y="496" w="85" h="64" measuredW="200" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>this%20one%20is%20the%20same%20as%20the%20built-in%20one%2C%20but%20editable</text>
+        <size>10</size>
+        <align>left</align>
+      </controlProperties>
+    </control>
+    <control controlID="431" controlTypeID="com.balsamiq.mockups::VRule" x="973" y="35" w="-1" h="458" measuredW="5" measuredH="100" zOrder="14" locked="false" isInGroup="-1"/>
+    <control controlID="432" controlTypeID="__group__" x="613" y="459" w="-1" h="-1" measuredW="344" measuredH="114" zOrder="15" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="820" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="344" h="114" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="888">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="821" controlTypeID="com.balsamiq.mockups::PointyButton" x="71" y="85" w="64" h="-1" measuredW="50" measuredH="27" zOrder="1" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>space</text>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="822" controlTypeID="com.balsamiq.mockups::PointyButton" x="138" y="85" w="64" h="-1" measuredW="32" measuredH="27" zOrder="2" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>@</text>
+          </controlProperties>
+        </control>
+        <control controlID="823" controlTypeID="com.balsamiq.mockups::PointyButton" x="205" y="85" w="64" h="-1" measuredW="25" measuredH="27" zOrder="3" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.</text>
+          </controlProperties>
+        </control>
+        <control controlID="824" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="85" w="59" h="-1" measuredW="48" measuredH="27" zOrder="4" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.%3F123</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="825" controlTypeID="com.balsamiq.mockups::PointyButton" x="274" y="85" w="60" h="-1" measuredW="54" measuredH="27" zOrder="5" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>return</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="826" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="1" w="33" h="-1" measuredW="31" measuredH="27" zOrder="6" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Q</text>
+          </controlProperties>
+        </control>
+        <control controlID="827" controlTypeID="com.balsamiq.mockups::PointyButton" x="40" y="1" w="33" h="-1" measuredW="34" measuredH="27" zOrder="7" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>W</text>
+          </controlProperties>
+        </control>
+        <control controlID="828" controlTypeID="com.balsamiq.mockups::PointyButton" x="72" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="8" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>E</text>
+          </controlProperties>
+        </control>
+        <control controlID="829" controlTypeID="com.balsamiq.mockups::PointyButton" x="105" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="9" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>R</text>
+          </controlProperties>
+        </control>
+        <control controlID="830" controlTypeID="com.balsamiq.mockups::PointyButton" x="138" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="10" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>T</text>
+          </controlProperties>
+        </control>
+        <control controlID="831" controlTypeID="com.balsamiq.mockups::PointyButton" x="170" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="11" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Y</text>
+          </controlProperties>
+        </control>
+        <control controlID="832" controlTypeID="com.balsamiq.mockups::PointyButton" x="203" y="1" w="33" h="-1" measuredW="30" measuredH="27" zOrder="12" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>U</text>
+          </controlProperties>
+        </control>
+        <control controlID="833" controlTypeID="com.balsamiq.mockups::PointyButton" x="236" y="1" w="33" h="-1" measuredW="27" measuredH="27" zOrder="13" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>I</text>
+          </controlProperties>
+        </control>
+        <control controlID="834" controlTypeID="com.balsamiq.mockups::PointyButton" x="268" y="1" w="33" h="-1" measuredW="30" measuredH="27" zOrder="14" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>O</text>
+          </controlProperties>
+        </control>
+        <control controlID="835" controlTypeID="com.balsamiq.mockups::PointyButton" x="301" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="15" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>P</text>
+          </controlProperties>
+        </control>
+        <control controlID="836" controlTypeID="com.balsamiq.mockups::PointyButton" x="23" y="30" w="33" h="-1" measuredW="29" measuredH="27" zOrder="16" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>A</text>
+          </controlProperties>
+        </control>
+        <control controlID="837" controlTypeID="com.balsamiq.mockups::PointyButton" x="56" y="30" w="33" h="-1" measuredW="29" measuredH="27" zOrder="17" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>S</text>
+          </controlProperties>
+        </control>
+        <control controlID="838" controlTypeID="com.balsamiq.mockups::PointyButton" x="89" y="30" w="33" h="-1" measuredW="30" measuredH="27" zOrder="18" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>D</text>
+          </controlProperties>
+        </control>
+        <control controlID="839" controlTypeID="com.balsamiq.mockups::PointyButton" x="122" y="30" w="33" h="-1" measuredW="28" measuredH="27" zOrder="19" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>F</text>
+          </controlProperties>
+        </control>
+        <control controlID="840" controlTypeID="com.balsamiq.mockups::PointyButton" x="156" y="30" w="33" h="-1" measuredW="30" measuredH="27" zOrder="20" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>G</text>
+          </controlProperties>
+        </control>
+        <control controlID="841" controlTypeID="com.balsamiq.mockups::PointyButton" x="189" y="30" w="33" h="-1" measuredW="29" measuredH="27" zOrder="21" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>H</text>
+          </controlProperties>
+        </control>
+        <control controlID="842" controlTypeID="com.balsamiq.mockups::PointyButton" x="222" y="30" w="33" h="-1" measuredW="28" measuredH="27" zOrder="22" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>J</text>
+          </controlProperties>
+        </control>
+        <control controlID="843" controlTypeID="com.balsamiq.mockups::PointyButton" x="255" y="30" w="33" h="-1" measuredW="29" measuredH="27" zOrder="23" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>K</text>
+          </controlProperties>
+        </control>
+        <control controlID="844" controlTypeID="com.balsamiq.mockups::PointyButton" x="288" y="30" w="33" h="-1" measuredW="28" measuredH="27" zOrder="24" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>L</text>
+          </controlProperties>
+        </control>
+        <control controlID="845" controlTypeID="com.balsamiq.mockups::PointyButton" x="52" y="58" w="33" h="-1" measuredW="30" measuredH="27" zOrder="25" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Z</text>
+          </controlProperties>
+        </control>
+        <control controlID="846" controlTypeID="com.balsamiq.mockups::PointyButton" x="86" y="58" w="33" h="-1" measuredW="30" measuredH="27" zOrder="26" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>X</text>
+          </controlProperties>
+        </control>
+        <control controlID="847" controlTypeID="com.balsamiq.mockups::PointyButton" x="120" y="58" w="33" h="-1" measuredW="29" measuredH="27" zOrder="27" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>C</text>
+          </controlProperties>
+        </control>
+        <control controlID="848" controlTypeID="com.balsamiq.mockups::PointyButton" x="154" y="58" w="33" h="-1" measuredW="29" measuredH="27" zOrder="28" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>V</text>
+          </controlProperties>
+        </control>
+        <control controlID="849" controlTypeID="com.balsamiq.mockups::PointyButton" x="188" y="58" w="33" h="-1" measuredW="28" measuredH="27" zOrder="29" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>B</text>
+          </controlProperties>
+        </control>
+        <control controlID="850" controlTypeID="com.balsamiq.mockups::PointyButton" x="222" y="58" w="33" h="-1" measuredW="30" measuredH="27" zOrder="30" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>N</text>
+          </controlProperties>
+        </control>
+        <control controlID="851" controlTypeID="com.balsamiq.mockups::PointyButton" x="256" y="58" w="33" h="-1" measuredW="32" measuredH="27" zOrder="31" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text>M</text>
+          </controlProperties>
+        </control>
+        <control controlID="852" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="57" w="44" h="-1" measuredW="37" measuredH="27" zOrder="32" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>ShiftIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="853" controlTypeID="com.balsamiq.mockups::PointyButton" x="290" y="57" w="44" h="-1" measuredW="37" measuredH="27" zOrder="33" locked="false" isInGroup="888">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>BackSpaceIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="433" controlTypeID="__group__" x="613" y="74" w="-1" h="-1" measuredW="344" measuredH="114" zOrder="16" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="788" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="344" h="114" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="889">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="789" controlTypeID="com.balsamiq.mockups::PointyButton" x="71" y="85" w="200" h="-1" measuredW="50" measuredH="27" zOrder="1" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>space</text>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="790" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="85" w="59" h="-1" measuredW="48" measuredH="27" zOrder="2" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.%3F123</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="791" controlTypeID="com.balsamiq.mockups::PointyButton" x="274" y="85" w="60" h="-1" measuredW="54" measuredH="27" zOrder="3" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>return</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="792" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="1" w="33" h="-1" measuredW="31" measuredH="27" zOrder="4" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Q</text>
+          </controlProperties>
+        </control>
+        <control controlID="793" controlTypeID="com.balsamiq.mockups::PointyButton" x="40" y="1" w="33" h="-1" measuredW="34" measuredH="27" zOrder="5" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>W</text>
+          </controlProperties>
+        </control>
+        <control controlID="794" controlTypeID="com.balsamiq.mockups::PointyButton" x="72" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="6" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>E</text>
+          </controlProperties>
+        </control>
+        <control controlID="795" controlTypeID="com.balsamiq.mockups::PointyButton" x="105" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="7" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>R</text>
+          </controlProperties>
+        </control>
+        <control controlID="796" controlTypeID="com.balsamiq.mockups::PointyButton" x="138" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="8" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>T</text>
+          </controlProperties>
+        </control>
+        <control controlID="797" controlTypeID="com.balsamiq.mockups::PointyButton" x="170" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="9" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Y</text>
+          </controlProperties>
+        </control>
+        <control controlID="798" controlTypeID="com.balsamiq.mockups::PointyButton" x="203" y="1" w="33" h="-1" measuredW="30" measuredH="27" zOrder="10" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>U</text>
+          </controlProperties>
+        </control>
+        <control controlID="799" controlTypeID="com.balsamiq.mockups::PointyButton" x="236" y="1" w="33" h="-1" measuredW="27" measuredH="27" zOrder="11" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>I</text>
+          </controlProperties>
+        </control>
+        <control controlID="800" controlTypeID="com.balsamiq.mockups::PointyButton" x="268" y="1" w="33" h="-1" measuredW="30" measuredH="27" zOrder="12" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>O</text>
+          </controlProperties>
+        </control>
+        <control controlID="801" controlTypeID="com.balsamiq.mockups::PointyButton" x="301" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="13" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>P</text>
+          </controlProperties>
+        </control>
+        <control controlID="802" controlTypeID="com.balsamiq.mockups::PointyButton" x="23" y="30" w="33" h="-1" measuredW="29" measuredH="27" zOrder="14" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>A</text>
+          </controlProperties>
+        </control>
+        <control controlID="803" controlTypeID="com.balsamiq.mockups::PointyButton" x="56" y="30" w="33" h="-1" measuredW="29" measuredH="27" zOrder="15" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>S</text>
+          </controlProperties>
+        </control>
+        <control controlID="804" controlTypeID="com.balsamiq.mockups::PointyButton" x="89" y="30" w="33" h="-1" measuredW="30" measuredH="27" zOrder="16" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>D</text>
+          </controlProperties>
+        </control>
+        <control controlID="805" controlTypeID="com.balsamiq.mockups::PointyButton" x="122" y="30" w="33" h="-1" measuredW="28" measuredH="27" zOrder="17" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>F</text>
+          </controlProperties>
+        </control>
+        <control controlID="806" controlTypeID="com.balsamiq.mockups::PointyButton" x="156" y="30" w="33" h="-1" measuredW="30" measuredH="27" zOrder="18" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>G</text>
+          </controlProperties>
+        </control>
+        <control controlID="807" controlTypeID="com.balsamiq.mockups::PointyButton" x="189" y="30" w="33" h="-1" measuredW="29" measuredH="27" zOrder="19" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>H</text>
+          </controlProperties>
+        </control>
+        <control controlID="808" controlTypeID="com.balsamiq.mockups::PointyButton" x="222" y="30" w="33" h="-1" measuredW="28" measuredH="27" zOrder="20" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>J</text>
+          </controlProperties>
+        </control>
+        <control controlID="809" controlTypeID="com.balsamiq.mockups::PointyButton" x="255" y="30" w="33" h="-1" measuredW="29" measuredH="27" zOrder="21" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>K</text>
+          </controlProperties>
+        </control>
+        <control controlID="810" controlTypeID="com.balsamiq.mockups::PointyButton" x="288" y="30" w="33" h="-1" measuredW="28" measuredH="27" zOrder="22" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>L</text>
+          </controlProperties>
+        </control>
+        <control controlID="811" controlTypeID="com.balsamiq.mockups::PointyButton" x="52" y="58" w="33" h="-1" measuredW="30" measuredH="27" zOrder="23" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Z</text>
+          </controlProperties>
+        </control>
+        <control controlID="812" controlTypeID="com.balsamiq.mockups::PointyButton" x="86" y="58" w="33" h="-1" measuredW="30" measuredH="27" zOrder="24" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>X</text>
+          </controlProperties>
+        </control>
+        <control controlID="813" controlTypeID="com.balsamiq.mockups::PointyButton" x="120" y="58" w="33" h="-1" measuredW="29" measuredH="27" zOrder="25" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>C</text>
+          </controlProperties>
+        </control>
+        <control controlID="814" controlTypeID="com.balsamiq.mockups::PointyButton" x="154" y="58" w="33" h="-1" measuredW="29" measuredH="27" zOrder="26" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>V</text>
+          </controlProperties>
+        </control>
+        <control controlID="815" controlTypeID="com.balsamiq.mockups::PointyButton" x="188" y="58" w="33" h="-1" measuredW="28" measuredH="27" zOrder="27" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>B</text>
+          </controlProperties>
+        </control>
+        <control controlID="816" controlTypeID="com.balsamiq.mockups::PointyButton" x="222" y="58" w="33" h="-1" measuredW="30" measuredH="27" zOrder="28" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>N</text>
+          </controlProperties>
+        </control>
+        <control controlID="817" controlTypeID="com.balsamiq.mockups::PointyButton" x="256" y="58" w="33" h="-1" measuredW="32" measuredH="27" zOrder="29" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text>M</text>
+          </controlProperties>
+        </control>
+        <control controlID="818" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="57" w="44" h="-1" measuredW="37" measuredH="27" zOrder="30" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>ShiftIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="819" controlTypeID="com.balsamiq.mockups::PointyButton" x="290" y="57" w="44" h="-1" measuredW="37" measuredH="27" zOrder="31" locked="false" isInGroup="889">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>BackSpaceIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="434" controlTypeID="__group__" x="613" y="203" w="-1" h="-1" measuredW="344" measuredH="114" zOrder="17" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="755" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="344" h="114" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="890">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="756" controlTypeID="com.balsamiq.mockups::PointyButton" x="71" y="85" w="200" h="-1" measuredW="50" measuredH="27" zOrder="1" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>space</text>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="757" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="85" w="59" h="-1" measuredW="43" measuredH="27" zOrder="2" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>ABC</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="758" controlTypeID="com.balsamiq.mockups::PointyButton" x="274" y="85" w="60" h="-1" measuredW="54" measuredH="27" zOrder="3" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>return</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="759" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="1" w="33" h="-1" measuredW="26" measuredH="27" zOrder="4" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="760" controlTypeID="com.balsamiq.mockups::PointyButton" x="40" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="5" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>2</text>
+          </controlProperties>
+        </control>
+        <control controlID="761" controlTypeID="com.balsamiq.mockups::PointyButton" x="72" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="6" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>3</text>
+          </controlProperties>
+        </control>
+        <control controlID="762" controlTypeID="com.balsamiq.mockups::PointyButton" x="105" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="7" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>4</text>
+          </controlProperties>
+        </control>
+        <control controlID="763" controlTypeID="com.balsamiq.mockups::PointyButton" x="138" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="8" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>5</text>
+          </controlProperties>
+        </control>
+        <control controlID="764" controlTypeID="com.balsamiq.mockups::PointyButton" x="170" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="9" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>6</text>
+          </controlProperties>
+        </control>
+        <control controlID="765" controlTypeID="com.balsamiq.mockups::PointyButton" x="203" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="10" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>7</text>
+          </controlProperties>
+        </control>
+        <control controlID="766" controlTypeID="com.balsamiq.mockups::PointyButton" x="236" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="11" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>8</text>
+          </controlProperties>
+        </control>
+        <control controlID="767" controlTypeID="com.balsamiq.mockups::PointyButton" x="268" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="12" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>9</text>
+          </controlProperties>
+        </control>
+        <control controlID="768" controlTypeID="com.balsamiq.mockups::PointyButton" x="301" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="13" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>0</text>
+          </controlProperties>
+        </control>
+        <control controlID="769" controlTypeID="com.balsamiq.mockups::PointyButton" x="56" y="58" w="44" h="-1" measuredW="25" measuredH="27" zOrder="14" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.</text>
+          </controlProperties>
+        </control>
+        <control controlID="770" controlTypeID="com.balsamiq.mockups::PointyButton" x="102" y="58" w="44" h="-1" measuredW="24" measuredH="27" zOrder="15" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%2C</text>
+          </controlProperties>
+        </control>
+        <control controlID="771" controlTypeID="com.balsamiq.mockups::PointyButton" x="148" y="58" w="44" h="-1" measuredW="27" measuredH="27" zOrder="16" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3F</text>
+          </controlProperties>
+        </control>
+        <control controlID="772" controlTypeID="com.balsamiq.mockups::PointyButton" x="194" y="58" w="44" h="-1" measuredW="24" measuredH="27" zOrder="17" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%21</text>
+          </controlProperties>
+        </control>
+        <control controlID="773" controlTypeID="com.balsamiq.mockups::PointyButton" x="240" y="58" w="44" h="-1" measuredW="24" measuredH="27" zOrder="18" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%27</text>
+          </controlProperties>
+        </control>
+        <control controlID="774" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="57" w="44" h="-1" measuredW="41" measuredH="27" zOrder="19" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%23+%3D</text>
+            <color>5263440</color>
+            <size>11</size>
+          </controlProperties>
+        </control>
+        <control controlID="775" controlTypeID="com.balsamiq.mockups::PointyButton" x="290" y="57" w="44" h="-1" measuredW="37" measuredH="27" zOrder="20" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>BackSpaceIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="776" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="29" w="33" h="-1" measuredW="27" measuredH="27" zOrder="21" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>-</text>
+          </controlProperties>
+        </control>
+        <control controlID="777" controlTypeID="com.balsamiq.mockups::PointyButton" x="40" y="29" w="33" h="-1" measuredW="28" measuredH="27" zOrder="22" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>/</text>
+          </controlProperties>
+        </control>
+        <control controlID="778" controlTypeID="com.balsamiq.mockups::PointyButton" x="72" y="29" w="33" h="-1" measuredW="25" measuredH="27" zOrder="23" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="779" controlTypeID="com.balsamiq.mockups::PointyButton" x="105" y="29" w="33" h="-1" measuredW="26" measuredH="27" zOrder="24" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3B</text>
+          </controlProperties>
+        </control>
+        <control controlID="780" controlTypeID="com.balsamiq.mockups::PointyButton" x="138" y="29" w="33" h="-1" measuredW="25" measuredH="27" zOrder="25" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%28</text>
+          </controlProperties>
+        </control>
+        <control controlID="781" controlTypeID="com.balsamiq.mockups::PointyButton" x="170" y="29" w="33" h="-1" measuredW="25" measuredH="27" zOrder="26" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%29</text>
+          </controlProperties>
+        </control>
+        <control controlID="782" controlTypeID="com.balsamiq.mockups::PointyButton" x="203" y="29" w="33" h="-1" measuredW="29" measuredH="27" zOrder="27" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%24</text>
+          </controlProperties>
+        </control>
+        <control controlID="783" controlTypeID="com.balsamiq.mockups::PointyButton" x="236" y="29" w="33" h="-1" measuredW="30" measuredH="27" zOrder="28" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%26</text>
+          </controlProperties>
+        </control>
+        <control controlID="784" controlTypeID="com.balsamiq.mockups::PointyButton" x="268" y="29" w="33" h="-1" measuredW="32" measuredH="27" zOrder="29" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>@</text>
+          </controlProperties>
+        </control>
+        <control controlID="785" controlTypeID="com.balsamiq.mockups::PointyButton" x="301" y="29" w="33" h="-1" measuredW="27" measuredH="27" zOrder="30" locked="false" isInGroup="890">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%22</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="435" controlTypeID="__group__" x="613" y="330" w="-1" h="-1" measuredW="344" measuredH="114" zOrder="18" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="634" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="344" h="114" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="891">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="635" controlTypeID="com.balsamiq.mockups::PointyButton" x="71" y="85" w="200" h="-1" measuredW="50" measuredH="27" zOrder="1" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>space</text>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="636" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="85" w="59" h="-1" measuredW="43" measuredH="27" zOrder="2" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>ABC</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="637" controlTypeID="com.balsamiq.mockups::PointyButton" x="274" y="85" w="60" h="-1" measuredW="54" measuredH="27" zOrder="3" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>return</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="638" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="1" w="33" h="-1" measuredW="25" measuredH="27" zOrder="4" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%5B</text>
+          </controlProperties>
+        </control>
+        <control controlID="639" controlTypeID="com.balsamiq.mockups::PointyButton" x="40" y="1" w="33" h="-1" measuredW="25" measuredH="27" zOrder="5" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%5D</text>
+          </controlProperties>
+        </control>
+        <control controlID="640" controlTypeID="com.balsamiq.mockups::PointyButton" x="72" y="1" w="33" h="-1" measuredW="25" measuredH="27" zOrder="6" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%7B</text>
+          </controlProperties>
+        </control>
+        <control controlID="641" controlTypeID="com.balsamiq.mockups::PointyButton" x="105" y="1" w="33" h="-1" measuredW="26" measuredH="27" zOrder="7" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%7D</text>
+          </controlProperties>
+        </control>
+        <control controlID="642" controlTypeID="com.balsamiq.mockups::PointyButton" x="138" y="1" w="33" h="-1" measuredW="31" measuredH="27" zOrder="8" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%23</text>
+          </controlProperties>
+        </control>
+        <control controlID="643" controlTypeID="com.balsamiq.mockups::PointyButton" x="170" y="1" w="33" h="-1" measuredW="32" measuredH="27" zOrder="9" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%25</text>
+          </controlProperties>
+        </control>
+        <control controlID="644" controlTypeID="com.balsamiq.mockups::PointyButton" x="203" y="1" w="33" h="-1" measuredW="27" measuredH="27" zOrder="10" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%5E</text>
+          </controlProperties>
+        </control>
+        <control controlID="645" controlTypeID="com.balsamiq.mockups::PointyButton" x="236" y="1" w="33" h="-1" measuredW="27" measuredH="27" zOrder="11" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>*</text>
+          </controlProperties>
+        </control>
+        <control controlID="646" controlTypeID="com.balsamiq.mockups::PointyButton" x="268" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="12" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>+</text>
+          </controlProperties>
+        </control>
+        <control controlID="647" controlTypeID="com.balsamiq.mockups::PointyButton" x="301" y="1" w="33" h="-1" measuredW="27" measuredH="27" zOrder="13" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3D</text>
+          </controlProperties>
+        </control>
+        <control controlID="648" controlTypeID="com.balsamiq.mockups::PointyButton" x="56" y="58" w="44" h="-1" measuredW="25" measuredH="27" zOrder="14" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.</text>
+          </controlProperties>
+        </control>
+        <control controlID="649" controlTypeID="com.balsamiq.mockups::PointyButton" x="102" y="58" w="44" h="-1" measuredW="24" measuredH="27" zOrder="15" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%2C</text>
+          </controlProperties>
+        </control>
+        <control controlID="650" controlTypeID="com.balsamiq.mockups::PointyButton" x="148" y="58" w="44" h="-1" measuredW="27" measuredH="27" zOrder="16" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3F</text>
+          </controlProperties>
+        </control>
+        <control controlID="651" controlTypeID="com.balsamiq.mockups::PointyButton" x="194" y="58" w="44" h="-1" measuredW="24" measuredH="27" zOrder="17" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%21</text>
+          </controlProperties>
+        </control>
+        <control controlID="652" controlTypeID="com.balsamiq.mockups::PointyButton" x="240" y="58" w="44" h="-1" measuredW="24" measuredH="27" zOrder="18" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%27</text>
+          </controlProperties>
+        </control>
+        <control controlID="653" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="57" w="44" h="-1" measuredW="41" measuredH="27" zOrder="19" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%23+%3D</text>
+            <color>5263440</color>
+            <size>11</size>
+          </controlProperties>
+        </control>
+        <control controlID="654" controlTypeID="com.balsamiq.mockups::PointyButton" x="290" y="57" w="44" h="-1" measuredW="37" measuredH="27" zOrder="20" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>BackSpaceIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="655" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="29" w="33" h="-1" measuredW="29" measuredH="27" zOrder="21" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>_</text>
+          </controlProperties>
+        </control>
+        <control controlID="656" controlTypeID="com.balsamiq.mockups::PointyButton" x="40" y="29" w="33" h="-1" measuredW="28" measuredH="27" zOrder="22" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%5C</text>
+          </controlProperties>
+        </control>
+        <control controlID="657" controlTypeID="com.balsamiq.mockups::PointyButton" x="72" y="29" w="33" h="-1" measuredW="24" measuredH="27" zOrder="23" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%7C</text>
+          </controlProperties>
+        </control>
+        <control controlID="658" controlTypeID="com.balsamiq.mockups::PointyButton" x="105" y="29" w="33" h="-1" measuredW="29" measuredH="27" zOrder="24" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%7E</text>
+          </controlProperties>
+        </control>
+        <control controlID="659" controlTypeID="com.balsamiq.mockups::PointyButton" x="138" y="29" w="33" h="-1" measuredW="27" measuredH="27" zOrder="25" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3C</text>
+          </controlProperties>
+        </control>
+        <control controlID="660" controlTypeID="com.balsamiq.mockups::PointyButton" x="170" y="29" w="33" h="-1" measuredW="27" measuredH="27" zOrder="26" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3E</text>
+          </controlProperties>
+        </control>
+        <control controlID="661" controlTypeID="com.balsamiq.mockups::PointyButton" x="203" y="29" w="33" h="-1" measuredW="28" measuredH="27" zOrder="27" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>e</text>
+          </controlProperties>
+        </control>
+        <control controlID="662" controlTypeID="com.balsamiq.mockups::PointyButton" x="236" y="29" w="33" h="-1" measuredW="28" measuredH="27" zOrder="28" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>L</text>
+          </controlProperties>
+        </control>
+        <control controlID="663" controlTypeID="com.balsamiq.mockups::PointyButton" x="268" y="29" w="33" h="-1" measuredW="29" measuredH="27" zOrder="29" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Y</text>
+          </controlProperties>
+        </control>
+        <control controlID="664" controlTypeID="com.balsamiq.mockups::PointyButton" x="301" y="29" w="33" h="-1" measuredW="37" measuredH="27" zOrder="30" locked="false" isInGroup="891">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <icon>DotIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="436" controlTypeID="__group__" x="993" y="74" w="-1" h="-1" measuredW="344" measuredH="114" zOrder="19" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="477" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="344" h="114" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="892">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="478" controlTypeID="com.balsamiq.mockups::PointyButton" x="71" y="85" w="64" h="-1" measuredW="24" measuredH="27" zOrder="1" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.</text>
+            <size>10</size>
+          </controlProperties>
+        </control>
+        <control controlID="479" controlTypeID="com.balsamiq.mockups::PointyButton" x="138" y="85" w="64" h="-1" measuredW="28" measuredH="27" zOrder="2" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>/</text>
+          </controlProperties>
+        </control>
+        <control controlID="480" controlTypeID="com.balsamiq.mockups::PointyButton" x="205" y="85" w="64" h="-1" measuredW="46" measuredH="27" zOrder="3" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.com</text>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="481" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="85" w="59" h="-1" measuredW="49" measuredH="27" zOrder="4" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>@123</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="482" controlTypeID="com.balsamiq.mockups::PointyButton" x="274" y="85" w="60" h="-1" measuredW="35" measuredH="27" zOrder="5" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Go</text>
+            <color>2848996</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="483" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="1" w="33" h="-1" measuredW="31" measuredH="27" zOrder="6" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Q</text>
+          </controlProperties>
+        </control>
+        <control controlID="484" controlTypeID="com.balsamiq.mockups::PointyButton" x="40" y="1" w="33" h="-1" measuredW="34" measuredH="27" zOrder="7" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>W</text>
+          </controlProperties>
+        </control>
+        <control controlID="485" controlTypeID="com.balsamiq.mockups::PointyButton" x="72" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="8" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>E</text>
+          </controlProperties>
+        </control>
+        <control controlID="486" controlTypeID="com.balsamiq.mockups::PointyButton" x="105" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="9" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>R</text>
+          </controlProperties>
+        </control>
+        <control controlID="487" controlTypeID="com.balsamiq.mockups::PointyButton" x="138" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="10" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>T</text>
+          </controlProperties>
+        </control>
+        <control controlID="488" controlTypeID="com.balsamiq.mockups::PointyButton" x="170" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="11" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Y</text>
+          </controlProperties>
+        </control>
+        <control controlID="489" controlTypeID="com.balsamiq.mockups::PointyButton" x="203" y="1" w="33" h="-1" measuredW="30" measuredH="27" zOrder="12" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>U</text>
+          </controlProperties>
+        </control>
+        <control controlID="490" controlTypeID="com.balsamiq.mockups::PointyButton" x="236" y="1" w="33" h="-1" measuredW="27" measuredH="27" zOrder="13" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>I</text>
+          </controlProperties>
+        </control>
+        <control controlID="491" controlTypeID="com.balsamiq.mockups::PointyButton" x="268" y="1" w="33" h="-1" measuredW="30" measuredH="27" zOrder="14" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>O</text>
+          </controlProperties>
+        </control>
+        <control controlID="492" controlTypeID="com.balsamiq.mockups::PointyButton" x="301" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="15" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>P</text>
+          </controlProperties>
+        </control>
+        <control controlID="493" controlTypeID="com.balsamiq.mockups::PointyButton" x="23" y="30" w="33" h="-1" measuredW="29" measuredH="27" zOrder="16" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>A</text>
+          </controlProperties>
+        </control>
+        <control controlID="494" controlTypeID="com.balsamiq.mockups::PointyButton" x="56" y="30" w="33" h="-1" measuredW="29" measuredH="27" zOrder="17" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>S</text>
+          </controlProperties>
+        </control>
+        <control controlID="495" controlTypeID="com.balsamiq.mockups::PointyButton" x="89" y="30" w="33" h="-1" measuredW="30" measuredH="27" zOrder="18" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>D</text>
+          </controlProperties>
+        </control>
+        <control controlID="496" controlTypeID="com.balsamiq.mockups::PointyButton" x="122" y="30" w="33" h="-1" measuredW="28" measuredH="27" zOrder="19" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>F</text>
+          </controlProperties>
+        </control>
+        <control controlID="497" controlTypeID="com.balsamiq.mockups::PointyButton" x="156" y="30" w="33" h="-1" measuredW="30" measuredH="27" zOrder="20" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>G</text>
+          </controlProperties>
+        </control>
+        <control controlID="498" controlTypeID="com.balsamiq.mockups::PointyButton" x="189" y="30" w="33" h="-1" measuredW="29" measuredH="27" zOrder="21" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>H</text>
+          </controlProperties>
+        </control>
+        <control controlID="499" controlTypeID="com.balsamiq.mockups::PointyButton" x="222" y="30" w="33" h="-1" measuredW="28" measuredH="27" zOrder="22" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>J</text>
+          </controlProperties>
+        </control>
+        <control controlID="500" controlTypeID="com.balsamiq.mockups::PointyButton" x="255" y="30" w="33" h="-1" measuredW="29" measuredH="27" zOrder="23" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>K</text>
+          </controlProperties>
+        </control>
+        <control controlID="501" controlTypeID="com.balsamiq.mockups::PointyButton" x="288" y="30" w="33" h="-1" measuredW="28" measuredH="27" zOrder="24" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>L</text>
+          </controlProperties>
+        </control>
+        <control controlID="502" controlTypeID="com.balsamiq.mockups::PointyButton" x="52" y="58" w="33" h="-1" measuredW="30" measuredH="27" zOrder="25" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Z</text>
+          </controlProperties>
+        </control>
+        <control controlID="503" controlTypeID="com.balsamiq.mockups::PointyButton" x="86" y="58" w="33" h="-1" measuredW="30" measuredH="27" zOrder="26" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>X</text>
+          </controlProperties>
+        </control>
+        <control controlID="504" controlTypeID="com.balsamiq.mockups::PointyButton" x="120" y="58" w="33" h="-1" measuredW="29" measuredH="27" zOrder="27" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>C</text>
+          </controlProperties>
+        </control>
+        <control controlID="505" controlTypeID="com.balsamiq.mockups::PointyButton" x="154" y="58" w="33" h="-1" measuredW="29" measuredH="27" zOrder="28" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>V</text>
+          </controlProperties>
+        </control>
+        <control controlID="506" controlTypeID="com.balsamiq.mockups::PointyButton" x="188" y="58" w="33" h="-1" measuredW="28" measuredH="27" zOrder="29" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>B</text>
+          </controlProperties>
+        </control>
+        <control controlID="507" controlTypeID="com.balsamiq.mockups::PointyButton" x="222" y="58" w="33" h="-1" measuredW="30" measuredH="27" zOrder="30" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>N</text>
+          </controlProperties>
+        </control>
+        <control controlID="508" controlTypeID="com.balsamiq.mockups::PointyButton" x="256" y="58" w="33" h="-1" measuredW="32" measuredH="27" zOrder="31" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text>M</text>
+          </controlProperties>
+        </control>
+        <control controlID="509" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="58" w="44" h="-1" measuredW="37" measuredH="27" zOrder="32" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>ShiftIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="510" controlTypeID="com.balsamiq.mockups::PointyButton" x="290" y="58" w="44" h="-1" measuredW="37" measuredH="27" zOrder="33" locked="false" isInGroup="892">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>BackSpaceIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="437" controlTypeID="__group__" x="993" y="203" w="-1" h="-1" measuredW="344" measuredH="114" zOrder="20" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="693" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="344" h="114" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="893">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="694" controlTypeID="com.balsamiq.mockups::PointyButton" x="71" y="85" w="64" h="-1" measuredW="24" measuredH="27" zOrder="1" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.</text>
+            <size>10</size>
+          </controlProperties>
+        </control>
+        <control controlID="695" controlTypeID="com.balsamiq.mockups::PointyButton" x="138" y="85" w="64" h="-1" measuredW="28" measuredH="27" zOrder="2" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>/</text>
+          </controlProperties>
+        </control>
+        <control controlID="696" controlTypeID="com.balsamiq.mockups::PointyButton" x="205" y="85" w="64" h="-1" measuredW="46" measuredH="27" zOrder="3" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.com</text>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="697" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="85" w="59" h="-1" measuredW="43" measuredH="27" zOrder="4" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>ABC</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="698" controlTypeID="com.balsamiq.mockups::PointyButton" x="274" y="85" w="60" h="-1" measuredW="35" measuredH="27" zOrder="5" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Go</text>
+            <color>2848996</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="699" controlTypeID="com.balsamiq.mockups::PointyButton" x="23" y="30" w="50" h="-1" measuredW="32" measuredH="27" zOrder="6" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>@</text>
+          </controlProperties>
+        </control>
+        <control controlID="700" controlTypeID="com.balsamiq.mockups::PointyButton" x="73" y="30" w="50" h="-1" measuredW="30" measuredH="27" zOrder="7" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%26</text>
+          </controlProperties>
+        </control>
+        <control controlID="701" controlTypeID="com.balsamiq.mockups::PointyButton" x="122" y="30" w="50" h="-1" measuredW="32" measuredH="27" zOrder="8" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%25</text>
+          </controlProperties>
+        </control>
+        <control controlID="702" controlTypeID="com.balsamiq.mockups::PointyButton" x="172" y="30" w="50" h="-1" measuredW="27" measuredH="27" zOrder="9" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3F</text>
+          </controlProperties>
+        </control>
+        <control controlID="703" controlTypeID="com.balsamiq.mockups::PointyButton" x="223" y="30" w="50" h="-1" measuredW="24" measuredH="27" zOrder="10" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%2C</text>
+          </controlProperties>
+        </control>
+        <control controlID="704" controlTypeID="com.balsamiq.mockups::PointyButton" x="272" y="30" w="50" h="-1" measuredW="27" measuredH="27" zOrder="11" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3D</text>
+          </controlProperties>
+        </control>
+        <control controlID="705" controlTypeID="com.balsamiq.mockups::PointyButton" x="58" y="58" w="55" h="-1" measuredW="29" measuredH="27" zOrder="12" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>_</text>
+          </controlProperties>
+        </control>
+        <control controlID="706" controlTypeID="com.balsamiq.mockups::PointyButton" x="115" y="58" w="55" h="-1" measuredW="25" measuredH="27" zOrder="13" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="707" controlTypeID="com.balsamiq.mockups::PointyButton" x="171" y="58" w="55" h="-1" measuredW="27" measuredH="27" zOrder="14" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>-</text>
+          </controlProperties>
+        </control>
+        <control controlID="708" controlTypeID="com.balsamiq.mockups::PointyButton" x="228" y="58" w="55" h="-1" measuredW="28" measuredH="27" zOrder="15" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>+</text>
+          </controlProperties>
+        </control>
+        <control controlID="709" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="58" w="44" h="-1" measuredW="43" measuredH="27" zOrder="16" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%23+%3D</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="710" controlTypeID="com.balsamiq.mockups::PointyButton" x="290" y="58" w="44" h="-1" measuredW="37" measuredH="27" zOrder="17" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>BackSpaceIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="711" controlTypeID="com.balsamiq.mockups::PointyButton" x="8" y="1" w="33" h="-1" measuredW="26" measuredH="27" zOrder="18" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="712" controlTypeID="com.balsamiq.mockups::PointyButton" x="41" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="19" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>2</text>
+          </controlProperties>
+        </control>
+        <control controlID="713" controlTypeID="com.balsamiq.mockups::PointyButton" x="73" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="20" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>3</text>
+          </controlProperties>
+        </control>
+        <control controlID="714" controlTypeID="com.balsamiq.mockups::PointyButton" x="106" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="21" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>4</text>
+          </controlProperties>
+        </control>
+        <control controlID="715" controlTypeID="com.balsamiq.mockups::PointyButton" x="139" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="22" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>5</text>
+          </controlProperties>
+        </control>
+        <control controlID="716" controlTypeID="com.balsamiq.mockups::PointyButton" x="171" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="23" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>6</text>
+          </controlProperties>
+        </control>
+        <control controlID="717" controlTypeID="com.balsamiq.mockups::PointyButton" x="204" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="24" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>7</text>
+          </controlProperties>
+        </control>
+        <control controlID="718" controlTypeID="com.balsamiq.mockups::PointyButton" x="237" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="25" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>8</text>
+          </controlProperties>
+        </control>
+        <control controlID="719" controlTypeID="com.balsamiq.mockups::PointyButton" x="269" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="26" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>9</text>
+          </controlProperties>
+        </control>
+        <control controlID="720" controlTypeID="com.balsamiq.mockups::PointyButton" x="302" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="27" locked="false" isInGroup="893">
+          <controlProperties>
+            <direction>center</direction>
+            <text>0</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="438" controlTypeID="__group__" x="993" y="331" w="-1" h="-1" measuredW="344" measuredH="114" zOrder="21" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="665" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="344" h="114" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="894">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>8554646</color>
+          </controlProperties>
+        </control>
+        <control controlID="666" controlTypeID="com.balsamiq.mockups::PointyButton" x="71" y="85" w="64" h="-1" measuredW="24" measuredH="27" zOrder="1" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.</text>
+            <size>10</size>
+          </controlProperties>
+        </control>
+        <control controlID="667" controlTypeID="com.balsamiq.mockups::PointyButton" x="138" y="85" w="64" h="-1" measuredW="28" measuredH="27" zOrder="2" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>/</text>
+          </controlProperties>
+        </control>
+        <control controlID="668" controlTypeID="com.balsamiq.mockups::PointyButton" x="205" y="85" w="64" h="-1" measuredW="46" measuredH="27" zOrder="3" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>.com</text>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="669" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="85" w="59" h="-1" measuredW="43" measuredH="27" zOrder="4" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>ABC</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="670" controlTypeID="com.balsamiq.mockups::PointyButton" x="274" y="85" w="60" h="-1" measuredW="35" measuredH="27" zOrder="5" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>Go</text>
+            <color>2848996</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="671" controlTypeID="com.balsamiq.mockups::PointyButton" x="23" y="30" w="50" h="-1" measuredW="27" measuredH="27" zOrder="6" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>*</text>
+          </controlProperties>
+        </control>
+        <control controlID="672" controlTypeID="com.balsamiq.mockups::PointyButton" x="73" y="30" w="50" h="-1" measuredW="29" measuredH="27" zOrder="7" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%24</text>
+          </controlProperties>
+        </control>
+        <control controlID="673" controlTypeID="com.balsamiq.mockups::PointyButton" x="122" y="30" w="50" h="-1" measuredW="31" measuredH="27" zOrder="8" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%23</text>
+          </controlProperties>
+        </control>
+        <control controlID="674" controlTypeID="com.balsamiq.mockups::PointyButton" x="172" y="30" w="50" h="-1" measuredW="24" measuredH="27" zOrder="9" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%21</text>
+          </controlProperties>
+        </control>
+        <control controlID="675" controlTypeID="com.balsamiq.mockups::PointyButton" x="223" y="30" w="50" h="-1" measuredW="24" measuredH="27" zOrder="10" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%27</text>
+          </controlProperties>
+        </control>
+        <control controlID="676" controlTypeID="com.balsamiq.mockups::PointyButton" x="272" y="30" w="50" h="-1" measuredW="27" measuredH="27" zOrder="11" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%5E</text>
+          </controlProperties>
+        </control>
+        <control controlID="677" controlTypeID="com.balsamiq.mockups::PointyButton" x="58" y="58" w="55" h="-1" measuredW="29" measuredH="27" zOrder="12" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%7E</text>
+          </controlProperties>
+        </control>
+        <control controlID="678" controlTypeID="com.balsamiq.mockups::PointyButton" x="115" y="58" w="55" h="-1" measuredW="26" measuredH="27" zOrder="13" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%3B</text>
+          </controlProperties>
+        </control>
+        <control controlID="679" controlTypeID="com.balsamiq.mockups::PointyButton" x="171" y="58" w="55" h="-1" measuredW="25" measuredH="27" zOrder="14" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%28</text>
+          </controlProperties>
+        </control>
+        <control controlID="680" controlTypeID="com.balsamiq.mockups::PointyButton" x="228" y="58" w="55" h="-1" measuredW="25" measuredH="27" zOrder="15" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>%29</text>
+          </controlProperties>
+        </control>
+        <control controlID="681" controlTypeID="com.balsamiq.mockups::PointyButton" x="7" y="58" w="44" h="-1" measuredW="39" measuredH="27" zOrder="16" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>123</text>
+            <color>5263440</color>
+            <size>12</size>
+          </controlProperties>
+        </control>
+        <control controlID="682" controlTypeID="com.balsamiq.mockups::PointyButton" x="290" y="58" w="44" h="-1" measuredW="37" measuredH="27" zOrder="17" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text/>
+            <color>5263440</color>
+            <icon>BackSpaceIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="683" controlTypeID="com.balsamiq.mockups::PointyButton" x="8" y="1" w="33" h="-1" measuredW="26" measuredH="27" zOrder="18" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="684" controlTypeID="com.balsamiq.mockups::PointyButton" x="41" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="19" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>2</text>
+          </controlProperties>
+        </control>
+        <control controlID="685" controlTypeID="com.balsamiq.mockups::PointyButton" x="73" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="20" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>3</text>
+          </controlProperties>
+        </control>
+        <control controlID="686" controlTypeID="com.balsamiq.mockups::PointyButton" x="106" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="21" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>4</text>
+          </controlProperties>
+        </control>
+        <control controlID="687" controlTypeID="com.balsamiq.mockups::PointyButton" x="139" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="22" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>5</text>
+          </controlProperties>
+        </control>
+        <control controlID="688" controlTypeID="com.balsamiq.mockups::PointyButton" x="171" y="1" w="33" h="-1" measuredW="29" measuredH="27" zOrder="23" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>6</text>
+          </controlProperties>
+        </control>
+        <control controlID="689" controlTypeID="com.balsamiq.mockups::PointyButton" x="204" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="24" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>7</text>
+          </controlProperties>
+        </control>
+        <control controlID="690" controlTypeID="com.balsamiq.mockups::PointyButton" x="237" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="25" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>8</text>
+          </controlProperties>
+        </control>
+        <control controlID="691" controlTypeID="com.balsamiq.mockups::PointyButton" x="269" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="26" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>9</text>
+          </controlProperties>
+        </control>
+        <control controlID="692" controlTypeID="com.balsamiq.mockups::PointyButton" x="302" y="1" w="33" h="-1" measuredW="28" measuredH="27" zOrder="27" locked="false" isInGroup="894">
+          <controlProperties>
+            <direction>center</direction>
+            <text>0</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="223" controlTypeID="com.balsamiq.mockups::Title" x="94" y="36" w="-1" h="-1" measuredW="170" measuredH="32" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Regular%20Keyboard</text>
+        <size>20</size>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,8 @@
+*.iml
+*.ipr
+*.iws
+target
+test-output
+tomcat
+.DS_Store
+build
