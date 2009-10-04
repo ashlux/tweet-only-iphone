@@ -31,7 +31,6 @@
 		B4FA30AC107929CD00CA91EA /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FA3096107929CD00CA91EA /* NSString+UUID.m */; };
 		B4FA30AD107929CD00CA91EA /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4FA3097107929CD00CA91EA /* README.txt */; };
 		B4FA30AE107929CD00CA91EA /* Source Code License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B4FA3098107929CD00CA91EA /* Source Code License.rtf */; };
-		B4FA30AF107929CD00CA91EA /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = B4FA3099107929CD00CA91EA /* TODO */; };
 		B4FA3137107932DB00CA91EA /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FA30D810792D8000CA91EA /* libxml2.2.7.3.dylib */; };
 /* End PBXBuildFile section */
 
@@ -84,7 +83,6 @@
 		B4FA3096107929CD00CA91EA /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
 		B4FA3097107929CD00CA91EA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		B4FA3098107929CD00CA91EA /* Source Code License.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Source Code License.rtf"; sourceTree = "<group>"; };
-		B4FA3099107929CD00CA91EA /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
 		B4FA30D810792D8000CA91EA /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
 		B4FA3128107931A600CA91EA /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -205,7 +203,6 @@
 				B4FA3096107929CD00CA91EA /* NSString+UUID.m */,
 				B4FA3097107929CD00CA91EA /* README.txt */,
 				B4FA3098107929CD00CA91EA /* Source Code License.rtf */,
-				B4FA3099107929CD00CA91EA /* TODO */,
 			);
 			path = "MGTwitterEngine-1.0.8";
 			sourceTree = "<group>";
@@ -256,7 +253,6 @@
 				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
 				B4FA30AD107929CD00CA91EA /* README.txt in Resources */,
 				B4FA30AE107929CD00CA91EA /* Source Code License.rtf in Resources */,
-				B4FA30AF107929CD00CA91EA /* TODO in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
