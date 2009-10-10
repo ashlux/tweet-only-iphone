@@ -7,6 +7,7 @@
 	IBOutlet UITextField *usernameTextField;
 	IBOutlet UITextField *passwordTextField;
 	IBOutlet UITextView *tweetTextView;
+	IBOutlet UIButton *submitTweetButton;
 	
 	IBOutlet UILabel *tweetSizeLabel;
 }
@@ -15,6 +16,7 @@
 @property (nonatomic, retain) IBOutlet UITextField *passwordTextField;
 @property (nonatomic, retain) IBOutlet UITextView *tweetTextView;
 @property (nonatomic, retain) IBOutlet UILabel *tweetSizeLabel;
+@property (nonatomic, retain) IBOutlet UIButton *submitTweetButton;
 
 -(IBAction) submitTweet;
 

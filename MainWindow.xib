@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">437.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="108"/>
+			<integer value="124"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -37,7 +37,7 @@
 				<int key="NSvFlags">1316</int>
 				<object class="NSPSMatrix" key="NSFrameMatrix"/>
 				<string key="NSFrameSize">{320, 480}</string>
-				<object class="NSColor" key="IBUIBackgroundColor" id="1017055098">
+				<object class="NSColor" key="IBUIBackgroundColor" id="619956613">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MSAxIDEAA</bytes>
 				</object>
@@ -133,22 +133,22 @@
 									<bytes key="NSWhite">MC41AA</bytes>
 								</object>
 							</object>
-							<object class="IBUITableViewCell" id="1018914383">
+							<object class="IBUITableViewCell" id="504637587">
 								<reference key="NSNextResponder" ref="482734253"/>
 								<int key="NSvFlags">292</int>
 								<object class="NSMutableArray" key="NSSubviews">
 									<bool key="EncodedWithXMLCoder">YES</bool>
-									<object class="IBUIView" id="301674290">
-										<reference key="NSNextResponder" ref="1018914383"/>
+									<object class="IBUIView" id="798126055">
+										<reference key="NSNextResponder" ref="504637587"/>
 										<int key="NSvFlags">256</int>
 										<object class="NSMutableArray" key="NSSubviews">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="IBUITextView" id="824763389">
-												<reference key="NSNextResponder" ref="301674290"/>
+												<reference key="NSNextResponder" ref="798126055"/>
 												<int key="NSvFlags">256</int>
 												<string key="NSFrame">{{2, 2}, {276, 145}}</string>
-												<reference key="NSSuperview" ref="301674290"/>
-												<reference key="IBUIBackgroundColor" ref="1017055098"/>
+												<reference key="NSSuperview" ref="798126055"/>
+												<reference key="IBUIBackgroundColor" ref="619956613"/>
 												<bool key="IBUIOpaque">NO</bool>
 												<bool key="IBUIClipsSubviews">YES</bool>
 												<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -169,8 +169,8 @@
 											</object>
 										</object>
 										<string key="NSFrameSize">{280, 148}</string>
-										<reference key="NSSuperview" ref="1018914383"/>
-										<object class="NSColor" key="IBUIBackgroundColor" id="1036837004">
+										<reference key="NSSuperview" ref="504637587"/>
+										<object class="NSColor" key="IBUIBackgroundColor" id="848703720">
 											<int key="NSColorSpace">3</int>
 											<bytes key="NSWhite">MCAwAA</bytes>
 										</object>
@@ -192,9 +192,9 @@
 									<boolean value="NO" key="IBUIIsAccessibilityElement"/>
 								</object>
 								<int key="IBUISeparatorStyle">1</int>
-								<reference key="IBUIContentView" ref="301674290"/>
+								<reference key="IBUIContentView" ref="798126055"/>
 							</object>
-							<object class="IBUILabel" id="501233025">
+							<object class="IBUILabel" id="519544121">
 								<reference key="NSNextResponder" ref="482734253"/>
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{20, 194}, {37, 21}}</string>
@@ -202,7 +202,7 @@
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
-								<string key="IBUIText">140/140</string>
+								<string key="IBUIText">0/140</string>
 								<object class="NSFont" key="IBUIFont">
 									<string key="NSName">Helvetica</string>
 									<double key="NSSize">1.000000e+01</double>
@@ -240,7 +240,7 @@
 					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">266</int>
 					<string key="NSFrame">{{129, 330}, {163, 49}}</string>
-					<reference key="IBUIBackgroundColor" ref="1036837004"/>
+					<reference key="IBUIBackgroundColor" ref="848703720"/>
 					<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 				</object>
 			</object>
@@ -289,15 +289,6 @@
 					<int key="connectionID">134</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">submitTweet</string>
-						<reference key="source" ref="856726313"/>
-						<reference key="destination" ref="1024858337"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">136</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">tweetTextView</string>
 						<reference key="source" ref="1024858337"/>
@@ -333,9 +324,26 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">tweetSizeLabel</string>
 						<reference key="source" ref="1024858337"/>
-						<reference key="destination" ref="501233025"/>
+						<reference key="destination" ref="519544121"/>
 					</object>
 					<int key="connectionID">146</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">submitTweet</string>
+						<reference key="source" ref="856726313"/>
+						<reference key="destination" ref="1024858337"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">148</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">submitTweetButton</string>
+						<reference key="source" ref="1024858337"/>
+						<reference key="destination" ref="856726313"/>
+					</object>
+					<int key="connectionID">149</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -401,11 +409,11 @@
 						<reference key="object" ref="482734253"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="1018914383"/>
+							<reference ref="504637587"/>
 							<reference ref="631740760"/>
 							<reference ref="40314523"/>
 							<reference ref="856726313"/>
-							<reference ref="501233025"/>
+							<reference ref="519544121"/>
 						</object>
 						<reference key="parent" ref="1024858337"/>
 					</object>
@@ -431,7 +439,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">142</int>
-						<reference key="object" ref="1018914383"/>
+						<reference key="object" ref="504637587"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="824763389"/>
@@ -441,11 +449,11 @@
 					<object class="IBObjectRecord">
 						<int key="objectID">128</int>
 						<reference key="object" ref="824763389"/>
-						<reference key="parent" ref="1018914383"/>
+						<reference key="parent" ref="504637587"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">144</int>
-						<reference key="object" ref="501233025"/>
+						<reference key="object" ref="519544121"/>
 						<reference key="parent" ref="482734253"/>
 					</object>
 				</object>
@@ -521,7 +529,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">146</int>
+			<int key="maxID">149</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -538,6 +546,7 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>passwordTextField</string>
+							<string>submitTweetButton</string>
 							<string>tweetSizeLabel</string>
 							<string>tweetTextView</string>
 							<string>usernameTextField</string>
@@ -545,6 +554,7 @@
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UITextField</string>
+							<string>UIButton</string>
 							<string>UILabel</string>
 							<string>UITextView</string>
 							<string>UITextField</string>

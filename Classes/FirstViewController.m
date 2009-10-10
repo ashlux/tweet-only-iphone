@@ -1,5 +1,6 @@
 
 #import "tweet_only_iphoneAppDelegate.h"
+#import "KeychainUtils.h"
 #import "FirstViewController.h"
 
 @implementation FirstViewController
@@ -8,11 +9,37 @@
 @synthesize passwordTextField;
 @synthesize tweetTextView;
 @synthesize tweetSizeLabel;
+@synthesize submitTweetButton;
+
+- (void)retrieveStoredUsernamePassword {
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSString *username  = [defaults objectForKey:@"username"];
+	
+	// no username has been saved, so don't do anything
+	if (username == nil) {
+		return;
+	}
+	
+	NSError *error = [[NSError alloc] init];
+	NSString *password = [KeychainUtils getPasswordForUsername:username andServiceName:@"password" error:&error];
+
+	usernameTextField.text = username;
+	passwordTextField.text = password;
+}
+
+- (void)storeUsername:(NSString*)username withPassword:(NSString*)password {
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	[defaults setObject:username forKey:@"username"];
+	NSError *error = [[NSError alloc] init];
+	[KeychainUtils storeUsername:username andPassword:password forServiceName:@"password" updateExisting:TRUE error:&error];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
 	twitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
+	
+	[self retrieveStoredUsernamePassword];
 }
 
 - (void)turnOnNetworkActivityIndicator
@@ -23,6 +50,16 @@
 - (void)turnOffNetworkActivityIndicator
 {
 	[(tweet_only_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:FALSE];	
+}
+
+- (void)enableSubmitTweetButton
+{
+	submitTweetButton.enabled=YES;
+}
+
+- (void)disableSubmitTweetButton
+{
+	submitTweetButton.enabled=NO;
 }
 
 -(IBAction) submitTweet
@@ -39,12 +76,15 @@
 	}
 	
 	[self turnOnNetworkActivityIndicator];
+	[self disableSubmitTweetButton];
 	[twitterEngine setUsername:[usernameTextField text] password:[passwordTextField text]];
 	[twitterEngine sendUpdate:[tweetTextView text]];
 }
 
 - (void)requestFailed:(NSString *)requestIdentifier withError:(NSError *)error {
 	[self turnOffNetworkActivityIndicator];
+	[self enableSubmitTweetButton];
+
 	NSLog(@"Twitter request failed! (%@) Error: %@ (%@)", 
           requestIdentifier, 
           [error localizedDescription], 
@@ -61,6 +101,8 @@
 
 - (void)requestSucceeded:(NSString *)requestIdentifier {
 	[self turnOffNetworkActivityIndicator];
+	[self enableSubmitTweetButton];
+	[self storeUsername:usernameTextField.text withPassword:passwordTextField.text];
 	
 	[tweetTextView setText:@""];
 	
@@ -76,26 +118,31 @@
 - (void)statusesReceived:(NSArray *)statuses forRequest:(NSString *)identifier
 {
 	[self turnOffNetworkActivityIndicator];
+	[self enableSubmitTweetButton];
 }
 
 - (void)directMessagesReceived:(NSArray *)messages forRequest:(NSString *)identifier
 {
 	[self turnOffNetworkActivityIndicator];
+	[self enableSubmitTweetButton];
 }
 
 - (void)userInfoReceived:(NSArray *)userInfo forRequest:(NSString *)identifier
 {
 	[self turnOffNetworkActivityIndicator];
+	[self enableSubmitTweetButton];
 }
 
 - (void)miscInfoReceived:(NSArray *)miscInfo forRequest:(NSString *)identifier
 {
 	[self turnOffNetworkActivityIndicator];
+	[self enableSubmitTweetButton];
 }
 
 - (void)imageReceived:(UIImage *)image forRequest:(NSString *)identifier 
 {
 	[self turnOffNetworkActivityIndicator];
+	[self enableSubmitTweetButton];
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
@@ -134,6 +181,7 @@
 	[passwordTextField release];
 	[tweetTextView release];
 	[tweetSizeLabel release];
+	[submitTweetButton release];
 }
 
 @end
