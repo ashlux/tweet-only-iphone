@@ -1,5 +1,5 @@
 
-#import "tweet_offline_iphoneAppDelegate.h"
+#import "tweet_only_iphoneAppDelegate.h"
 #import "FirstViewController.h"
 
 @implementation FirstViewController
@@ -16,12 +16,12 @@
 
 - (void)turnOnNetworkActivityIndicator
 {
-	[(tweet_offline_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:TRUE];	
+	[(tweet_only_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:TRUE];	
 }
 
 - (void)turnOffNetworkActivityIndicator
 {
-	[(tweet_offline_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:FALSE];	
+	[(tweet_only_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:FALSE];	
 }
 
 -(IBAction) submitTweet

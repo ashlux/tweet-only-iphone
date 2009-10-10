@@ -1,7 +1,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface tweet_offline_iphoneAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
+@interface tweet_only_iphoneAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
     UIWindow *window;
     UITabBarController *tabBarController;
 }

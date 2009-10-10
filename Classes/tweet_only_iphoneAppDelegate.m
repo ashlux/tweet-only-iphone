@@ -1,8 +1,8 @@
 
-#import "tweet_offline_iphoneAppDelegate.h"
+#import "tweet_only_iphoneAppDelegate.h"
 
 
-@implementation tweet_offline_iphoneAppDelegate
+@implementation tweet_only_iphoneAppDelegate
 
 @synthesize window;
 @synthesize tabBarController;
@@ -14,7 +14,7 @@
     [window addSubview:tabBarController.view];
 }
 
-// [(tweet_offline_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:YES];
+// [(tweet_only_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:YES];
 - (void)setNetworkActivityIndicatorVisible:(BOOL)setVisible {
     static NSInteger NumberOfCallsToSetVisible = 0;
     if (setVisible) {
