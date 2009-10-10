@@ -86,6 +86,20 @@
 	[self turnOffNetworkActivityIndicator];
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+	[textField resignFirstResponder];
+	return YES;
+}
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
+	// Hack to resign keyboard when "Done" is presseds
+	if ([text isEqualToString:@"\n"]) {
+        [textView resignFirstResponder];
+        return FALSE;
+    }
+    return TRUE;	
+}
+
 - (void)dealloc {
     [super dealloc];
 	
