@@ -27,6 +27,17 @@
 
 -(IBAction) submitTweet
 {
+	if ([[tweetTextView text] length] > 140) {
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Cannot send tweet" 
+														message:@"Cannot not send tweet because it is over 140 characters." 
+													   delegate:self 
+											  cancelButtonTitle:@"OK" 
+											  otherButtonTitles:nil];
+		[alert show];
+		[alert release];
+		return;
+	}
+	
 	[self turnOnNetworkActivityIndicator];
 	[twitterEngine setUsername:[usernameTextField text] password:[passwordTextField text]];
 	[twitterEngine sendUpdate:[tweetTextView text]];
