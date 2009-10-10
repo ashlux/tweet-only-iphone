@@ -1,7 +1,7 @@
 #import "MGTwitterEngine.h"
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController<MGTwitterEngineDelegate> {
+@interface PostTweetViewController : UIViewController<MGTwitterEngineDelegate> {
     MGTwitterEngine *twitterEngine;
 	
 	IBOutlet UITextField *usernameTextField;

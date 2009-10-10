@@ -11,11 +11,13 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		28216C970DB411BC00E5133A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		B4B78B36108125AD0048C4A2 /* KeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78B35108125AD0048C4A2 /* KeychainUtils.m */; };
 		B4B78B8610812C960048C4A2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B78B8510812C960048C4A2 /* Security.framework */; };
 		B4B78C39108148500048C4A2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B78C38108148500048C4A2 /* MainWindow.xib */; };
+		B4B78C4910814A8B0048C4A2 /* AccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78C4810814A8B0048C4A2 /* AccountsViewController.m */; };
+		B4B78C6810814C2A0048C4A2 /* PostTweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */; };
+		B4B78C8510814D570048C4A2 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78C8410814D570048C4A2 /* AccountManager.m */; };
 		B4CF35C510802CE100D6D204 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CF35C410802CE100D6D204 /* libxml2.dylib */; };
 		B4FA309F107929CD00CA91EA /* MGTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */; };
 		B4FA30A0107929CD00CA91EA /* MGTwitterHTTPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FA307C107929CD00CA91EA /* MGTwitterHTTPURLConnection.m */; };
@@ -41,8 +43,6 @@
 		1D3623250D0F684500981E51 /* tweet_only_iphoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tweet_only_iphoneAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Tweet Only.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tweet Only.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AB4B0D9B1048005BE974 /* tweet_only_iphone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweet_only_iphone_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,6 +52,12 @@
 		B4B78B5D108128270048C4A2 /* crt3.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = crt3.o; path = "usr/lib/gcc/arm-apple-darwin9/4.0.1/crt3.o"; sourceTree = SDKROOT; };
 		B4B78B8510812C960048C4A2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B4B78C38108148500048C4A2 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
+		B4B78C4710814A8B0048C4A2 /* AccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountsViewController.h; sourceTree = "<group>"; };
+		B4B78C4810814A8B0048C4A2 /* AccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountsViewController.m; sourceTree = "<group>"; };
+		B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTweetViewController.h; sourceTree = "<group>"; };
+		B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTweetViewController.m; sourceTree = "<group>"; };
+		B4B78C8310814D570048C4A2 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		B4B78C8410814D570048C4A2 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
 		B4CF35C410802CE100D6D204 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		B4FA3073107929CD00CA91EA /* MGTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterEngine.h; sourceTree = "<group>"; };
 		B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTwitterEngine.m; sourceTree = "<group>"; };
@@ -111,11 +117,11 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B4B78B33108125960048C4A2 /* keychain */,
-				28216C950DB411BC00E5133A /* FirstViewController.h */,
-				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				B4B78C7F10814C9C0048C4A2 /* update */,
+				B4B78C7E10814C8F0048C4A2 /* account */,
 				1D3623240D0F684500981E51 /* tweet_only_iphoneAppDelegate.h */,
 				1D3623250D0F684500981E51 /* tweet_only_iphoneAppDelegate.m */,
+				B4B78B33108125960048C4A2 /* keychain */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -181,6 +187,26 @@
 				B4B78B35108125AD0048C4A2 /* KeychainUtils.m */,
 			);
 			name = keychain;
+			sourceTree = "<group>";
+		};
+		B4B78C7E10814C8F0048C4A2 /* account */ = {
+			isa = PBXGroup;
+			children = (
+				B4B78C8310814D570048C4A2 /* AccountManager.h */,
+				B4B78C8410814D570048C4A2 /* AccountManager.m */,
+				B4B78C4710814A8B0048C4A2 /* AccountsViewController.h */,
+				B4B78C4810814A8B0048C4A2 /* AccountsViewController.m */,
+			);
+			name = account;
+			sourceTree = "<group>";
+		};
+		B4B78C7F10814C9C0048C4A2 /* update */ = {
+			isa = PBXGroup;
+			children = (
+				B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */,
+				B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */,
+			);
+			name = update;
 			sourceTree = "<group>";
 		};
 		B4FA306A107929CD00CA91EA /* MGTwitterEngine-1.0.8 */ = {
@@ -282,7 +308,6 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* tweet_only_iphoneAppDelegate.m in Sources */,
-				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
 				B4FA309F107929CD00CA91EA /* MGTwitterEngine.m in Sources */,
 				B4FA30A0107929CD00CA91EA /* MGTwitterHTTPURLConnection.m in Sources */,
 				B4FA30A1107929CD00CA91EA /* MGTwitterLibXMLParser.m in Sources */,
@@ -298,6 +323,9 @@
 				B4FA30AB107929CD00CA91EA /* NSData+Base64.m in Sources */,
 				B4FA30AC107929CD00CA91EA /* NSString+UUID.m in Sources */,
 				B4B78B36108125AD0048C4A2 /* KeychainUtils.m in Sources */,
+				B4B78C4910814A8B0048C4A2 /* AccountsViewController.m in Sources */,
+				B4B78C6810814C2A0048C4A2 /* PostTweetViewController.m in Sources */,
+				B4B78C8510814D570048C4A2 /* AccountManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
