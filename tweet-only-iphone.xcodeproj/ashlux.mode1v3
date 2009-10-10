@@ -322,9 +322,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
-									<integer>2</integer>
-									<integer>0</integer>
+									<integer>20</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -377,7 +375,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B4B78AD81080D96B0048C4A2</string>
+										<string>B4B78AFB1080E2B80048C4A2</string>
 										<key>history</key>
 										<array>
 											<string>B4FA30F210792DB900CA91EA</string>
@@ -410,8 +408,8 @@
 											<string>B4CF3535108023C900D6D204</string>
 											<string>B4CF3547108025CC00D6D204</string>
 											<string>B4B78A8F1080D1330048C4A2</string>
-											<string>B4B78A9E1080D3150048C4A2</string>
-											<string>B4B78A9F1080D3150048C4A2</string>
+											<string>B4B78AE11080E0B30048C4A2</string>
+											<string>B4B78AE21080E0B30048C4A2</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -450,6 +448,8 @@
 											<string>B4B78A911080D1330048C4A2</string>
 											<string>B4B78AA01080D3150048C4A2</string>
 											<string>B4B78AA11080D3150048C4A2</string>
+											<string>B4B78AE31080E0B30048C4A2</string>
+											<string>B4B78AE41080E0B30048C4A2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -628,7 +628,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>276879723.33126599</real>
+	<real>276882104.365839</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>

@@ -7,6 +7,7 @@
 @synthesize usernameTextField;
 @synthesize passwordTextField;
 @synthesize tweetTextView;
+@synthesize tweetSizeLabel;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -91,6 +92,17 @@
 	return YES;
 }
 
+- (void)textViewDidChange:(UITextView *)textView {
+	int tweetSize = [[textView text] length];
+	[tweetSizeLabel setText:[NSString stringWithFormat:@"%d/140", tweetSize]];
+	
+	if (tweetSize > 140) {
+		tweetSizeLabel.textColor = [UIColor redColor];
+	} else {
+		tweetSizeLabel.textColor = [UIColor blackColor];
+	}
+}
+
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
 	// Hack to resign keyboard when "Done" is presseds
 	if ([text isEqualToString:@"\n"]) {
@@ -110,6 +122,7 @@
 	[usernameTextField release];
 	[passwordTextField release];
 	[tweetTextView release];
+	[tweetSizeLabel release];
 }
 
 @end
