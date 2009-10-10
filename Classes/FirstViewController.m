@@ -38,7 +38,7 @@
           [error localizedDescription], 
           [[error userInfo] objectForKey:NSErrorFailingURLStringKey]);
 	
-	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Sad panda" 
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Sad panda..." 
 													message:@"Could not post tweet status update." 
 												   delegate:self 
 										  cancelButtonTitle:@"OK" 
@@ -49,6 +49,16 @@
 
 - (void)requestSucceeded:(NSString *)requestIdentifier {
 	[self turnOffNetworkActivityIndicator];
+	
+	[tweetTextView setText:@""];
+	
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil 
+													message:@"Successfully posted status update!" 
+												   delegate:self 
+										  cancelButtonTitle:@"OK" 
+										  otherButtonTitles:nil];
+	[alert show];
+	[alert release];
 }
 
 - (void)statusesReceived:(NSArray *)statuses forRequest:(NSString *)identifier
