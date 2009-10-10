@@ -64,6 +64,17 @@
 
 -(IBAction) submitTweet
 {
+	if ([[tweetTextView text] length] == 0) {
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Cannot send tweet" 
+														message:@"Cannot not send empty tweets." 
+													   delegate:self 
+											  cancelButtonTitle:@"OK" 
+											  otherButtonTitles:nil];
+		[alert show];
+		[alert release];
+		return;
+	}
+	
 	if ([[tweetTextView text] length] > 140) {
 		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Cannot send tweet" 
 														message:@"Cannot not send tweet because it is over 140 characters." 
