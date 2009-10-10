@@ -3,6 +3,16 @@
 
 @interface FirstViewController : UIViewController<MGTwitterEngineDelegate> {
     MGTwitterEngine *twitterEngine;
+	
+	IBOutlet UITextField *usernameTextField;
+	IBOutlet UITextField *passwordTextField;
+	IBOutlet UITextView *tweetTextView;
 }
+
+@property (nonatomic, retain) IBOutlet UITextField *usernameTextField;
+@property (nonatomic, retain) IBOutlet UITextField *passwordTextField;
+@property (nonatomic, retain) IBOutlet UITextView *tweetTextView;
+
+-(IBAction) submitTweet;
 
 @end

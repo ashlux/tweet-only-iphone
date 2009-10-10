@@ -14,19 +14,17 @@
     [window addSubview:tabBarController.view];
 }
 
-
-/*
-// Optional UITabBarControllerDelegate method
-- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
+// [(tweet_offline_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:YES];
+- (void)setNetworkActivityIndicatorVisible:(BOOL)setVisible {
+    static NSInteger NumberOfCallsToSetVisible = 0;
+    if (setVisible) {
+        NumberOfCallsToSetVisible++;
+	} else {
+        NumberOfCallsToSetVisible--;
+	} 
+		
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:(NumberOfCallsToSetVisible > 0)];
 }
-*/
-
-/*
-// Optional UITabBarControllerDelegate method
-- (void)tabBarController:(UITabBarController *)tabBarController didEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed {
-}
-*/
-
 
 - (void)dealloc {
     [tabBarController release];

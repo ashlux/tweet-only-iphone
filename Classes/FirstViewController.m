@@ -1,92 +1,91 @@
 
+#import "tweet_offline_iphoneAppDelegate.h"
 #import "FirstViewController.h"
 
 @implementation FirstViewController
 
+@synthesize usernameTextField;
+@synthesize passwordTextField;
+@synthesize tweetTextView;
 
-/*
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+	
 	twitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
-    [twitterEngine setUsername:@"ashlux+test@gmail.com" password:@"password"];
-	
-	NSLog([twitterEngine sendUpdate:@"1234"]);
-	NSLog([twitterEngine sendUpdate:@"5678"]);
-	
-	NSLog(@"SSDF");
-	
 }
 
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
-
-- (void)didReceiveMemoryWarning {
-	// Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-	
-	// Release any cached data, images, etc that aren't in use.
+- (void)turnOnNetworkActivityIndicator
+{
+	[(tweet_offline_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:TRUE];	
 }
 
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
+- (void)turnOffNetworkActivityIndicator
+{
+	[(tweet_offline_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:FALSE];	
 }
 
-- (void)requestSucceeded:(NSString *)requestIdentifier {
-    NSLog(@"Request succeeded (%@)", requestIdentifier);
+-(IBAction) submitTweet
+{
+	[self turnOnNetworkActivityIndicator];
+	[twitterEngine setUsername:[usernameTextField text] password:[passwordTextField text]];
+	[twitterEngine sendUpdate:[tweetTextView text]];
 }
 
 - (void)requestFailed:(NSString *)requestIdentifier withError:(NSError *)error {
-    NSLog(@"Twitter request failed! (%@) Error: %@ (%@)", 
+	[self turnOffNetworkActivityIndicator];
+	NSLog(@"Twitter request failed! (%@) Error: %@ (%@)", 
           requestIdentifier, 
           [error localizedDescription], 
           [[error userInfo] objectForKey:NSErrorFailingURLStringKey]);
+	
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Sad panda" 
+													message:@"Could not post tweet status update." 
+												   delegate:self 
+										  cancelButtonTitle:@"OK" 
+										  otherButtonTitles:nil];
+	[alert show];
+	[alert release]; 
+}
+
+- (void)requestSucceeded:(NSString *)requestIdentifier {
+	[self turnOffNetworkActivityIndicator];
 }
 
 - (void)statusesReceived:(NSArray *)statuses forRequest:(NSString *)identifier
 {
-    NSLog(@"Got statuses:\r%@", statuses);
+	[self turnOffNetworkActivityIndicator];
 }
-
 
 - (void)directMessagesReceived:(NSArray *)messages forRequest:(NSString *)identifier
 {
-    NSLog(@"Got direct messages:\r%@", messages);
+	[self turnOffNetworkActivityIndicator];
 }
-
 
 - (void)userInfoReceived:(NSArray *)userInfo forRequest:(NSString *)identifier
 {
-    NSLog(@"Got user info:\r%@", userInfo);
+	[self turnOffNetworkActivityIndicator];
 }
-
 
 - (void)miscInfoReceived:(NSArray *)miscInfo forRequest:(NSString *)identifier
 {
-	NSLog(@"Got misc info:\r%@", miscInfo);
+	[self turnOffNetworkActivityIndicator];
+}
+
+- (void)imageReceived:(UIImage *)image forRequest:(NSString *)identifier 
+{
+	[self turnOffNetworkActivityIndicator];
 }
 
 - (void)dealloc {
     [super dealloc];
-
+	
 	[twitterEngine closeAllConnections];
     [twitterEngine release];
+
+	
+	[usernameTextField release];
+	[passwordTextField release];
+	[tweetTextView release];
 }
 
 @end
