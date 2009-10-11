@@ -12,13 +12,15 @@
 @synthesize submitTweetButton;
 
 - (void)retrieveStoredUsernamePassword {
-	usernameTextField.text = [AccountManager getSelectedUsername];
-	passwordTextField.text = [AccountManager getPasswordForUsername:usernameTextField.text];
+	Account *account = [accountManager getSelectedAccount];
+	usernameTextField.text = account.username;
+	passwordTextField.text = account.password;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 	twitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
+	accountManager = [[AccountManager alloc] init];
 	[self retrieveStoredUsernamePassword];
 }
 
@@ -75,8 +77,7 @@
 - (void)requestSucceeded:(NSString *)requestIdentifier {
 	[self turnOffNetworkActivityIndicator];
 	[self enableSubmitTweetButton];
-	[AccountManager setPassword:passwordTextField.text forUsername:usernameTextField.text];
-
+	[accountManager setSelectedAccountWithUsername:usernameTextField.text withPassword:passwordTextField.text];
 	[tweetTextView setText:@""];
 	
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil 
@@ -166,7 +167,8 @@
 	
 	[twitterEngine closeAllConnections];
     [twitterEngine release];
-
+	
+	[AccountManager release];
 	
 	[usernameTextField release];
 	[passwordTextField release];

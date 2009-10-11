@@ -1,11 +1,10 @@
 #import <Foundation/Foundation.h>
+#import "Account.h"
 
 @interface AccountManager : NSObject {
 }
 
-+(NSString*) getSelectedUsername;
-+(NSMutableArray*) getAllUsernames;
-+(NSString*) getPasswordForUsername:(NSString*)username;
-+(void) setPassword:(NSString*)password forUsername:(NSString*)username;
+- (Account*)getSelectedAccount;
+- (void)setSelectedAccountWithUsername:(NSString*)username withPassword:(NSString*)password;
 
 @end
