@@ -80,6 +80,7 @@
 	[self turnOffNetworkActivityIndicator];
 	[self enableSubmitTweetButton];
 	[tweetTextView setText:@""];
+	[tweetSizeLabel setText:@"0/140"];
 	
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil 
 													message:@"Successfully posted status update!" 

@@ -8,7 +8,7 @@
 	
 	IBOutlet UILabel *usernameLabel;
 	IBOutlet UITextView *tweetTextView;
-	IBOutlet UIButton *submitTweetButton;
+	IBOutlet UIBarButtonItem *submitTweetButton;
 	
 	IBOutlet UILabel *tweetSizeLabel;
 }
@@ -16,7 +16,7 @@
 @property (nonatomic, retain) IBOutlet UILabel *usernameLabel;
 @property (nonatomic, retain) IBOutlet UITextView *tweetTextView;
 @property (nonatomic, retain) IBOutlet UILabel *tweetSizeLabel;
-@property (nonatomic, retain) IBOutlet UIButton *submitTweetButton;
+@property (nonatomic, retain) IBOutlet UIBarButtonItem *submitTweetButton;
 
 -(IBAction) submitTweet;
 
