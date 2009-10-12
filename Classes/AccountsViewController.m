@@ -61,13 +61,19 @@ AccountManager *accountManager;
 	[accountManager setSelectedUsername:[tableView cellForRowAtIndexPath:indexPath].textLabel.text];
 }
 
-- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
+- (IBAction)addAccount {
+	AccountEditViewController *aView = [AccountEditViewController createInstance];
+	[self presentModalViewController:aView animated:YES];
+	[aView release];
 }
 
-- (IBAction)addAccount {
-	AccountEditViewController *aView = [[AccountEditViewController alloc] initWithNibName:@"AccountEditViewController" 
-																				   bundle:[NSBundle mainBundle]];
+- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
+	UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+	Account *account = [accountManager getAccountForUsername:cell.textLabel.text];
+	
+	AccountEditViewController *aView = [AccountEditViewController createInstance];			
 	[self presentModalViewController:aView animated:YES];
+	[aView setAccount:account];
 	[aView release];
 }
 

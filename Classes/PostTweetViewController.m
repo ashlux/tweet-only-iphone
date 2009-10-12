@@ -76,6 +76,9 @@
 	
 	[self turnOnNetworkActivityIndicator];
 	[self disableSubmitTweetButton];
+	[usernameTextField resignFirstResponder];
+	[passwordTextField resignFirstResponder];
+	[tweetTextView resignFirstResponder];
 	[twitterEngine setUsername:[usernameTextField text] password:[passwordTextField text]];
 	[twitterEngine sendUpdate:[tweetTextView text]];
 }

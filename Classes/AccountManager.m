@@ -71,7 +71,7 @@ static NSString *keychainServiceName = @"password";
 	return [accounts autorelease];
 }
 
-- (void)addAccountWithUsername:(NSString*)username withPassword:(NSString*)password {
+- (void)saveAccountWithUsername:(NSString*)username withPassword:(NSString*)password {
 	Account *account = [[Account alloc] init];
 	account.username = username;
 	account.password = password;
@@ -82,9 +82,38 @@ static NSString *keychainServiceName = @"password";
 		usernames = [[NSMutableArray alloc] init];
 	}
 
-	[defaults setObject:[NSKeyedArchiver archivedDataWithRootObject:[usernames arrayByAddingObject:username]] 
+	// if username already exists, remove it
+	[usernames removeObject:username];
+	[usernames addObject:username];
+	
+	[defaults setObject:[NSKeyedArchiver archivedDataWithRootObject:[NSArray arrayWithArray:usernames]] 
 				 forKey:usernamesKey];
 	[self addPasswordToKeychain:password forUsername:username];
+}
+
+- (Account*)getAccountForUsername:(NSString*)username {
+	if (![[self getAccountUsernames] containsObject:username]) {
+		return nil;
+	}
+	
+	Account *account = [[Account alloc] init];
+	[account setUsername:username];
+	[account setPassword:[self getPasswordForUsername:username]];
+	[account setSelected:[self isSelectedUsername:username]];
+	return [account autorelease];
+}
+
+- (void)removeAccountForUsername:(NSString*)username {
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSMutableArray *usernames = [self getAccountUsernames];
+	[usernames removeObject:username];
+	
+	[defaults setObject:[NSKeyedArchiver archivedDataWithRootObject:[NSArray arrayWithArray:usernames]] 
+				 forKey:usernamesKey];
+
+	NSError *error = [[NSError alloc] init];
+	[KeychainUtils deleteItemForUsername:username andServiceName:keychainServiceName error:&error];
+	[error release];
 }
 
 @end
