@@ -6,6 +6,7 @@
 
 @synthesize usernameTextField;
 @synthesize passwordTextField;
+@synthesize deleteButton;
 
 +(id)createInstance {
 	return [[AccountEditViewController alloc] initWithNibName:@"AccountEditViewController" bundle:[NSBundle mainBundle]];
@@ -15,6 +16,8 @@
 	[self.usernameTextField setText:account.username];
 	[self.passwordTextField setText:account.password];
 	usernameBefore = account.username;
+	
+	[deleteButton setHidden:FALSE];
 }
 
 - (IBAction)saveAccount {
@@ -31,13 +34,23 @@
 }
 
 - (IBAction)deleteAccount {
+	AccountManager *accountManager = [[AccountManager alloc] init];
+	[accountManager removeAccountForUsername:usernameBefore];
+	[accountManager release];
+	
 	[self dismissModalViewControllerAnimated:YES];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+	[textField resignFirstResponder];
+	return YES;
 }
 
 - (void)dealloc {
 	[usernameTextField release];
 	[passwordTextField release];
-
+	[deleteButton release];
+	
     [super dealloc];
 }
 
