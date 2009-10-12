@@ -12,6 +12,7 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		B42E7E981082E40700092982 /* AccountEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42E7E971082E40700092982 /* AccountEditViewController.xib */; };
 		B4B78B36108125AD0048C4A2 /* KeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78B35108125AD0048C4A2 /* KeychainUtils.m */; };
 		B4B78B8610812C960048C4A2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B78B8510812C960048C4A2 /* Security.framework */; };
 		B4B78C39108148500048C4A2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B78C38108148500048C4A2 /* MainWindow.xib */; };
@@ -19,7 +20,6 @@
 		B4B78C6810814C2A0048C4A2 /* PostTweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */; };
 		B4B78C8510814D570048C4A2 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78C8410814D570048C4A2 /* AccountManager.m */; };
 		B4B78DD11081535D0048C4A2 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78DD01081535D0048C4A2 /* Account.m */; };
-		B4B78F60108192D20048C4A2 /* AccountEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B78F5F108192D20048C4A2 /* AccountEditViewController.xib */; };
 		B4B78F64108193AD0048C4A2 /* AccountEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78F63108193AD0048C4A2 /* AccountEditViewController.m */; };
 		B4CF35C510802CE100D6D204 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CF35C410802CE100D6D204 /* libxml2.dylib */; };
 		B4FA309F107929CD00CA91EA /* MGTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */; };
@@ -50,6 +50,7 @@
 		28A0AB4B0D9B1048005BE974 /* tweet_only_iphone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweet_only_iphone_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* tweet_only_iphone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "tweet_only_iphone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B42E7E971082E40700092982 /* AccountEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AccountEditViewController.xib; path = Resources/AccountEditViewController.xib; sourceTree = "<group>"; };
 		B43C1DC310823D1E0076C250 /* libgmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmalloc.dylib; path = usr/lib/libgmalloc.dylib; sourceTree = DEVELOPER_DIR; };
 		B43C1DC710823D520076C250 /* libgmalloc.B.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmalloc.B.dylib; path = usr/lib/libgmalloc.B.dylib; sourceTree = DEVELOPER_DIR; };
 		B43C1DC810823D520076C250 /* libgmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmalloc.dylib; path = usr/lib/libgmalloc.dylib; sourceTree = DEVELOPER_DIR; };
@@ -67,7 +68,6 @@
 		B4B78C8410814D570048C4A2 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
 		B4B78DCF1081535D0048C4A2 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		B4B78DD01081535D0048C4A2 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
-		B4B78F5F108192D20048C4A2 /* AccountEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountEditViewController.xib; sourceTree = "<group>"; };
 		B4B78F62108193AD0048C4A2 /* AccountEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountEditViewController.h; sourceTree = "<group>"; };
 		B4B78F63108193AD0048C4A2 /* AccountEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountEditViewController.m; sourceTree = "<group>"; };
 		B4CF35C410802CE100D6D204 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -180,9 +180,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B42E7E971082E40700092982 /* AccountEditViewController.xib */,
 				B4B78C38108148500048C4A2 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* tweet_only_iphone-Info.plist */,
-				B4B78F5F108192D20048C4A2 /* AccountEditViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -317,7 +317,7 @@
 				B4FA30AD107929CD00CA91EA /* README.txt in Resources */,
 				B4FA30AE107929CD00CA91EA /* Source Code License.rtf in Resources */,
 				B4B78C39108148500048C4A2 /* MainWindow.xib in Resources */,
-				B4B78F60108192D20048C4A2 /* AccountEditViewController.xib in Resources */,
+				B42E7E981082E40700092982 /* AccountEditViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
