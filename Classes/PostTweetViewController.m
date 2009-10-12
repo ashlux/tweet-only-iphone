@@ -5,17 +5,10 @@
 
 @implementation PostTweetViewController
 
-@synthesize usernameTextField;
-@synthesize passwordTextField;
+@synthesize usernameLabel;
 @synthesize tweetTextView;
 @synthesize tweetSizeLabel;
 @synthesize submitTweetButton;
-
-- (void)retrieveStoredUsernamePassword {
-	Account *account = [accountManager getSelectedAccount];
-	usernameTextField.text = account.username;
-	passwordTextField.text = account.password;
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,9 +20,10 @@
 	[super viewWillAppear:animated];
 	
 	// get the selected account because it might have changed
-	[self retrieveStoredUsernamePassword];
+	[usernameLabel setText:[NSString stringWithFormat:@"Tweeting with %@", [accountManager getSelectedAccount].username]];
 }
 
+// TODO: Move to NetworkActivy class	
 - (void)turnOnNetworkActivityIndicator
 {
 	[(tweet_only_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:TRUE];	
@@ -76,10 +70,9 @@
 	
 	[self turnOnNetworkActivityIndicator];
 	[self disableSubmitTweetButton];
-	[usernameTextField resignFirstResponder];
-	[passwordTextField resignFirstResponder];
 	[tweetTextView resignFirstResponder];
-	[twitterEngine setUsername:[usernameTextField text] password:[passwordTextField text]];
+	Account *account = [accountManager getSelectedAccount];
+	[twitterEngine setUsername:account.username password:account.password];
 	[twitterEngine sendUpdate:[tweetTextView text]];
 }
 
@@ -145,11 +138,6 @@
 	[self enableSubmitTweetButton];
 }
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField {
-	[textField resignFirstResponder];
-	return YES;
-}
-
 - (void)textViewDidChange:(UITextView *)textView {
 	int tweetSize = [[textView text] length];
 	[tweetSizeLabel setText:[NSString stringWithFormat:@"%d/140", tweetSize]];
@@ -176,8 +164,7 @@
 	
 	[AccountManager release];
 	
-	[usernameTextField release];
-	[passwordTextField release];
+	[usernameLabel release];
 	[tweetTextView release];
 	[tweetSizeLabel release];
 	[submitTweetButton release];
