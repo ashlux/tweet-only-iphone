@@ -1,7 +1,11 @@
 #import <UIKit/UIKit.h>
 
-@interface AccountsViewController : UIViewController {
-
+@interface AccountsViewController : UITableViewController {
+	IBOutlet UITableView *accountTableView;
 }
+
+@property (nonatomic, retain) IBOutlet UITableView *accountTableView;
+
+- (IBAction)addAccount;
 
 @end

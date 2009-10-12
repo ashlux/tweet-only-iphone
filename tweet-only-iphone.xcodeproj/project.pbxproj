@@ -19,6 +19,8 @@
 		B4B78C6810814C2A0048C4A2 /* PostTweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */; };
 		B4B78C8510814D570048C4A2 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78C8410814D570048C4A2 /* AccountManager.m */; };
 		B4B78DD11081535D0048C4A2 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78DD01081535D0048C4A2 /* Account.m */; };
+		B4B78F60108192D20048C4A2 /* AccountEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B78F5F108192D20048C4A2 /* AccountEditViewController.xib */; };
+		B4B78F64108193AD0048C4A2 /* AccountEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78F63108193AD0048C4A2 /* AccountEditViewController.m */; };
 		B4CF35C510802CE100D6D204 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CF35C410802CE100D6D204 /* libxml2.dylib */; };
 		B4FA309F107929CD00CA91EA /* MGTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */; };
 		B4FA30A0107929CD00CA91EA /* MGTwitterHTTPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FA307C107929CD00CA91EA /* MGTwitterHTTPURLConnection.m */; };
@@ -48,6 +50,10 @@
 		28A0AB4B0D9B1048005BE974 /* tweet_only_iphone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweet_only_iphone_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* tweet_only_iphone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "tweet_only_iphone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B43C1DC310823D1E0076C250 /* libgmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmalloc.dylib; path = usr/lib/libgmalloc.dylib; sourceTree = DEVELOPER_DIR; };
+		B43C1DC710823D520076C250 /* libgmalloc.B.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmalloc.B.dylib; path = usr/lib/libgmalloc.B.dylib; sourceTree = DEVELOPER_DIR; };
+		B43C1DC810823D520076C250 /* libgmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmalloc.dylib; path = usr/lib/libgmalloc.dylib; sourceTree = DEVELOPER_DIR; };
+		B43C1DC910823D520076C250 /* libMallocDebug.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMallocDebug.A.dylib; path = usr/lib/libMallocDebug.A.dylib; sourceTree = DEVELOPER_DIR; };
 		B4B78B34108125AD0048C4A2 /* KeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainUtils.h; sourceTree = "<group>"; };
 		B4B78B35108125AD0048C4A2 /* KeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainUtils.m; sourceTree = "<group>"; };
 		B4B78B5D108128270048C4A2 /* crt3.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = crt3.o; path = "usr/lib/gcc/arm-apple-darwin9/4.0.1/crt3.o"; sourceTree = SDKROOT; };
@@ -61,6 +67,9 @@
 		B4B78C8410814D570048C4A2 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
 		B4B78DCF1081535D0048C4A2 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		B4B78DD01081535D0048C4A2 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		B4B78F5F108192D20048C4A2 /* AccountEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountEditViewController.xib; sourceTree = "<group>"; };
+		B4B78F62108193AD0048C4A2 /* AccountEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountEditViewController.h; sourceTree = "<group>"; };
+		B4B78F63108193AD0048C4A2 /* AccountEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountEditViewController.m; sourceTree = "<group>"; };
 		B4CF35C410802CE100D6D204 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		B4FA3073107929CD00CA91EA /* MGTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterEngine.h; sourceTree = "<group>"; };
 		B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTwitterEngine.m; sourceTree = "<group>"; };
@@ -140,6 +149,10 @@
 		29B97314FDCFA39411CA2CEA /* tweet-only-iphone */ = {
 			isa = PBXGroup;
 			children = (
+				B43C1DC710823D520076C250 /* libgmalloc.B.dylib */,
+				B43C1DC810823D520076C250 /* libgmalloc.dylib */,
+				B43C1DC910823D520076C250 /* libMallocDebug.A.dylib */,
+				B43C1DC310823D1E0076C250 /* libgmalloc.dylib */,
 				B4FA306A107929CD00CA91EA /* MGTwitterEngine-1.0.8 */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -169,6 +182,7 @@
 			children = (
 				B4B78C38108148500048C4A2 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* tweet_only_iphone-Info.plist */,
+				B4B78F5F108192D20048C4A2 /* AccountEditViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -201,6 +215,8 @@
 				B4B78C8410814D570048C4A2 /* AccountManager.m */,
 				B4B78C4710814A8B0048C4A2 /* AccountsViewController.h */,
 				B4B78C4810814A8B0048C4A2 /* AccountsViewController.m */,
+				B4B78F62108193AD0048C4A2 /* AccountEditViewController.h */,
+				B4B78F63108193AD0048C4A2 /* AccountEditViewController.m */,
 			);
 			name = account;
 			sourceTree = "<group>";
@@ -301,6 +317,7 @@
 				B4FA30AD107929CD00CA91EA /* README.txt in Resources */,
 				B4FA30AE107929CD00CA91EA /* Source Code License.rtf in Resources */,
 				B4B78C39108148500048C4A2 /* MainWindow.xib in Resources */,
+				B4B78F60108192D20048C4A2 /* AccountEditViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +349,7 @@
 				B4B78C6810814C2A0048C4A2 /* PostTweetViewController.m in Sources */,
 				B4B78C8510814D570048C4A2 /* AccountManager.m in Sources */,
 				B4B78DD11081535D0048C4A2 /* Account.m in Sources */,
+				B4B78F64108193AD0048C4A2 /* AccountEditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,8 +367,14 @@
 				GCC_PREFIX_HEADER = tweet_only_iphone_Prefix.pch;
 				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
 				INFOPLIST_FILE = "tweet_only_iphone-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/usr/lib\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "Tweet Only";
 				SDKROOT = iphoneos2.0;
+				WARNING_LDFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -362,6 +386,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = tweet_only_iphone_Prefix.pch;
 				INFOPLIST_FILE = "tweet_only_iphone-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/usr/lib\"",
+				);
 				PRODUCT_NAME = "tweet-only-iphone";
 			};
 			name = Release;

@@ -21,6 +21,12 @@
     [super viewDidLoad];
 	twitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
 	accountManager = [[AccountManager alloc] init];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+	
+	// get the selected account because it might have changed
 	[self retrieveStoredUsernamePassword];
 }
 
@@ -77,7 +83,6 @@
 - (void)requestSucceeded:(NSString *)requestIdentifier {
 	[self turnOffNetworkActivityIndicator];
 	[self enableSubmitTweetButton];
-	[accountManager setSelectedAccountWithUsername:usernameTextField.text withPassword:passwordTextField.text];
 	[tweetTextView setText:@""];
 	
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil 
@@ -162,9 +167,7 @@
     return TRUE;	
 }
 
-- (void)dealloc {
-    [super dealloc];
-	
+- (void)dealloc {	
 	[twitterEngine closeAllConnections];
     [twitterEngine release];
 	
@@ -175,6 +178,8 @@
 	[tweetTextView release];
 	[tweetSizeLabel release];
 	[submitTweetButton release];
+	
+	[super dealloc];
 }
 
 @end

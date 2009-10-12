@@ -6,11 +6,4 @@
 @synthesize password;
 @synthesize selected;
 
--(void) dealloc {
-	[super dealloc];
-	
-	[username release];
-	[password release];
-}
-
 @end

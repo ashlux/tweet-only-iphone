@@ -5,6 +5,8 @@
 
 static NSString *selectedUsernameKey = @"selectedUsernameKey";
 
+static NSString *usernamesKey = @"usernamesKey";
+
 static NSString *keychainServiceName = @"password";
 
 - (NSString*)getSelectedUsername {
@@ -12,7 +14,11 @@ static NSString *keychainServiceName = @"password";
 	return [defaults objectForKey:selectedUsernameKey];
 }
 
-- (void)setSelectedUsername:(NSString*)username; {
+- (BOOL)isSelectedUsername:(NSString*)username {
+	return ([username isEqualToString:[self getSelectedUsername]]); 
+}
+
+- (void)setSelectedUsername:(NSString*)username {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	[defaults setObject:username forKey:selectedUsernameKey];
 }
@@ -26,13 +32,20 @@ static NSString *keychainServiceName = @"password";
 	return password;
 }
 
-- (void)setPassword:(NSString*)password forUsername:(NSString*)username {
+- (void)addPasswordToKeychain:(NSString*)password forUsername:(NSString*)username {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	[defaults setObject:username forKey:selectedUsernameKey];
 	
 	NSError *error = [[NSError alloc] init];
 	[KeychainUtils storeUsername:username andPassword:password forServiceName:@"password" updateExisting:TRUE error:&error];
 	[error release];
+}
+
+- (NSMutableArray*)getAccountUsernames {
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSData *data = [defaults objectForKey:usernamesKey];
+	NSArray *arr = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+	return [arr mutableCopy];
 }
 
 - (Account*)getSelectedAccount {
@@ -43,9 +56,38 @@ static NSString *keychainServiceName = @"password";
 	return [account autorelease];
 }
 
-- (void)setSelectedAccountWithUsername:(NSString*)username withPassword:(NSString*)password {
-	[self setSelectedUsername:username];
-	[self setPassword:password forUsername:username];
+- (NSMutableArray*)getAccounts {
+	NSArray *usernames = [self getAccountUsernames];
+	
+	NSMutableArray *accounts = [[NSMutableArray alloc] init];
+	NSLog(@"Number of accounts found = %d", [usernames count]);
+	for (NSObject *username in usernames) {
+		NSLog(@"Username = %@", username);
+		NSLog(@"Username = %@", (NSString*) username);
+		Account *account = [[Account alloc] init];
+		account.username = (NSString*) username;	
+		account.selected = [self isSelectedUsername:(NSString*) username];
+		account.password = [self getPasswordForUsername:(NSString*) username];
+		[accounts addObject:account];
+	}
+	
+	return [accounts autorelease];
+}
+
+- (void)addAccountWithUsername:(NSString*)username withPassword:(NSString*)password {
+	Account *account = [[Account alloc] init];
+	account.username = username;
+	account.password = password;
+
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSMutableArray *usernames = [self getAccountUsernames];
+	if (usernames == nil) {
+		usernames = [[NSMutableArray alloc] init];
+	}
+
+	[defaults setObject:[NSKeyedArchiver archivedDataWithRootObject:[usernames arrayByAddingObject:username]] 
+				 forKey:usernamesKey];
+	[self addPasswordToKeychain:password forUsername:username];
 }
 
 @end
