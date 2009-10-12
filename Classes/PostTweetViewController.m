@@ -2,6 +2,7 @@
 #import "tweet_only_iphoneAppDelegate.h"
 #import "PostTweetViewController.h"
 #import "AccountManager.h"
+#import "AccountEditViewController.h"
 
 @implementation PostTweetViewController
 
@@ -18,9 +19,19 @@
 
 - (void)viewWillAppear:(BOOL)animated {
 	[super viewWillAppear:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+	[super viewDidAppear:animated];
 	
 	// get the selected account because it might have changed
 	[usernameLabel setText:[NSString stringWithFormat:@"Tweeting with %@", [accountManager getSelectedAccount].username]];
+	
+	// If no accounts present, prompt to create one
+	if ([[accountManager getAccounts] count] == 0) {
+		AccountEditViewController *aView = [AccountEditViewController createInstance];
+		[self presentModalViewController:aView animated:YES];
+	}
 }
 
 // TODO: Move to NetworkActivy class	

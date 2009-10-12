@@ -64,7 +64,6 @@ AccountManager *accountManager;
 - (IBAction)addAccount {
 	AccountEditViewController *aView = [AccountEditViewController createInstance];
 	[self presentModalViewController:aView animated:YES];
-	[aView release];
 }
 
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
@@ -74,7 +73,6 @@ AccountManager *accountManager;
 	AccountEditViewController *aView = [AccountEditViewController createInstance];			
 	[self presentModalViewController:aView animated:YES];
 	[aView setAccount:account];
-	[aView release];
 }
 
 - (void)dealloc {

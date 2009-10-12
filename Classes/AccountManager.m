@@ -43,7 +43,11 @@ static NSString *keychainServiceName = @"password";
 
 - (NSMutableArray*)getAccountUsernames {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	
 	NSData *data = [defaults objectForKey:usernamesKey];
+	if (data == nil) {
+		return [[[NSMutableArray alloc] initWithCapacity:0] autorelease];
+	}
 	NSArray *arr = [NSKeyedUnarchiver unarchiveObjectWithData:data];
 	return [arr mutableCopy];
 }
@@ -78,9 +82,6 @@ static NSString *keychainServiceName = @"password";
 
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	NSMutableArray *usernames = [self getAccountUsernames];
-	if (usernames == nil) {
-		usernames = [[NSMutableArray alloc] init];
-	}
 
 	// if username already exists, remove it
 	[usernames removeObject:username];

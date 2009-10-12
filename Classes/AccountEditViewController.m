@@ -9,7 +9,9 @@
 @synthesize deleteButton;
 
 +(id)createInstance {
-	return [[AccountEditViewController alloc] initWithNibName:@"AccountEditViewController" bundle:[NSBundle mainBundle]];
+	AccountEditViewController *aView = [[AccountEditViewController alloc] initWithNibName:@"AccountEditViewController" 
+																				   bundle:[NSBundle mainBundle]];
+	return [aView autorelease];
 }
 
 - (void)setAccount:(Account*)account {
@@ -21,6 +23,18 @@
 }
 
 - (IBAction)saveAccount {
+	if (usernameTextField.text.length == 0 ||
+		passwordTextField.text.length == 0) {
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error"
+														message:@"Cannot save account. Both username and password are required." 
+													   delegate:self 
+											  cancelButtonTitle:@"OK" 
+											  otherButtonTitles:nil];
+		[alert show];
+		[alert release];
+		return;
+	}
+ 	
 	AccountManager *accountManager = [[AccountManager alloc] init];
 	[accountManager removeAccountForUsername:usernameBefore];
 	[accountManager saveAccountWithUsername:usernameTextField.text withPassword:passwordTextField.text];
@@ -30,6 +44,21 @@
 }
 
 - (IBAction)cancelEdit {
+	AccountManager *accountManager = [[AccountManager alloc] init];
+	int numOfAccounts = [[accountManager getAccounts] count];
+	[accountManager release];
+	
+	if (numOfAccounts == 0) {
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error"
+														message:@"Cannot exit account setup. You must have at least one account to use Tweet Only." 
+													   delegate:self 
+											  cancelButtonTitle:@"OK" 
+											  otherButtonTitles:nil];
+		[alert show];
+		[alert release];
+		return;
+	}
+	
 	[self dismissModalViewControllerAnimated:YES];
 }
 
