@@ -272,6 +272,9 @@
 			B42E813710838AEA00092982 /* PBXTextBookmark */ = B42E813710838AEA00092982 /* PBXTextBookmark */;
 			B42E813810838AEB00092982 /* PBXTextBookmark */ = B42E813810838AEB00092982 /* PBXTextBookmark */;
 			B42E813A10838AFF00092982 /* PBXTextBookmark */ = B42E813A10838AFF00092982 /* PBXTextBookmark */;
+			B42E81D31083918200092982 /* PBXTextBookmark */ = B42E81D31083918200092982 /* PBXTextBookmark */;
+			B42E81D41083918200092982 /* PBXTextBookmark */ = B42E81D41083918200092982 /* PBXTextBookmark */;
+			B42E81D51083918200092982 /* PBXTextBookmark */ = B42E81D51083918200092982 /* PBXTextBookmark */;
 			B43C1CAE1081AAF80076C250 = B43C1CAE1081AAF80076C250 /* PBXTextBookmark */;
 			B43C1D8F1081B9230076C250 = B43C1D8F1081B9230076C250 /* PBXTextBookmark */;
 			B4B78C8F108150000048C4A2 = B4B78C8F108150000048C4A2 /* PBXTextBookmark */;
@@ -1554,6 +1557,36 @@
 		vrLen = 1295;
 		vrLoc = 160;
 	};
+	B42E81D31083918200092982 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B790471081A3B50048C4A2 /* AccountEditViewController.m */;
+		name = "AccountEditViewController.m: 12";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 0;
+	};
+	B42E81D41083918200092982 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B790471081A3B50048C4A2 /* AccountEditViewController.m */;
+		name = "AccountEditViewController.m: 37";
+		rLen = 0;
+		rLoc = 1052;
+		rType = 0;
+		vrLen = 1295;
+		vrLoc = 160;
+	};
+	B42E81D51083918200092982 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B790471081A3B50048C4A2 /* AccountEditViewController.m */;
+		name = "AccountEditViewController.m: 37";
+		rLen = 0;
+		rLoc = 1052;
+		rType = 0;
+		vrLen = 1238;
+		vrLoc = 217;
+	};
 	B43C1CAE1081AAF80076C250 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* tweet_only_iphoneAppDelegate.h */;
@@ -1719,7 +1752,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {946, 767}}";
 			sepNavSelRange = "{1052, 0}";
-			sepNavVisRange = "{160, 1295}";
+			sepNavVisRange = "{217, 1238}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
 		};
 	};
