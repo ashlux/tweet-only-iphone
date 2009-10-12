@@ -13,6 +13,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		B42E7E981082E40700092982 /* AccountEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42E7E971082E40700092982 /* AccountEditViewController.xib */; };
+		B42E7F3E1082F71B00092982 /* black-checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = B42E7F3D1082F71B00092982 /* black-checkmark.png */; };
+		B42E7FC81082FF5B00092982 /* empty-checkmark-area.png in Resources */ = {isa = PBXBuildFile; fileRef = B42E7FC71082FF5B00092982 /* empty-checkmark-area.png */; };
 		B4B78B36108125AD0048C4A2 /* KeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78B35108125AD0048C4A2 /* KeychainUtils.m */; };
 		B4B78B8610812C960048C4A2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B78B8510812C960048C4A2 /* Security.framework */; };
 		B4B78C39108148500048C4A2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B78C38108148500048C4A2 /* MainWindow.xib */; };
@@ -51,6 +53,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* tweet_only_iphone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "tweet_only_iphone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		B42E7E971082E40700092982 /* AccountEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AccountEditViewController.xib; path = Resources/AccountEditViewController.xib; sourceTree = "<group>"; };
+		B42E7F3D1082F71B00092982 /* black-checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "black-checkmark.png"; path = "Resources/black-checkmark.png"; sourceTree = "<group>"; };
+		B42E7FC71082FF5B00092982 /* empty-checkmark-area.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "empty-checkmark-area.png"; path = "Resources/empty-checkmark-area.png"; sourceTree = "<group>"; };
 		B43C1DC310823D1E0076C250 /* libgmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmalloc.dylib; path = usr/lib/libgmalloc.dylib; sourceTree = DEVELOPER_DIR; };
 		B43C1DC710823D520076C250 /* libgmalloc.B.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmalloc.B.dylib; path = usr/lib/libgmalloc.B.dylib; sourceTree = DEVELOPER_DIR; };
 		B43C1DC810823D520076C250 /* libgmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmalloc.dylib; path = usr/lib/libgmalloc.dylib; sourceTree = DEVELOPER_DIR; };
@@ -180,6 +184,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B42E7FC71082FF5B00092982 /* empty-checkmark-area.png */,
+				B42E7F3D1082F71B00092982 /* black-checkmark.png */,
 				B42E7E971082E40700092982 /* AccountEditViewController.xib */,
 				B4B78C38108148500048C4A2 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* tweet_only_iphone-Info.plist */,
@@ -318,6 +324,8 @@
 				B4FA30AE107929CD00CA91EA /* Source Code License.rtf in Resources */,
 				B4B78C39108148500048C4A2 /* MainWindow.xib in Resources */,
 				B42E7E981082E40700092982 /* AccountEditViewController.xib in Resources */,
+				B42E7F3E1082F71B00092982 /* black-checkmark.png in Resources */,
+				B42E7FC81082FF5B00092982 /* empty-checkmark-area.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

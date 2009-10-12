@@ -7,5 +7,6 @@
 - (Account*)getSelectedAccount;
 - (NSMutableArray*)getAccounts;
 - (void)addAccountWithUsername:(NSString*)username withPassword:(NSString*)password;
+- (void)setSelectedUsername:(NSString*)username;
 
 @end

@@ -60,10 +60,7 @@ static NSString *keychainServiceName = @"password";
 	NSArray *usernames = [self getAccountUsernames];
 	
 	NSMutableArray *accounts = [[NSMutableArray alloc] init];
-	NSLog(@"Number of accounts found = %d", [usernames count]);
 	for (NSObject *username in usernames) {
-		NSLog(@"Username = %@", username);
-		NSLog(@"Username = %@", (NSString*) username);
 		Account *account = [[Account alloc] init];
 		account.username = (NSString*) username;	
 		account.selected = [self isSelectedUsername:(NSString*) username];
