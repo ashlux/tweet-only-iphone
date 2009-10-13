@@ -6,12 +6,20 @@
 
 @synthesize usernameTextField;
 @synthesize passwordTextField;
-@synthesize deleteButton;
+@synthesize deleteButton; 
+@synthesize cancelButton;
+@synthesize navBar;
 
 +(id)createInstance {
 	AccountEditViewController *aView = [[AccountEditViewController alloc] initWithNibName:@"AccountEditViewController" 
 																				   bundle:[NSBundle mainBundle]];
 	return [aView autorelease];
+}
+
+- (void)hideCancelButton {
+	NSMutableArray *items = [[navBar.items mutableCopy] autorelease];
+	[items removeObject: cancelButton];
+	navBar.items = items;
 }
 
 - (void)setAccount:(Account*)account {
@@ -79,6 +87,8 @@
 	[usernameTextField release];
 	[passwordTextField release];
 	[deleteButton release];
+	[cancelButton release];
+	[navBar release];
 	
     [super dealloc];
 }

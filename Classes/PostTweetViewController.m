@@ -31,6 +31,7 @@
 	if ([[accountManager getAccounts] count] == 0) {
 		AccountEditViewController *aView = [AccountEditViewController createInstance];
 		[self presentModalViewController:aView animated:YES];
+		[aView hideCancelButton];
 	}
 }
 
