@@ -2,7 +2,7 @@
 {
 	1D3623240D0F684500981E51 /* tweet_only_iphoneAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 379}}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 420}}";
 			sepNavSelRange = "{225, 0}";
 			sepNavVisRange = "{0, 399}";
 		};
@@ -262,6 +262,11 @@
 		vrLen = 1157;
 		vrLoc = 350;
 	};
+	B42E829F1083B99A00092982 /* Default.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
+		};
+	};
 	B47EF8761083C32E003C42B3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B4B78DD01081535D0048C4A2 /* Account.m */;
@@ -425,7 +430,7 @@
 	};
 	B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 379}}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 397}}";
 			sepNavSelRange = "{636, 0}";
 			sepNavVisRange = "{0, 689}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
@@ -479,6 +484,11 @@
 		name = PostTweetViewController.m;
 		path = "/Users/ashlux/dev/tweet-only-iphone/Classes/PostTweetViewController.m";
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 2457}}";
+			sepNavSelRange = "{538, 0}";
+			sepNavVisRange = "{0, 1032}";
+		};
 	};
 	B4B78DCF1081535D0048C4A2 /* Account.h */ = {
 		uiCtxt = {
@@ -524,9 +534,9 @@
 		path = "/Users/ashlux/dev/tweet-only-iphone/Classes/AccountEditViewController.m";
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 1222}}";
-			sepNavSelRange = "{628, 0}";
-			sepNavVisRange = "{244, 1038}";
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 1144}}";
+			sepNavSelRange = "{488, 0}";
+			sepNavVisRange = "{0, 890}";
 		};
 	};
 	B4CF3535108023C900D6D204 /* PBXTextBookmark */ = {
