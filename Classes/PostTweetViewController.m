@@ -10,15 +10,12 @@
 @synthesize tweetTextView;
 @synthesize tweetSizeLabel;
 @synthesize submitTweetButton;
+@synthesize clearButton;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 	twitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
 	accountManager = [[AccountManager alloc] init];
-}
-
-- (void)viewWillAppear:(BOOL)animated {
-	[super viewWillAppear:animated];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -49,11 +46,13 @@
 - (void)enableSubmitTweetButton
 {
 	submitTweetButton.enabled=YES;
+	clearButton.enabled=YES;
 }
 
 - (void)disableSubmitTweetButton
 {
 	submitTweetButton.enabled=NO;
+	clearButton.enabled=NO;
 }
 
 -(IBAction) submitTweet
@@ -171,6 +170,11 @@
     return TRUE;	
 }
 
+
+-(IBAction) clearTweet {
+	[tweetTextView setText:@""];
+}
+
 - (void)dealloc {	
 	[twitterEngine closeAllConnections];
     [twitterEngine release];
@@ -181,6 +185,7 @@
 	[tweetTextView release];
 	[tweetSizeLabel release];
 	[submitTweetButton release];
+	[clearButton release];
 	
 	[super dealloc];
 }

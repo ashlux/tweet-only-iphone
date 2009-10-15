@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="142"/>
+			<integer value="208"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -211,7 +211,7 @@
 							</object>
 							<object class="IBUIButton" id="270627251">
 								<reference key="NSNextResponder" ref="482734253"/>
-								<int key="NSvFlags">292</int>
+								<int key="NSvFlags">-2147483356</int>
 								<string key="NSFrame">{{254, 205}, {53, 33}}</string>
 								<reference key="NSSuperview" ref="482734253"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -233,7 +233,7 @@
 							</object>
 							<object class="IBUIButton" id="8622480">
 								<reference key="NSNextResponder" ref="482734253"/>
-								<int key="NSvFlags">292</int>
+								<int key="NSvFlags">-2147483356</int>
 								<string key="NSFrame">{{190, 205}, {53, 33}}</string>
 								<reference key="NSSuperview" ref="482734253"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -486,6 +486,23 @@
 					</object>
 					<int key="connectionID">179</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clearTweet</string>
+						<reference key="source" ref="722190127"/>
+						<reference key="destination" ref="1024858337"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">217</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">clearButton</string>
+						<reference key="source" ref="1024858337"/>
+						<reference key="destination" ref="722190127"/>
+					</object>
+					<int key="connectionID">218</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -558,8 +575,8 @@
 							<reference ref="47550247"/>
 							<reference ref="693857950"/>
 							<reference ref="722190127"/>
-							<reference ref="270627251"/>
 							<reference ref="8622480"/>
+							<reference ref="270627251"/>
 						</object>
 						<reference key="parent" ref="1024858337"/>
 					</object>
@@ -674,8 +691,13 @@
 						<reference key="parent" ref="482734253"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">211</int>
-						<reference key="object" ref="270627251"/>
+						<int key="objectID">213</int>
+						<reference key="object" ref="47550247"/>
+						<reference key="parent" ref="482734253"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">215</int>
+						<reference key="object" ref="693857950"/>
 						<reference key="parent" ref="482734253"/>
 					</object>
 					<object class="IBObjectRecord">
@@ -684,13 +706,8 @@
 						<reference key="parent" ref="482734253"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">213</int>
-						<reference key="object" ref="47550247"/>
-						<reference key="parent" ref="482734253"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">215</int>
-						<reference key="object" ref="693857950"/>
+						<int key="objectID">211</int>
+						<reference key="object" ref="270627251"/>
 						<reference key="parent" ref="482734253"/>
 					</object>
 				</object>
@@ -794,7 +811,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">215</int>
+			<int key="maxID">218</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -819,13 +836,23 @@
 					<string key="className">PostTweetViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">submitTweet</string>
-						<string key="NS.object.0">id</string>
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>clearTweet</string>
+							<string>submitTweet</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+						</object>
 					</object>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>clearButton</string>
 							<string>submitTweetButton</string>
 							<string>tweetSizeLabel</string>
 							<string>tweetTextView</string>
@@ -833,6 +860,7 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>UIButton</string>
 							<string>UIBarButtonItem</string>
 							<string>UILabel</string>
 							<string>UITextView</string>
