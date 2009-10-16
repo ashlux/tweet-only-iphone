@@ -26,9 +26,8 @@ static NSString *keychainServiceName = @"password";
 - (NSString*)getPasswordForUsername:(NSString*)username {
 	if (username == nil) return nil;
 	
-	NSError *error = [[NSError alloc] init];
+	NSError *error;
 	NSString *password = [KeychainUtils getPasswordForUsername:username andServiceName:keychainServiceName error:&error];
-	[error release];
 	return password;
 }
 
@@ -36,9 +35,8 @@ static NSString *keychainServiceName = @"password";
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	[defaults setObject:username forKey:selectedUsernameKey];
 	
-	NSError *error = [[NSError alloc] init];
+	NSError *error;
 	[KeychainUtils storeUsername:username andPassword:password forServiceName:@"password" updateExisting:TRUE error:&error];
-	[error release];
 }
 
 - (NSMutableArray*)getAccountUsernames {
@@ -112,9 +110,8 @@ static NSString *keychainServiceName = @"password";
 	[defaults setObject:[NSKeyedArchiver archivedDataWithRootObject:[NSArray arrayWithArray:usernames]] 
 				 forKey:usernamesKey];
 
-	NSError *error = [[NSError alloc] init];
+	NSError *error;
 	[KeychainUtils deleteItemForUsername:username andServiceName:keychainServiceName error:&error];
-	[error release];
 }
 
 @end

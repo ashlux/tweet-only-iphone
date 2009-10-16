@@ -19,7 +19,7 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-	[super viewDidAppear:animated];
+		[super viewDidAppear:animated];
 	
 	// get the selected account because it might have changed
 	[usernameLabel setText:[NSString stringWithFormat:@"Tweeting with %@", [accountManager getSelectedAccount].username]];

@@ -84,13 +84,13 @@
 }
 
 - (void)dealloc {
+    [super dealloc];
+
 	[usernameTextField release];
 	[passwordTextField release];
 	[deleteButton release];
 	[cancelButton release];
 	[navBar release];
-	
-    [super dealloc];
 }
 
 

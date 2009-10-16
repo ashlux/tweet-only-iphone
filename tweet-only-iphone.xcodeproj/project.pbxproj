@@ -12,6 +12,9 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		B41AA684108838F7008A485D /* 500px-War_Hawk.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = B41AA681108838F6008A485D /* 500px-War_Hawk.svg.png */; };
+		B41AA685108838F7008A485D /* 512x512Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B41AA682108838F7008A485D /* 512x512Icon.png */; };
+		B41AA686108838F7008A485D /* 512x512Icon.xcf in Resources */ = {isa = PBXBuildFile; fileRef = B41AA683108838F7008A485D /* 512x512Icon.xcf */; };
 		B42E7E981082E40700092982 /* AccountEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42E7E971082E40700092982 /* AccountEditViewController.xib */; };
 		B42E7F3E1082F71B00092982 /* black-checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = B42E7F3D1082F71B00092982 /* black-checkmark.png */; };
 		B42E7FC81082FF5B00092982 /* empty-checkmark-area.png in Resources */ = {isa = PBXBuildFile; fileRef = B42E7FC71082FF5B00092982 /* empty-checkmark-area.png */; };
@@ -187,6 +190,9 @@
 		28A0AB4B0D9B1048005BE974 /* tweet_only_iphone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweet_only_iphone_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* tweet_only_iphone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "tweet_only_iphone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B41AA681108838F6008A485D /* 500px-War_Hawk.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "500px-War_Hawk.svg.png"; path = "Resources/500px-War_Hawk.svg.png"; sourceTree = "<group>"; };
+		B41AA682108838F7008A485D /* 512x512Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 512x512Icon.png; path = Resources/512x512Icon.png; sourceTree = "<group>"; };
+		B41AA683108838F7008A485D /* 512x512Icon.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; name = 512x512Icon.xcf; path = Resources/512x512Icon.xcf; sourceTree = "<group>"; };
 		B42E7E971082E40700092982 /* AccountEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AccountEditViewController.xib; path = Resources/AccountEditViewController.xib; sourceTree = "<group>"; };
 		B42E7F3D1082F71B00092982 /* black-checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "black-checkmark.png"; path = "Resources/black-checkmark.png"; sourceTree = "<group>"; };
 		B42E7FC71082FF5B00092982 /* empty-checkmark-area.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "empty-checkmark-area.png"; path = "Resources/empty-checkmark-area.png"; sourceTree = "<group>"; };
@@ -267,10 +273,6 @@
 		B42E822D1083B0B000092982 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
 		B42E829F1083B99A00092982 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		B42E82A01083B99A00092982 /* Default.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Default.xcf; path = Resources/Default.xcf; sourceTree = "<group>"; };
-		B43C1DC310823D1E0076C250 /* libgmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmalloc.dylib; path = usr/lib/libgmalloc.dylib; sourceTree = DEVELOPER_DIR; };
-		B43C1DC710823D520076C250 /* libgmalloc.B.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmalloc.B.dylib; path = usr/lib/libgmalloc.B.dylib; sourceTree = DEVELOPER_DIR; };
-		B43C1DC810823D520076C250 /* libgmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmalloc.dylib; path = usr/lib/libgmalloc.dylib; sourceTree = DEVELOPER_DIR; };
-		B43C1DC910823D520076C250 /* libMallocDebug.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMallocDebug.A.dylib; path = usr/lib/libMallocDebug.A.dylib; sourceTree = DEVELOPER_DIR; };
 		B4A3F4ED1084273F00317150 /* 75-phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "75-phone.png"; sourceTree = "<group>"; };
 		B4A3F4EE1084273F00317150 /* 76-baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76-baby.png"; sourceTree = "<group>"; };
 		B4A3F4EF1084273F00317150 /* 77-ekg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "77-ekg.png"; sourceTree = "<group>"; };
@@ -423,10 +425,6 @@
 		29B97314FDCFA39411CA2CEA /* tweet-only-iphone */ = {
 			isa = PBXGroup;
 			children = (
-				B43C1DC710823D520076C250 /* libgmalloc.B.dylib */,
-				B43C1DC810823D520076C250 /* libgmalloc.dylib */,
-				B43C1DC910823D520076C250 /* libMallocDebug.A.dylib */,
-				B43C1DC310823D1E0076C250 /* libgmalloc.dylib */,
 				B4FA306A107929CD00CA91EA /* MGTwitterEngine-1.0.8 */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -454,11 +452,14 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B42E813C1083915600092982 /* JosephWain */,
+				B41AA681108838F6008A485D /* 500px-War_Hawk.svg.png */,
+				B41AA682108838F7008A485D /* 512x512Icon.png */,
+				B41AA683108838F7008A485D /* 512x512Icon.xcf */,
 				B4A3F560108429D000317150 /* logo-subtitle.png */,
 				B42E829F1083B99A00092982 /* Default.png */,
 				B42E82A01083B99A00092982 /* Default.xcf */,
 				B42E822D1083B0B000092982 /* Icon.png */,
-				B42E813C1083915600092982 /* JosephWain */,
 				B42E7FC71082FF5B00092982 /* empty-checkmark-area.png */,
 				B42E7F3D1082F71B00092982 /* black-checkmark.png */,
 				B42E7E971082E40700092982 /* AccountEditViewController.xib */,
@@ -883,6 +884,9 @@
 				B4A3F55D1084273F00317150 /* tshirt.png in Resources */,
 				B4A3F55F108427A200317150 /* 200px-War_Hawk.svg.png in Resources */,
 				B4A3F561108429D000317150 /* logo-subtitle.png in Resources */,
+				B41AA684108838F7008A485D /* 500px-War_Hawk.svg.png in Resources */,
+				B41AA685108838F7008A485D /* 512x512Icon.png in Resources */,
+				B41AA686108838F7008A485D /* 512x512Icon.xcf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -938,7 +942,7 @@
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "Tweet Only";
-				SDKROOT = iphoneos2.2.1;
+				SDKROOT = iphoneos3.0;
 				WARNING_LDFLAGS = "";
 			};
 			name = Debug;
