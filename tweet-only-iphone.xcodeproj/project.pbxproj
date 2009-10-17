@@ -13,6 +13,20 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		B42DF4911089343400EEEB31 /* 200px-War_Hawk.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = B42DF4901089343400EEEB31 /* 200px-War_Hawk.svg.png */; };
+		B42DF4A11089409100EEEB31 /* Twitpic.m in Sources */ = {isa = PBXBuildFile; fileRef = B42DF4A01089409100EEEB31 /* Twitpic.m */; };
+		B42DF4BB10894F9700EEEB31 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = B42DF4AA10894F9700EEEB31 /* ASIAuthenticationDialog.m */; };
+		B42DF4BC10894F9700EEEB31 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B42DF4AC10894F9700EEEB31 /* ASIFormDataRequest.m */; };
+		B42DF4BD10894F9700EEEB31 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B42DF4AE10894F9700EEEB31 /* ASIHTTPRequest.m */; };
+		B42DF4BE10894F9700EEEB31 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B42DF4B010894F9700EEEB31 /* ASIInputStream.m */; };
+		B42DF4BF10894F9700EEEB31 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B42DF4B210894F9700EEEB31 /* ASINetworkQueue.m */; };
+		B42DF4C010894F9700EEEB31 /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B42DF4B410894F9700EEEB31 /* ASINSStringAdditions.m */; };
+		B42DF4C110894F9700EEEB31 /* ASIS3BucketObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B42DF4B610894F9700EEEB31 /* ASIS3BucketObject.m */; };
+		B42DF4C210894F9700EEEB31 /* ASIS3ListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B42DF4B810894F9700EEEB31 /* ASIS3ListRequest.m */; };
+		B42DF4C310894F9700EEEB31 /* ASIS3Request.m in Sources */ = {isa = PBXBuildFile; fileRef = B42DF4BA10894F9700EEEB31 /* ASIS3Request.m */; };
+		B42DF4FB1089516400EEEB31 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42DF4FA1089516400EEEB31 /* SystemConfiguration.framework */; };
+		B42DF5041089557A00EEEB31 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B42DF5031089557A00EEEB31 /* Reachability.m */; };
+		B42DF50A108955AB00EEEB31 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42DF509108955AB00EEEB31 /* CFNetwork.framework */; };
+		B42DF526108955DF00EEEB31 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B42DF525108955DF00EEEB31 /* libz.1.2.3.dylib */; };
 		B42E7E981082E40700092982 /* AccountEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42E7E971082E40700092982 /* AccountEditViewController.xib */; };
 		B42E7F3E1082F71B00092982 /* black-checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = B42E7F3D1082F71B00092982 /* black-checkmark.png */; };
 		B42E7FC81082FF5B00092982 /* empty-checkmark-area.png in Resources */ = {isa = PBXBuildFile; fileRef = B42E7FC71082FF5B00092982 /* empty-checkmark-area.png */; };
@@ -91,6 +105,31 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* tweet_only_iphone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "tweet_only_iphone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		B42DF4901089343400EEEB31 /* 200px-War_Hawk.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "200px-War_Hawk.svg.png"; path = "Resources/200px-War_Hawk.svg.png"; sourceTree = "<group>"; };
+		B42DF49F1089409100EEEB31 /* Twitpic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitpic.h; sourceTree = "<group>"; };
+		B42DF4A01089409100EEEB31 /* Twitpic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitpic.m; sourceTree = "<group>"; };
+		B42DF4A910894F9700EEEB31 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		B42DF4AA10894F9700EEEB31 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		B42DF4AB10894F9700EEEB31 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		B42DF4AC10894F9700EEEB31 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		B42DF4AD10894F9700EEEB31 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		B42DF4AE10894F9700EEEB31 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		B42DF4AF10894F9700EEEB31 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		B42DF4B010894F9700EEEB31 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		B42DF4B110894F9700EEEB31 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		B42DF4B210894F9700EEEB31 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		B42DF4B310894F9700EEEB31 /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
+		B42DF4B410894F9700EEEB31 /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
+		B42DF4B510894F9700EEEB31 /* ASIS3BucketObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3BucketObject.h; sourceTree = "<group>"; };
+		B42DF4B610894F9700EEEB31 /* ASIS3BucketObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIS3BucketObject.m; sourceTree = "<group>"; };
+		B42DF4B710894F9700EEEB31 /* ASIS3ListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3ListRequest.h; sourceTree = "<group>"; };
+		B42DF4B810894F9700EEEB31 /* ASIS3ListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIS3ListRequest.m; sourceTree = "<group>"; };
+		B42DF4B910894F9700EEEB31 /* ASIS3Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3Request.h; sourceTree = "<group>"; };
+		B42DF4BA10894F9700EEEB31 /* ASIS3Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIS3Request.m; sourceTree = "<group>"; };
+		B42DF4FA1089516400EEEB31 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B42DF5021089557A00EEEB31 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B42DF5031089557A00EEEB31 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B42DF509108955AB00EEEB31 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B42DF525108955DF00EEEB31 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
 		B42E7E971082E40700092982 /* AccountEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AccountEditViewController.xib; path = Resources/AccountEditViewController.xib; sourceTree = "<group>"; };
 		B42E7F3D1082F71B00092982 /* black-checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "black-checkmark.png"; path = "Resources/black-checkmark.png"; sourceTree = "<group>"; };
 		B42E7FC71082FF5B00092982 /* empty-checkmark-area.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "empty-checkmark-area.png"; path = "Resources/empty-checkmark-area.png"; sourceTree = "<group>"; };
@@ -196,6 +235,9 @@
 				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
 				B4CF35C510802CE100D6D204 /* libxml2.dylib in Frameworks */,
 				B4B78B8610812C960048C4A2 /* Security.framework in Frameworks */,
+				B42DF4FB1089516400EEEB31 /* SystemConfiguration.framework in Frameworks */,
+				B42DF50A108955AB00EEEB31 /* CFNetwork.framework in Frameworks */,
+				B42DF526108955DF00EEEB31 /* libz.1.2.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +267,6 @@
 		29B97314FDCFA39411CA2CEA /* tweet-only-iphone */ = {
 			isa = PBXGroup;
 			children = (
-				B4FA306A107929CD00CA91EA /* MGTwitterEngine-1.0.8 */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -236,6 +277,9 @@
 				B4CF35C410802CE100D6D204 /* libxml2.dylib */,
 				B4B78B5D108128270048C4A2 /* crt3.o */,
 				B4B78B8510812C960048C4A2 /* Security.framework */,
+				B42DF4FA1089516400EEEB31 /* SystemConfiguration.framework */,
+				B42DF509108955AB00EEEB31 /* CFNetwork.framework */,
+				B42DF525108955DF00EEEB31 /* libz.1.2.3.dylib */,
 			);
 			name = "tweet-only-iphone";
 			sourceTree = "<group>";
@@ -243,6 +287,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B42DF4A810894F9700EEEB31 /* asi-http-request */,
+				B4FA306A107929CD00CA91EA /* MGTwitterEngine-1.0.8 */,
 				28A0AB4B0D9B1048005BE974 /* tweet_only_iphone_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -274,6 +320,33 @@
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B42DF4A810894F9700EEEB31 /* asi-http-request */ = {
+			isa = PBXGroup;
+			children = (
+				B42DF5021089557A00EEEB31 /* Reachability.h */,
+				B42DF5031089557A00EEEB31 /* Reachability.m */,
+				B42DF4A910894F9700EEEB31 /* ASIAuthenticationDialog.h */,
+				B42DF4AA10894F9700EEEB31 /* ASIAuthenticationDialog.m */,
+				B42DF4AB10894F9700EEEB31 /* ASIFormDataRequest.h */,
+				B42DF4AC10894F9700EEEB31 /* ASIFormDataRequest.m */,
+				B42DF4AD10894F9700EEEB31 /* ASIHTTPRequest.h */,
+				B42DF4AE10894F9700EEEB31 /* ASIHTTPRequest.m */,
+				B42DF4AF10894F9700EEEB31 /* ASIInputStream.h */,
+				B42DF4B010894F9700EEEB31 /* ASIInputStream.m */,
+				B42DF4B110894F9700EEEB31 /* ASINetworkQueue.h */,
+				B42DF4B210894F9700EEEB31 /* ASINetworkQueue.m */,
+				B42DF4B310894F9700EEEB31 /* ASINSStringAdditions.h */,
+				B42DF4B410894F9700EEEB31 /* ASINSStringAdditions.m */,
+				B42DF4B510894F9700EEEB31 /* ASIS3BucketObject.h */,
+				B42DF4B610894F9700EEEB31 /* ASIS3BucketObject.m */,
+				B42DF4B710894F9700EEEB31 /* ASIS3ListRequest.h */,
+				B42DF4B810894F9700EEEB31 /* ASIS3ListRequest.m */,
+				B42DF4B910894F9700EEEB31 /* ASIS3Request.h */,
+				B42DF4BA10894F9700EEEB31 /* ASIS3Request.m */,
+			);
+			path = "asi-http-request";
 			sourceTree = "<group>";
 		};
 		B42E813C1083915600092982 /* JosephWain */ = {
@@ -347,6 +420,8 @@
 			children = (
 				B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */,
 				B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */,
+				B42DF49F1089409100EEEB31 /* Twitpic.h */,
+				B42DF4A01089409100EEEB31 /* Twitpic.m */,
 			);
 			name = update;
 			sourceTree = "<group>";
@@ -511,6 +586,17 @@
 				B4B78C8510814D570048C4A2 /* AccountManager.m in Sources */,
 				B4B78DD11081535D0048C4A2 /* Account.m in Sources */,
 				B4B78F64108193AD0048C4A2 /* AccountEditViewController.m in Sources */,
+				B42DF4A11089409100EEEB31 /* Twitpic.m in Sources */,
+				B42DF4BB10894F9700EEEB31 /* ASIAuthenticationDialog.m in Sources */,
+				B42DF4BC10894F9700EEEB31 /* ASIFormDataRequest.m in Sources */,
+				B42DF4BD10894F9700EEEB31 /* ASIHTTPRequest.m in Sources */,
+				B42DF4BE10894F9700EEEB31 /* ASIInputStream.m in Sources */,
+				B42DF4BF10894F9700EEEB31 /* ASINetworkQueue.m in Sources */,
+				B42DF4C010894F9700EEEB31 /* ASINSStringAdditions.m in Sources */,
+				B42DF4C110894F9700EEEB31 /* ASIS3BucketObject.m in Sources */,
+				B42DF4C210894F9700EEEB31 /* ASIS3ListRequest.m in Sources */,
+				B42DF4C310894F9700EEEB31 /* ASIS3Request.m in Sources */,
+				B42DF5041089557A00EEEB31 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
