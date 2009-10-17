@@ -3,6 +3,7 @@
 #import "PostTweetViewController.h"
 #import "AccountManager.h"
 #import "AccountEditViewController.h"
+#import "Twitpic.h"
 
 @implementation PostTweetViewController
 

@@ -272,14 +272,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				B4FA30D810792D8000CA91EA /* libxml2.2.7.3.dylib */,
-				B4FA3128107931A600CA91EA /* libicucore.dylib */,
-				B4CF35C410802CE100D6D204 /* libxml2.dylib */,
-				B4B78B5D108128270048C4A2 /* crt3.o */,
-				B4B78B8510812C960048C4A2 /* Security.framework */,
-				B42DF4FA1089516400EEEB31 /* SystemConfiguration.framework */,
-				B42DF509108955AB00EEEB31 /* CFNetwork.framework */,
-				B42DF525108955DF00EEEB31 /* libz.1.2.3.dylib */,
 			);
 			name = "tweet-only-iphone";
 			sourceTree = "<group>";
@@ -315,6 +307,14 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4FA30D810792D8000CA91EA /* libxml2.2.7.3.dylib */,
+				B4FA3128107931A600CA91EA /* libicucore.dylib */,
+				B4CF35C410802CE100D6D204 /* libxml2.dylib */,
+				B4B78B5D108128270048C4A2 /* crt3.o */,
+				B4B78B8510812C960048C4A2 /* Security.framework */,
+				B42DF4FA1089516400EEEB31 /* SystemConfiguration.framework */,
+				B42DF509108955AB00EEEB31 /* CFNetwork.framework */,
+				B42DF525108955DF00EEEB31 /* libz.1.2.3.dylib */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
