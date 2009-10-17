@@ -27,6 +27,8 @@
 		B42DF5041089557A00EEEB31 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B42DF5031089557A00EEEB31 /* Reachability.m */; };
 		B42DF50A108955AB00EEEB31 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42DF509108955AB00EEEB31 /* CFNetwork.framework */; };
 		B42DF526108955DF00EEEB31 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B42DF525108955DF00EEEB31 /* libz.1.2.3.dylib */; };
+		B42DF5B510896C8A00EEEB31 /* PictureChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */; };
+		B42DF5B610896C8A00EEEB31 /* PictureChooserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42DF5B410896C8A00EEEB31 /* PictureChooserViewController.xib */; };
 		B42E7E981082E40700092982 /* AccountEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42E7E971082E40700092982 /* AccountEditViewController.xib */; };
 		B42E7F3E1082F71B00092982 /* black-checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = B42E7F3D1082F71B00092982 /* black-checkmark.png */; };
 		B42E7FC81082FF5B00092982 /* empty-checkmark-area.png in Resources */ = {isa = PBXBuildFile; fileRef = B42E7FC71082FF5B00092982 /* empty-checkmark-area.png */; };
@@ -130,6 +132,9 @@
 		B42DF5031089557A00EEEB31 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		B42DF509108955AB00EEEB31 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B42DF525108955DF00EEEB31 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		B42DF5B210896C8A00EEEB31 /* PictureChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureChooserViewController.h; sourceTree = "<group>"; };
+		B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureChooserViewController.m; sourceTree = "<group>"; };
+		B42DF5B410896C8A00EEEB31 /* PictureChooserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PictureChooserViewController.xib; path = Classes/PictureChooserViewController.xib; sourceTree = "<group>"; };
 		B42E7E971082E40700092982 /* AccountEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AccountEditViewController.xib; path = Resources/AccountEditViewController.xib; sourceTree = "<group>"; };
 		B42E7F3D1082F71B00092982 /* black-checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "black-checkmark.png"; path = "Resources/black-checkmark.png"; sourceTree = "<group>"; };
 		B42E7FC71082FF5B00092982 /* empty-checkmark-area.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "empty-checkmark-area.png"; path = "Resources/empty-checkmark-area.png"; sourceTree = "<group>"; };
@@ -247,6 +252,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B42DF5B110896C6700EEEB31 /* pics */,
 				B4B78C7F10814C9C0048C4A2 /* update */,
 				B4B78C7E10814C8F0048C4A2 /* account */,
 				1D3623240D0F684500981E51 /* tweet_only_iphoneAppDelegate.h */,
@@ -298,6 +304,7 @@
 				B42E7FC71082FF5B00092982 /* empty-checkmark-area.png */,
 				B42E7F3D1082F71B00092982 /* black-checkmark.png */,
 				B42E7E971082E40700092982 /* AccountEditViewController.xib */,
+				B42DF5B410896C8A00EEEB31 /* PictureChooserViewController.xib */,
 				B4B78C38108148500048C4A2 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* tweet_only_iphone-Info.plist */,
 			);
@@ -347,6 +354,17 @@
 				B42DF4BA10894F9700EEEB31 /* ASIS3Request.m */,
 			);
 			path = "asi-http-request";
+			sourceTree = "<group>";
+		};
+		B42DF5B110896C6700EEEB31 /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				B42DF49F1089409100EEEB31 /* Twitpic.h */,
+				B42DF4A01089409100EEEB31 /* Twitpic.m */,
+				B42DF5B210896C8A00EEEB31 /* PictureChooserViewController.h */,
+				B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */,
+			);
+			name = pics;
 			sourceTree = "<group>";
 		};
 		B42E813C1083915600092982 /* JosephWain */ = {
@@ -420,8 +438,6 @@
 			children = (
 				B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */,
 				B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */,
-				B42DF49F1089409100EEEB31 /* Twitpic.h */,
-				B42DF4A01089409100EEEB31 /* Twitpic.m */,
 			);
 			name = update;
 			sourceTree = "<group>";
@@ -554,6 +570,7 @@
 				B4A3F5491084273F00317150 /* 110-bug.png in Resources */,
 				B4A3F561108429D000317150 /* logo-subtitle.png in Resources */,
 				B42DF4911089343400EEEB31 /* 200px-War_Hawk.svg.png in Resources */,
+				B42DF5B610896C8A00EEEB31 /* PictureChooserViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +614,7 @@
 				B42DF4C210894F9700EEEB31 /* ASIS3ListRequest.m in Sources */,
 				B42DF4C310894F9700EEEB31 /* ASIS3Request.m in Sources */,
 				B42DF5041089557A00EEEB31 /* Reachability.m in Sources */,
+				B42DF5B510896C8A00EEEB31 /* PictureChooserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

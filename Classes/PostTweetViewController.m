@@ -3,6 +3,7 @@
 #import "PostTweetViewController.h"
 #import "AccountManager.h"
 #import "AccountEditViewController.h"
+#import "PictureChooserViewController.h"w
 #import "Twitpic.h"
 
 @implementation PostTweetViewController
@@ -42,6 +43,13 @@
 - (void)turnOffNetworkActivityIndicator
 {
 	[(tweet_only_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:FALSE];	
+}
+
+- (IBAction)addPhoto {
+	PictureChooserViewController *aView = [[PictureChooserViewController alloc] initWithNibName:@"PictureChooserViewController" 
+																						 bundle:[NSBundle mainBundle]];
+	[self presentModalViewController:aView animated:YES];
+	[aView release];
 }
 
 - (void)enableSubmitTweetButton
