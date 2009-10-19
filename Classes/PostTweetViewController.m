@@ -13,16 +13,19 @@
 @synthesize tweetSizeLabel;
 @synthesize submitTweetButton;
 @synthesize clearButton;
+@synthesize addPhotoButton;
 
-@synthesize eagle;
 - (void)viewDidLoad {
     [super viewDidLoad];
 	twitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
 	accountManager = [[AccountManager alloc] init];
 }
 
-- (void)pictureChosen:(UIImage*)image {
-	[eagle setImage:image];
+- (void)pictureSelected:(UIImage*)image {
+	Twitpic *twitpic = [[Twitpic alloc] init];
+	NSString *twitpicUrl = [twitpic uploadPicture:image withAccount:[accountManager getSelectedAccount]];
+	[tweetTextView setText:[NSString stringWithFormat:@"%@ %@", tweetTextView.text, twitpicUrl]];
+	[twitpic release];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -200,6 +203,7 @@
 	[tweetSizeLabel release];
 	[submitTweetButton release];
 	[clearButton release];
+	[addPhotoButton release];
 	
 	[super dealloc];
 }

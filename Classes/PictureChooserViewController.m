@@ -72,7 +72,7 @@
 	UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
 	CGImageRef cgImage = [image CGImage];
 	UIImage *copyOfImage = [[UIImage alloc] initWithCGImage:cgImage];
-	[_delegate pictureChosen:[copyOfImage autorelease]];
+	[_delegate pictureSelected:[copyOfImage autorelease]];
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
@@ -88,7 +88,7 @@
 		
 	CGImageRef cgImage = [img CGImage];
 	UIImage *copyOfImage = [[UIImage alloc] initWithCGImage:cgImage];
-	[_delegate pictureChosen:[copyOfImage autorelease]];
+	[_delegate pictureSelected:[copyOfImage autorelease]];
 }	
 
 - (void)dealloc {

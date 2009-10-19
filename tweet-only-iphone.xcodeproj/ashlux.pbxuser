@@ -37,7 +37,6 @@
 			1D6058900D05DD3D006BFB54 /* Tweet Only */,
 		);
 		breakpoints = (
-			B42DFC27108C37CD00EEEB31 /* PictureChooserViewController.m:10 */,
 		);
 		codeSenseManager = B4FA30361078F76800CA91EA /* Code sense */;
 		executables = (
@@ -97,11 +96,11 @@
 				);
 			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
-				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
-					20,
 					768,
+					20,
 					20,
 					48,
 					43,
@@ -109,8 +108,8 @@
 					20,
 				);
 				PBXFileTableDataSourceColumnsKey = (
-					PBXFileDataSource_FiletypeID,
 					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_FiletypeID,
 					PBXFileDataSource_Built_ColumnID,
 					PBXFileDataSource_ObjectSize_ColumnID,
 					PBXFileDataSource_Errors_ColumnID,
@@ -660,6 +659,7 @@
 			B42DFC21108C379E00EEEB31 /* PBXTextBookmark */ = B42DFC21108C379E00EEEB31 /* PBXTextBookmark */;
 			B42DFC25108C37B300EEEB31 /* PBXTextBookmark */ = B42DFC25108C37B300EEEB31 /* PBXTextBookmark */;
 			B42DFC26108C37B400EEEB31 /* PBXTextBookmark */ = B42DFC26108C37B400EEEB31 /* PBXTextBookmark */;
+			B42DFC28108C37CD00EEEB31 /* PBXTextBookmark */ = B42DFC28108C37CD00EEEB31 /* PBXTextBookmark */;
 			B42DFC2B108C37DC00EEEB31 /* PBXTextBookmark */ = B42DFC2B108C37DC00EEEB31 /* PBXTextBookmark */;
 			B42DFC2C108C37DD00EEEB31 /* PBXTextBookmark */ = B42DFC2C108C37DD00EEEB31 /* PBXTextBookmark */;
 			B42DFC2D108C37DD00EEEB31 /* PBXTextBookmark */ = B42DFC2D108C37DD00EEEB31 /* PBXTextBookmark */;
@@ -682,6 +682,106 @@
 			B42DFC54108C395300EEEB31 /* PBXTextBookmark */ = B42DFC54108C395300EEEB31 /* PBXTextBookmark */;
 			B42DFC55108C395400EEEB31 /* PBXTextBookmark */ = B42DFC55108C395400EEEB31 /* PBXTextBookmark */;
 			B42DFC57108C395C00EEEB31 /* PBXTextBookmark */ = B42DFC57108C395C00EEEB31 /* PBXTextBookmark */;
+			B42DFC5C108CEB2700EEEB31 /* PBXTextBookmark */ = B42DFC5C108CEB2700EEEB31 /* PBXTextBookmark */;
+			B42DFC5D108CEB2B00EEEB31 /* PBXTextBookmark */ = B42DFC5D108CEB2B00EEEB31 /* PBXTextBookmark */;
+			B42DFC61108CEB3A00EEEB31 /* PBXTextBookmark */ = B42DFC61108CEB3A00EEEB31 /* PBXTextBookmark */;
+			B42DFC62108CEB3B00EEEB31 /* PBXTextBookmark */ = B42DFC62108CEB3B00EEEB31 /* PBXTextBookmark */;
+			B42DFC65108CECFA00EEEB31 /* PBXTextBookmark */ = B42DFC65108CECFA00EEEB31 /* PBXTextBookmark */;
+			B42DFC66108CECFA00EEEB31 /* PBXTextBookmark */ = B42DFC66108CECFA00EEEB31 /* PBXTextBookmark */;
+			B42DFC67108CECFA00EEEB31 /* PBXTextBookmark */ = B42DFC67108CECFA00EEEB31 /* PBXTextBookmark */;
+			B42DFC68108CECFA00EEEB31 /* PBXTextBookmark */ = B42DFC68108CECFA00EEEB31 /* PBXTextBookmark */;
+			B42DFC69108CECFA00EEEB31 /* PBXTextBookmark */ = B42DFC69108CECFA00EEEB31 /* PBXTextBookmark */;
+			B42DFC6D108CED5B00EEEB31 /* PBXTextBookmark */ = B42DFC6D108CED5B00EEEB31 /* PBXTextBookmark */;
+			B42DFC70108CED6500EEEB31 /* PBXTextBookmark */ = B42DFC70108CED6500EEEB31 /* PBXTextBookmark */;
+			B42DFC71108CED6600EEEB31 /* PBXTextBookmark */ = B42DFC71108CED6600EEEB31 /* PBXTextBookmark */;
+			B42DFC72108CED6600EEEB31 /* PBXTextBookmark */ = B42DFC72108CED6600EEEB31 /* PBXTextBookmark */;
+			B42DFC73108CED6600EEEB31 /* PBXTextBookmark */ = B42DFC73108CED6600EEEB31 /* PBXTextBookmark */;
+			B42DFC74108CED6600EEEB31 /* PBXTextBookmark */ = B42DFC74108CED6600EEEB31 /* PBXTextBookmark */;
+			B42DFC75108CED6600EEEB31 /* PBXTextBookmark */ = B42DFC75108CED6600EEEB31 /* PBXTextBookmark */;
+			B42DFC76108CED6600EEEB31 /* PBXTextBookmark */ = B42DFC76108CED6600EEEB31 /* PBXTextBookmark */;
+			B42DFC79108CED8200EEEB31 /* PBXTextBookmark */ = B42DFC79108CED8200EEEB31 /* PBXTextBookmark */;
+			B42DFC7A108CED8300EEEB31 /* PBXTextBookmark */ = B42DFC7A108CED8300EEEB31 /* PBXTextBookmark */;
+			B42DFC7D108CED8C00EEEB31 /* PBXTextBookmark */ = B42DFC7D108CED8C00EEEB31 /* PBXTextBookmark */;
+			B42DFC7E108CED8D00EEEB31 /* PBXTextBookmark */ = B42DFC7E108CED8D00EEEB31 /* PBXTextBookmark */;
+			B42DFC80108CEDAA00EEEB31 /* PBXTextBookmark */ = B42DFC80108CEDAA00EEEB31 /* PBXTextBookmark */;
+			B42DFC81108CEDAD00EEEB31 /* PBXTextBookmark */ = B42DFC81108CEDAD00EEEB31 /* PBXTextBookmark */;
+			B42DFC82108CEDAD00EEEB31 /* PBXTextBookmark */ = B42DFC82108CEDAD00EEEB31 /* PBXTextBookmark */;
+			B42DFC83108CEDAD00EEEB31 /* PBXTextBookmark */ = B42DFC83108CEDAD00EEEB31 /* PBXTextBookmark */;
+			B42DFC86108CEDC300EEEB31 /* PBXTextBookmark */ = B42DFC86108CEDC300EEEB31 /* PBXTextBookmark */;
+			B42DFC87108CEDC300EEEB31 /* PBXTextBookmark */ = B42DFC87108CEDC300EEEB31 /* PBXTextBookmark */;
+			B42DFC88108CEDC300EEEB31 /* PBXTextBookmark */ = B42DFC88108CEDC300EEEB31 /* PBXTextBookmark */;
+			B42DFC89108CEDC300EEEB31 /* PBXTextBookmark */ = B42DFC89108CEDC300EEEB31 /* PBXTextBookmark */;
+			B42DFC8B108CEE7200EEEB31 /* PBXTextBookmark */ = B42DFC8B108CEE7200EEEB31 /* PBXTextBookmark */;
+			B42DFC8C108CEE7200EEEB31 /* PBXTextBookmark */ = B42DFC8C108CEE7200EEEB31 /* PBXTextBookmark */;
+			B42DFC8D108CEE7200EEEB31 /* PBXTextBookmark */ = B42DFC8D108CEE7200EEEB31 /* PBXTextBookmark */;
+			B42DFC8E108CEE7200EEEB31 /* PBXTextBookmark */ = B42DFC8E108CEE7200EEEB31 /* PBXTextBookmark */;
+			B42DFC91108CEF4A00EEEB31 /* PBXTextBookmark */ = B42DFC91108CEF4A00EEEB31 /* PBXTextBookmark */;
+			B42DFC92108CEF4A00EEEB31 /* PBXTextBookmark */ = B42DFC92108CEF4A00EEEB31 /* PBXTextBookmark */;
+			B42DFC93108CEF4A00EEEB31 /* PBXTextBookmark */ = B42DFC93108CEF4A00EEEB31 /* PBXTextBookmark */;
+			B42DFC94108CEF4A00EEEB31 /* PBXTextBookmark */ = B42DFC94108CEF4A00EEEB31 /* PBXTextBookmark */;
+			B42DFC95108CEF4A00EEEB31 /* PBXTextBookmark */ = B42DFC95108CEF4A00EEEB31 /* PBXTextBookmark */;
+			B42DFC96108CEF4A00EEEB31 /* PBXTextBookmark */ = B42DFC96108CEF4A00EEEB31 /* PBXTextBookmark */;
+			B42DFC97108CEF4A00EEEB31 /* PBXTextBookmark */ = B42DFC97108CEF4A00EEEB31 /* PBXTextBookmark */;
+			B42DFC9A108CEF6400EEEB31 /* PBXTextBookmark */ = B42DFC9A108CEF6400EEEB31 /* PBXTextBookmark */;
+			B42DFC9B108CEF6400EEEB31 /* XCBuildMessageTextBookmark */ = B42DFC9B108CEF6400EEEB31 /* XCBuildMessageTextBookmark */;
+			B42DFC9C108CEF6400EEEB31 /* PBXTextBookmark */ = B42DFC9C108CEF6400EEEB31 /* PBXTextBookmark */;
+			B42DFC9F108CEF8000EEEB31 /* PBXTextBookmark */ = B42DFC9F108CEF8000EEEB31 /* PBXTextBookmark */;
+			B42DFCA2108CEF8700EEEB31 /* PBXTextBookmark */ = B42DFCA2108CEF8700EEEB31 /* PBXTextBookmark */;
+			B42DFCA3108CEF8700EEEB31 /* PBXTextBookmark */ = B42DFCA3108CEF8700EEEB31 /* PBXTextBookmark */;
+			B42DFCA4108CEF8700EEEB31 /* PBXTextBookmark */ = B42DFCA4108CEF8700EEEB31 /* PBXTextBookmark */;
+			B42DFCA5108CEF8700EEEB31 /* PBXTextBookmark */ = B42DFCA5108CEF8700EEEB31 /* PBXTextBookmark */;
+			B42DFCA6108CEF8700EEEB31 /* PBXTextBookmark */ = B42DFCA6108CEF8700EEEB31 /* PBXTextBookmark */;
+			B42DFCA7108CEF8700EEEB31 /* PBXTextBookmark */ = B42DFCA7108CEF8700EEEB31 /* PBXTextBookmark */;
+			B42DFCA8108CEF8700EEEB31 /* PBXTextBookmark */ = B42DFCA8108CEF8700EEEB31 /* PBXTextBookmark */;
+			B42DFCA9108CEF8700EEEB31 /* PBXTextBookmark */ = B42DFCA9108CEF8700EEEB31 /* PBXTextBookmark */;
+			B42DFCAA108CEF8700EEEB31 /* PBXTextBookmark */ = B42DFCAA108CEF8700EEEB31 /* PBXTextBookmark */;
+			B42DFCAB108CEF8700EEEB31 /* PBXTextBookmark */ = B42DFCAB108CEF8700EEEB31 /* PBXTextBookmark */;
+			B42DFCAD108CEF9100EEEB31 /* XCBuildMessageTextBookmark */ = B42DFCAD108CEF9100EEEB31 /* XCBuildMessageTextBookmark */;
+			B42DFCAE108CEF9100EEEB31 /* PBXTextBookmark */ = B42DFCAE108CEF9100EEEB31 /* PBXTextBookmark */;
+			B42DFCB1108CEF9A00EEEB31 /* PBXTextBookmark */ = B42DFCB1108CEF9A00EEEB31 /* PBXTextBookmark */;
+			B42DFCB2108CEF9A00EEEB31 /* XCBuildMessageTextBookmark */ = B42DFCB2108CEF9A00EEEB31 /* XCBuildMessageTextBookmark */;
+			B42DFCB3108CEF9A00EEEB31 /* PBXTextBookmark */ = B42DFCB3108CEF9A00EEEB31 /* PBXTextBookmark */;
+			B42DFCB7108CEFA600EEEB31 /* PBXTextBookmark */ = B42DFCB7108CEFA600EEEB31 /* PBXTextBookmark */;
+			B42DFCBA108CEFAB00EEEB31 /* PBXTextBookmark */ = B42DFCBA108CEFAB00EEEB31 /* PBXTextBookmark */;
+			B42DFCBB108CEFAC00EEEB31 /* PBXTextBookmark */ = B42DFCBB108CEFAC00EEEB31 /* PBXTextBookmark */;
+			B42DFCBC108CEFAC00EEEB31 /* PBXTextBookmark */ = B42DFCBC108CEFAC00EEEB31 /* PBXTextBookmark */;
+			B42DFCC1108CEFCC00EEEB31 /* PBXTextBookmark */ = B42DFCC1108CEFCC00EEEB31 /* PBXTextBookmark */;
+			B42DFCC2108CEFCC00EEEB31 /* PBXTextBookmark */ = B42DFCC2108CEFCC00EEEB31 /* PBXTextBookmark */;
+			B42DFCC3108CEFCC00EEEB31 /* PBXTextBookmark */ = B42DFCC3108CEFCC00EEEB31 /* PBXTextBookmark */;
+			B42DFCC4108CEFCC00EEEB31 /* PBXTextBookmark */ = B42DFCC4108CEFCC00EEEB31 /* PBXTextBookmark */;
+			B42DFCC5108CEFCC00EEEB31 /* PBXTextBookmark */ = B42DFCC5108CEFCC00EEEB31 /* PBXTextBookmark */;
+			B42DFCC9108CF30400EEEB31 /* PBXTextBookmark */ = B42DFCC9108CF30400EEEB31 /* PBXTextBookmark */;
+			B42DFCCC108CF32000EEEB31 /* PBXTextBookmark */ = B42DFCCC108CF32000EEEB31 /* PBXTextBookmark */;
+			B42DFCCD108CF32A00EEEB31 /* PBXTextBookmark */ = B42DFCCD108CF32A00EEEB31 /* PBXTextBookmark */;
+			B42DFCCE108CF32A00EEEB31 /* PBXTextBookmark */ = B42DFCCE108CF32A00EEEB31 /* PBXTextBookmark */;
+			B42DFCCF108CF32A00EEEB31 /* PBXTextBookmark */ = B42DFCCF108CF32A00EEEB31 /* PBXTextBookmark */;
+			B42DFCD0108CF32A00EEEB31 /* PBXTextBookmark */ = B42DFCD0108CF32A00EEEB31 /* PBXTextBookmark */;
+			B42DFCD1108CF32A00EEEB31 /* PBXTextBookmark */ = B42DFCD1108CF32A00EEEB31 /* PBXTextBookmark */;
+			B42DFCD2108CF32A00EEEB31 /* PBXTextBookmark */ = B42DFCD2108CF32A00EEEB31 /* PBXTextBookmark */;
+			B42DFCD5108CF33600EEEB31 /* PBXTextBookmark */ = B42DFCD5108CF33600EEEB31 /* PBXTextBookmark */;
+			B42DFCD6108CF33700EEEB31 /* PBXTextBookmark */ = B42DFCD6108CF33700EEEB31 /* PBXTextBookmark */;
+			B42DFCDA108CF35C00EEEB31 /* PBXTextBookmark */ = B42DFCDA108CF35C00EEEB31 /* PBXTextBookmark */;
+			B42DFCDB108CF35C00EEEB31 /* PBXTextBookmark */ = B42DFCDB108CF35C00EEEB31 /* PBXTextBookmark */;
+			B42DFCDC108CF35C00EEEB31 /* PBXTextBookmark */ = B42DFCDC108CF35C00EEEB31 /* PBXTextBookmark */;
+			B42DFCDD108CF35C00EEEB31 /* PBXTextBookmark */ = B42DFCDD108CF35C00EEEB31 /* PBXTextBookmark */;
+			B42DFCDE108CF35C00EEEB31 /* PBXTextBookmark */ = B42DFCDE108CF35C00EEEB31 /* PBXTextBookmark */;
+			B42DFCE0108CF36900EEEB31 /* PBXTextBookmark */ = B42DFCE0108CF36900EEEB31 /* PBXTextBookmark */;
+			B42DFCE2108CF36B00EEEB31 /* PBXTextBookmark */ = B42DFCE2108CF36B00EEEB31 /* PBXTextBookmark */;
+			B42DFCE3108CF36B00EEEB31 /* PBXTextBookmark */ = B42DFCE3108CF36B00EEEB31 /* PBXTextBookmark */;
+			B42DFCE4108CF37200EEEB31 /* PBXTextBookmark */ = B42DFCE4108CF37200EEEB31 /* PBXTextBookmark */;
+			B42DFCE5108CF37800EEEB31 /* PBXTextBookmark */ = B42DFCE5108CF37800EEEB31 /* PBXTextBookmark */;
+			B42DFCE6108CF37800EEEB31 /* PBXTextBookmark */ = B42DFCE6108CF37800EEEB31 /* PBXTextBookmark */;
+			B42DFCE7108CF37800EEEB31 /* PBXTextBookmark */ = B42DFCE7108CF37800EEEB31 /* PBXTextBookmark */;
+			B42DFCEA108CF3A100EEEB31 /* PBXTextBookmark */ = B42DFCEA108CF3A100EEEB31 /* PBXTextBookmark */;
+			B42DFCEB108CF3A200EEEB31 /* PBXTextBookmark */ = B42DFCEB108CF3A200EEEB31 /* PBXTextBookmark */;
+			B42DFCF0108CF3D800EEEB31 /* PBXTextBookmark */ = B42DFCF0108CF3D800EEEB31 /* PBXTextBookmark */;
+			B42DFCF1108CF3D800EEEB31 /* PBXTextBookmark */ = B42DFCF1108CF3D800EEEB31 /* PBXTextBookmark */;
+			B42DFCF6108CF3F200EEEB31 /* PBXTextBookmark */ = B42DFCF6108CF3F200EEEB31 /* PBXTextBookmark */;
+			B42DFCF7108CF3F200EEEB31 /* PBXTextBookmark */ = B42DFCF7108CF3F200EEEB31 /* PBXTextBookmark */;
+			B42DFCFA108CF41100EEEB31 /* PBXTextBookmark */ = B42DFCFA108CF41100EEEB31 /* PBXTextBookmark */;
+			B42DFCFD108CF41C00EEEB31 /* PBXTextBookmark */ = B42DFCFD108CF41C00EEEB31 /* PBXTextBookmark */;
+			B42DFCFE108CF41C00EEEB31 /* PBXTextBookmark */ = B42DFCFE108CF41C00EEEB31 /* PBXTextBookmark */;
+			B42DFCFF108CF43500EEEB31 /* PBXTextBookmark */ = B42DFCFF108CF43500EEEB31 /* PBXTextBookmark */;
 			B42E82621083B57B00092982 = B42E82621083B57B00092982 /* PBXTextBookmark */;
 			B42E82631083B57B00092982 = B42E82631083B57B00092982 /* PBXTextBookmark */;
 			B4A3F5661084356300317150 = B4A3F5661084356300317150 /* PBXBookmark */;
@@ -795,9 +895,9 @@
 	};
 	B42DF4A01089409100EEEB31 /* Twitpic.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 388}}";
-			sepNavSelRange = "{600, 0}";
-			sepNavVisRange = "{0, 609}";
+			sepNavIntBoundsRect = "{{0, 0}, {971, 429}}";
+			sepNavSelRange = "{527, 0}";
+			sepNavVisRange = "{52, 1046}";
 		};
 	};
 	B42DF4AE10894F9700EEEB31 /* ASIHTTPRequest.m */ = {
@@ -813,7 +913,7 @@
 		comments = "'ASIFormDataRequest' undeclared (first use in this function)";
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		rLen = 1;
-		rLoc = 9;
+		rLoc = 20;
 		rType = 1;
 	};
 	B42DF4C710894FAA00EEEB31 /* PBXTextBookmark */ = {
@@ -821,7 +921,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 11";
 		rLen = 0;
-		rLoc = 281;
+		rLoc = 741;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -933,7 +1033,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 16";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 573;
 		vrLoc = 0;
@@ -999,7 +1099,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 16";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 573;
 		vrLoc = 0;
@@ -1129,7 +1229,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 16";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 573;
 		vrLoc = 0;
@@ -1139,7 +1239,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 16";
 		rLen = 25;
-		rLoc = 427;
+		rLoc = 436;
 		rType = 0;
 		vrLen = 844;
 		vrLoc = 0;
@@ -1149,7 +1249,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 32";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 982;
 		vrLoc = 437;
@@ -1159,7 +1259,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 16";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 573;
 		vrLoc = 0;
@@ -1169,7 +1269,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 36";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 548;
@@ -1179,7 +1279,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 42";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1004;
 		vrLoc = 391;
@@ -1199,7 +1299,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 42";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1002;
 		vrLoc = 391;
@@ -1209,7 +1309,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 32";
 		rLen = 0;
-		rLoc = 1131;
+		rLoc = 1379;
 		rType = 0;
 		vrLen = 657;
 		vrLoc = 1001;
@@ -1229,7 +1329,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 584;
+		rLoc = 1072;
 		rType = 0;
 		vrLen = 593;
 		vrLoc = 0;
@@ -1249,7 +1349,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -1269,7 +1369,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -1289,7 +1389,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 40";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 1001;
@@ -1309,7 +1409,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -1319,7 +1419,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 21";
 		rLen = 0;
-		rLoc = 842;
+		rLoc = 911;
 		rType = 0;
 		vrLen = 808;
 		vrLoc = 0;
@@ -1329,7 +1429,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 40";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 1001;
@@ -1339,7 +1439,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 34";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 619;
 		vrLoc = 1001;
@@ -1359,7 +1459,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 21";
 		rLen = 0;
-		rLoc = 842;
+		rLoc = 911;
 		rType = 0;
 		vrLen = 808;
 		vrLoc = 0;
@@ -1369,7 +1469,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 41";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 509;
@@ -1379,7 +1479,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 41";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 509;
@@ -1389,7 +1489,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 41";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 509;
@@ -1419,7 +1519,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 42";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1058;
 		vrLoc = 391;
@@ -1429,7 +1529,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 42";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1058;
 		vrLoc = 391;
@@ -1439,7 +1539,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 39";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 643;
@@ -1469,7 +1569,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 35";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 643;
@@ -1489,7 +1589,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 35";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1078;
 		vrLoc = 643;
@@ -1509,7 +1609,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 34";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 204;
@@ -1529,7 +1629,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 34";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 366;
@@ -1603,9 +1703,9 @@
 	};
 	B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {978, 1352}}";
-			sepNavSelRange = "{258, 0}";
-			sepNavVisRange = "{87, 917}";
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1326}}";
+			sepNavSelRange = "{2975, 0}";
+			sepNavVisRange = "{2052, 992}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
 		};
 	};
@@ -1684,7 +1784,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -1694,7 +1794,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 39";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 1029;
@@ -1748,7 +1848,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 5";
 		rLen = 0;
-		rLoc = 3004;
+		rLoc = 3008;
 		rType = 0;
 		vrLen = 136;
 		vrLoc = 0;
@@ -1778,7 +1878,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 21";
 		rLen = 0;
-		rLoc = 842;
+		rLoc = 911;
 		rType = 0;
 		vrLen = 808;
 		vrLoc = 0;
@@ -1788,7 +1888,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 34";
 		rLen = 0;
-		rLoc = 1160;
+		rLoc = 1408;
 		rType = 0;
 		vrLen = 965;
 		vrLoc = 508;
@@ -1828,7 +1928,7 @@
 		comments = "'PictureChooserViewController' undeclared (first use in this function)";
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		rLen = 1;
-		rLoc = 53;
+		rLoc = 56;
 		rType = 1;
 	};
 	B42DF5D610896FD000EEEB31 /* PBXTextBookmark */ = {
@@ -1866,7 +1966,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 25";
 		rLen = 0;
-		rLoc = 974;
+		rLoc = 983;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 0;
@@ -1876,7 +1976,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 49";
 		rLen = 0;
-		rLoc = 1558;
+		rLoc = 1806;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 499;
@@ -1896,7 +1996,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 49";
 		rLen = 0;
-		rLoc = 1558;
+		rLoc = 1806;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 499;
@@ -1916,7 +2016,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 49";
 		rLen = 0;
-		rLoc = 1558;
+		rLoc = 1806;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 499;
@@ -1936,7 +2036,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 32";
 		rLen = 0;
-		rLoc = 1128;
+		rLoc = 1376;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 499;
@@ -1956,7 +2056,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 32";
 		rLen = 0;
-		rLoc = 1128;
+		rLoc = 1376;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 499;
@@ -1976,7 +2076,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 32";
 		rLen = 0;
-		rLoc = 1128;
+		rLoc = 1376;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 499;
@@ -1996,7 +2096,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 32";
 		rLen = 0;
-		rLoc = 1128;
+		rLoc = 1376;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 499;
@@ -2016,7 +2116,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 32";
 		rLen = 0;
-		rLoc = 1128;
+		rLoc = 1376;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 499;
@@ -2036,7 +2136,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 32";
 		rLen = 0;
-		rLoc = 1128;
+		rLoc = 1376;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 499;
@@ -2056,7 +2156,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 32";
 		rLen = 0;
-		rLoc = 1128;
+		rLoc = 1376;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 499;
@@ -2076,7 +2176,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 32";
 		rLen = 0;
-		rLoc = 1128;
+		rLoc = 1376;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 499;
@@ -2096,7 +2196,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 32";
 		rLen = 0;
-		rLoc = 1128;
+		rLoc = 1376;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 499;
@@ -2106,7 +2206,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 25";
 		rLen = 0;
-		rLoc = 974;
+		rLoc = 983;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 0;
@@ -2116,7 +2216,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 105";
 		rLen = 258;
-		rLoc = 3245;
+		rLoc = 3493;
 		rType = 0;
 		vrLen = 1037;
 		vrLoc = 2715;
@@ -2166,7 +2266,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 104";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3492;
 		rType = 0;
 		vrLen = 892;
 		vrLoc = 2244;
@@ -2196,7 +2296,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 46";
 		rLen = 0;
-		rLoc = 2483;
+		rLoc = 2485;
 		rType = 0;
 		vrLen = 913;
 		vrLoc = 681;
@@ -2236,7 +2336,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 60";
 		rLen = 0;
-		rLoc = 2610;
+		rLoc = 2612;
 		rType = 0;
 		vrLen = 880;
 		vrLoc = 1265;
@@ -2256,7 +2356,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -2551,7 +2651,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 69";
 		rLen = 0;
-		rLoc = 3000;
+		rLoc = 3004;
 		rType = 0;
 		vrLen = 1214;
 		vrLoc = 1172;
@@ -2631,7 +2731,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 25";
 		rLen = 0;
-		rLoc = 974;
+		rLoc = 983;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 0;
@@ -2641,7 +2741,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 52";
 		rLen = 0;
-		rLoc = 1833;
+		rLoc = 2081;
 		rType = 0;
 		vrLen = 1527;
 		vrLoc = 626;
@@ -2651,7 +2751,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 52";
 		rLen = 0;
-		rLoc = 1833;
+		rLoc = 2081;
 		rType = 0;
 		vrLen = 1386;
 		vrLoc = 805;
@@ -2661,7 +2761,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 53";
 		rLen = 0;
-		rLoc = 1834;
+		rLoc = 2082;
 		rType = 0;
 		vrLen = 1386;
 		vrLoc = 805;
@@ -2699,8 +2799,8 @@
 	B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {946, 388}}";
-			sepNavSelRange = "{98, 0}";
-			sepNavVisRange = "{0, 104}";
+			sepNavSelRange = "{100, 0}";
+			sepNavVisRange = "{0, 106}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
 		};
 	};
@@ -2719,7 +2819,7 @@
 		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
 		name = "PictureChooserDelegate.h: 5";
 		rLen = 0;
-		rLoc = 96;
+		rLoc = 98;
 		rType = 0;
 		vrLen = 104;
 		vrLoc = 0;
@@ -2729,7 +2829,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -2749,7 +2849,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 73";
 		rLen = 0;
-		rLoc = 3000;
+		rLoc = 3004;
 		rType = 0;
 		vrLen = 1352;
 		vrLoc = 1170;
@@ -2779,7 +2879,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -2799,7 +2899,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 25";
 		rLen = 0;
-		rLoc = 974;
+		rLoc = 983;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 0;
@@ -2809,7 +2909,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 50";
 		rLen = 0;
-		rLoc = 1778;
+		rLoc = 2026;
 		rType = 0;
 		vrLen = 1449;
 		vrLoc = 0;
@@ -2829,7 +2929,7 @@
 		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
 		name = "PictureChooserDelegate.h: 5";
 		rLen = 0;
-		rLoc = 96;
+		rLoc = 98;
 		rType = 0;
 		vrLen = 104;
 		vrLoc = 0;
@@ -3018,7 +3118,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 78";
 		rLen = 0;
-		rLoc = 2998;
+		rLoc = 3002;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 775;
@@ -3028,7 +3128,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 76";
 		rLen = 0;
-		rLoc = 2868;
+		rLoc = 2870;
 		rType = 0;
 		vrLen = 1311;
 		vrLoc = 1457;
@@ -3048,7 +3148,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 76";
 		rLen = 0;
-		rLoc = 2868;
+		rLoc = 2870;
 		rType = 0;
 		vrLen = 1330;
 		vrLoc = 1438;
@@ -3057,7 +3157,7 @@
 		isa = PBXTextBookmark;
 		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
 		name = "PictureChooserDelegate.h: 5";
-		rLen = 39;
+		rLen = 41;
 		rLoc = 59;
 		rType = 0;
 		vrLen = 104;
@@ -3078,7 +3178,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 24";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 1326;
 		vrLoc = 0;
@@ -3088,7 +3188,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 24";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 1398;
 		vrLoc = 1;
@@ -3118,7 +3218,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 16";
 		rLen = 0;
-		rLoc = 479;
+		rLoc = 513;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 0;
@@ -3138,7 +3238,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 25";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 1357;
 		vrLoc = 42;
@@ -3148,7 +3248,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 25";
 		rLen = 0;
-		rLoc = 893;
+		rLoc = 911;
 		rType = 0;
 		vrLen = 981;
 		vrLoc = 0;
@@ -3158,7 +3258,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 25";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 1357;
 		vrLoc = 42;
@@ -3168,7 +3268,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 25";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 1368;
 		vrLoc = 42;
@@ -3198,7 +3298,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 25";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 1392;
 		vrLoc = 143;
@@ -3207,7 +3307,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		rLen = 1;
-		rLoc = 24;
+		rLoc = 28;
 		rType = 1;
 	};
 	B42DFA66108C138300EEEB31 /* PBXTextBookmark */ = {
@@ -3215,7 +3315,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 25";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 1392;
 		vrLoc = 143;
@@ -3225,7 +3325,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 25";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 1392;
 		vrLoc = 143;
@@ -3245,7 +3345,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 25";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 1354;
 		vrLoc = 205;
@@ -3274,7 +3374,7 @@
 		isa = PBXTextBookmark;
 		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
 		name = "PictureChooserDelegate.h: 5";
-		rLen = 39;
+		rLen = 41;
 		rLoc = 59;
 		rType = 0;
 		vrLen = 104;
@@ -3285,7 +3385,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 25";
 		rLen = 0;
-		rLoc = 893;
+		rLoc = 911;
 		rType = 0;
 		vrLen = 981;
 		vrLoc = 0;
@@ -3295,7 +3395,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 25";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 1354;
 		vrLoc = 205;
@@ -3305,7 +3405,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 56";
 		rLen = 0;
-		rLoc = 1778;
+		rLoc = 2026;
 		rType = 0;
 		vrLen = 1375;
 		vrLoc = 892;
@@ -3324,8 +3424,8 @@
 		isa = PBXTextBookmark;
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 25";
-		rLen = 25;
-		rLoc = 610;
+		rLen = 0;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 1407;
 		vrLoc = 1;
@@ -3335,7 +3435,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -3385,7 +3485,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 76";
 		rLen = 0;
-		rLoc = 2868;
+		rLoc = 2870;
 		rType = 0;
 		vrLen = 993;
 		vrLoc = 1770;
@@ -3394,7 +3494,7 @@
 		isa = PBXTextBookmark;
 		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
 		name = "PictureChooserDelegate.h: 5";
-		rLen = 39;
+		rLen = 41;
 		rLoc = 59;
 		rType = 0;
 		vrLen = 104;
@@ -3405,7 +3505,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 25";
 		rLen = 0;
-		rLoc = 893;
+		rLoc = 911;
 		rType = 0;
 		vrLen = 976;
 		vrLoc = 0;
@@ -3415,7 +3515,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 27";
 		rLen = 0;
-		rLoc = 637;
+		rLoc = 885;
 		rType = 0;
 		vrLen = 771;
 		vrLoc = 1;
@@ -3425,7 +3525,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 25";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 945;
 		vrLoc = 185;
@@ -3455,7 +3555,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 25";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 945;
 		vrLoc = 185;
@@ -3475,7 +3575,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 76";
 		rLen = 0;
-		rLoc = 2868;
+		rLoc = 2870;
 		rType = 0;
 		vrLen = 926;
 		vrLoc = 0;
@@ -3485,7 +3585,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 79";
 		rLen = 0;
-		rLoc = 3000;
+		rLoc = 3004;
 		rType = 0;
 		vrLen = 1116;
 		vrLoc = 1683;
@@ -3515,7 +3615,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -3535,7 +3635,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 68";
 		rLen = 0;
-		rLoc = 2563;
+		rLoc = 2565;
 		rType = 0;
 		vrLen = 1164;
 		vrLoc = 1598;
@@ -3695,7 +3795,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -3705,7 +3805,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -3725,7 +3825,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -3805,7 +3905,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 25";
 		rLen = 0;
-		rLoc = 893;
+		rLoc = 911;
 		rType = 0;
 		vrLen = 976;
 		vrLoc = 0;
@@ -3815,7 +3915,7 @@
 		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
 		name = "PictureChooserDelegate.h: 6";
 		rLen = 0;
-		rLoc = 98;
+		rLoc = 100;
 		rType = 0;
 		vrLen = 104;
 		vrLoc = 0;
@@ -3845,7 +3945,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 25";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 889;
 		vrLoc = 185;
@@ -3855,7 +3955,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 57";
 		rLen = 0;
-		rLoc = 1833;
+		rLoc = 2081;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 993;
@@ -3875,7 +3975,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 57";
 		rLen = 0;
-		rLoc = 1779;
+		rLoc = 2027;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 993;
@@ -3982,7 +4082,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 94";
 		rLen = 18;
-		rLoc = 3022;
+		rLoc = 3026;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -4042,7 +4142,7 @@
 		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
 		name = "PictureChooserDelegate.h: 6";
 		rLen = 0;
-		rLoc = 98;
+		rLoc = 100;
 		rType = 0;
 		vrLen = 104;
 		vrLoc = 0;
@@ -4052,7 +4152,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 25";
 		rLen = 0;
-		rLoc = 893;
+		rLoc = 911;
 		rType = 0;
 		vrLen = 976;
 		vrLoc = 0;
@@ -4062,7 +4162,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 57";
 		rLen = 0;
-		rLoc = 1779;
+		rLoc = 2027;
 		rType = 0;
 		vrLen = 982;
 		vrLoc = 385;
@@ -4072,7 +4172,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 29";
 		rLen = 0;
-		rLoc = 678;
+		rLoc = 926;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 635;
@@ -4092,7 +4192,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 37";
 		rLen = 4;
-		rLoc = 1076;
+		rLoc = 1324;
 		rType = 0;
 		vrLen = 939;
 		vrLoc = 301;
@@ -4102,7 +4202,7 @@
 		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
 		name = "PictureChooserDelegate.h: 6";
 		rLen = 0;
-		rLoc = 98;
+		rLoc = 100;
 		rType = 0;
 		vrLen = 104;
 		vrLoc = 0;
@@ -4142,7 +4242,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 29";
 		rLen = 0;
-		rLoc = 677;
+		rLoc = 925;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 329;
@@ -4152,7 +4252,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -4212,7 +4312,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 29";
 		rLen = 33;
-		rLoc = 677;
+		rLoc = 925;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 329;
@@ -4766,7 +4866,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 72";
 		rLen = 0;
-		rLoc = 2483;
+		rLoc = 2485;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 1806;
@@ -4806,7 +4906,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 67";
 		rLen = 0;
-		rLoc = 2483;
+		rLoc = 2485;
 		rType = 0;
 		vrLen = 1043;
 		vrLoc = 1913;
@@ -4826,7 +4926,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 66";
 		rLen = 0;
-		rLoc = 2483;
+		rLoc = 2485;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 2149;
@@ -4836,7 +4936,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 86";
 		rLen = 0;
-		rLoc = 3000;
+		rLoc = 3004;
 		rType = 0;
 		vrLen = 1248;
 		vrLoc = 1769;
@@ -4856,7 +4956,7 @@
 		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
 		name = "PictureChooserDelegate.h: 6";
 		rLen = 0;
-		rLoc = 98;
+		rLoc = 100;
 		rType = 0;
 		vrLen = 104;
 		vrLoc = 0;
@@ -4866,7 +4966,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 86";
 		rLen = 0;
-		rLoc = 3000;
+		rLoc = 3004;
 		rType = 0;
 		vrLen = 1247;
 		vrLoc = 1769;
@@ -4916,7 +5016,7 @@
 		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
 		name = "PictureChooserDelegate.h: 6";
 		rLen = 0;
-		rLoc = 98;
+		rLoc = 100;
 		rType = 0;
 		vrLen = 104;
 		vrLoc = 0;
@@ -4986,7 +5086,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 71";
 		rLen = 0;
-		rLoc = 2483;
+		rLoc = 2485;
 		rType = 0;
 		vrLen = 1039;
 		vrLoc = 1792;
@@ -5006,7 +5106,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 71";
 		rLen = 0;
-		rLoc = 2483;
+		rLoc = 2485;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 1407;
@@ -5016,7 +5116,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 70";
 		rLen = 0;
-		rLoc = 2482;
+		rLoc = 2484;
 		rType = 0;
 		vrLen = 1065;
 		vrLoc = 1492;
@@ -5096,7 +5196,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -5156,7 +5256,7 @@
 		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
 		name = "Twitpic.m: 18";
 		rLen = 0;
-		rLoc = 600;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -5166,7 +5266,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 29";
 		rLen = 33;
-		rLoc = 677;
+		rLoc = 925;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 329;
@@ -5176,7 +5276,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 25";
 		rLen = 0;
-		rLoc = 893;
+		rLoc = 911;
 		rType = 0;
 		vrLen = 976;
 		vrLoc = 0;
@@ -5186,7 +5286,7 @@
 		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
 		name = "PictureChooserDelegate.h: 6";
 		rLen = 0;
-		rLoc = 98;
+		rLoc = 100;
 		rType = 0;
 		vrLen = 104;
 		vrLoc = 0;
@@ -5493,7 +5593,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 80";
 		rLen = 0;
-		rLoc = 2836;
+		rLoc = 2838;
 		rType = 0;
 		vrLen = 990;
 		vrLoc = 1819;
@@ -5503,7 +5603,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 74";
 		rLen = 0;
-		rLoc = 2569;
+		rLoc = 2571;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 1819;
@@ -5533,7 +5633,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 73";
 		rLen = 0;
-		rLoc = 2558;
+		rLoc = 2560;
 		rType = 0;
 		vrLen = 1008;
 		vrLoc = 1822;
@@ -5558,23 +5658,12 @@
 		vrLen = 924;
 		vrLoc = 1500;
 	};
-	B42DFC27108C37CD00EEEB31 /* PictureChooserViewController.m:10 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
-		functionName = "-viewDidAppear:";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 10;
-		location = "Tweet Only";
-		modificationTime = 277625174.355704;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
+	B42DFC28108C37CD00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
+		rLen = 1;
+		rLoc = 9;
+		rType = 1;
 	};
 	B42DFC2B108C37DC00EEEB31 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -5691,7 +5780,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 82";
 		rLen = 0;
-		rLoc = 2836;
+		rLoc = 2838;
 		rType = 0;
 		vrLen = 1012;
 		vrLoc = 1818;
@@ -5711,7 +5800,7 @@
 		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
 		name = "PictureChooserViewController.m: 82";
 		rLen = 0;
-		rLoc = 2836;
+		rLoc = 2838;
 		rType = 0;
 		vrLen = 847;
 		vrLoc = 0;
@@ -5795,6 +5884,1000 @@
 		rType = 0;
 		vrLen = 917;
 		vrLoc = 87;
+	};
+	B42DFC5C108CEB2700EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA307C107929CD00CA91EA /* MGTwitterHTTPURLConnection.m */;
+		name = "MGTwitterHTTPURLConnection.m: 93";
+		rLen = 0;
+		rLoc = 1446;
+		rType = 0;
+		vrLen = 924;
+		vrLoc = 1500;
+	};
+	B42DFC5D108CEB2B00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
+		name = "PictureChooserViewController.m: 5";
+		rLen = 0;
+		rLoc = 103;
+		rType = 0;
+		vrLen = 958;
+		vrLoc = 41;
+	};
+	B42DFC61108CEB3A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA307C107929CD00CA91EA /* MGTwitterHTTPURLConnection.m */;
+		name = "MGTwitterHTTPURLConnection.m: 93";
+		rLen = 0;
+		rLoc = 1446;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 1567;
+	};
+	B42DFC62108CEB3B00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
+		name = "PictureChooserViewController.m: 5";
+		rLen = 0;
+		rLoc = 103;
+		rType = 0;
+		vrLen = 958;
+		vrLoc = 41;
+	};
+	B42DFC65108CECFA00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
+		name = "PictureChooserViewController.m: 9";
+		rLen = 1;
+		rLoc = 182;
+		rType = 0;
+		vrLen = 963;
+		vrLoc = 41;
+	};
+	B42DFC66108CECFA00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B210896C8A00EEEB31 /* PictureChooserViewController.h */;
+		name = "PictureChooserViewController.h: 9";
+		rLen = 0;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 417;
+		vrLoc = 0;
+	};
+	B42DFC67108CECFA00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 204";
+		rLen = 0;
+		rLoc = 6117;
+		rType = 0;
+		vrLen = 802;
+		vrLoc = 0;
+	};
+	B42DFC68108CECFA00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
+		name = "PostTweetViewController.h: 26";
+		rLen = 0;
+		rLoc = 911;
+		rType = 0;
+		vrLen = 1009;
+		vrLoc = 0;
+	};
+	B42DFC69108CECFA00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
+		name = "PostTweetViewController.h: 26";
+		rLen = 0;
+		rLoc = 911;
+		rType = 0;
+		vrLen = 1009;
+		vrLoc = 0;
+	};
+	B42DFC6D108CED5B00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA307C107929CD00CA91EA /* MGTwitterHTTPURLConnection.m */;
+		name = "MGTwitterHTTPURLConnection.m: 93";
+		rLen = 0;
+		rLoc = 1446;
+		rType = 0;
+		vrLen = 924;
+		vrLoc = 1500;
+	};
+	B42DFC70108CED6500EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA307C107929CD00CA91EA /* MGTwitterHTTPURLConnection.m */;
+		name = "MGTwitterHTTPURLConnection.m: 93";
+		rLen = 0;
+		rLoc = 1446;
+		rType = 0;
+		vrLen = 924;
+		vrLoc = 1500;
+	};
+	B42DFC71108CED6600EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
+		name = "PictureChooserDelegate.h: 6";
+		rLen = 0;
+		rLoc = 100;
+		rType = 0;
+		vrLen = 104;
+		vrLoc = 0;
+	};
+	B42DFC72108CED6600EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
+		name = "PostTweetViewController.h: 26";
+		rLen = 0;
+		rLoc = 911;
+		rType = 0;
+		vrLen = 1009;
+		vrLoc = 0;
+	};
+	B42DFC73108CED6600EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B210896C8A00EEEB31 /* PictureChooserViewController.h */;
+		name = "PictureChooserViewController.h: 9";
+		rLen = 0;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 417;
+		vrLoc = 0;
+	};
+	B42DFC74108CED6600EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
+		name = "PictureChooserViewController.m: 9";
+		rLen = 1;
+		rLoc = 182;
+		rType = 0;
+		vrLen = 961;
+		vrLoc = 41;
+	};
+	B42DFC75108CED6600EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 204";
+		rLen = 0;
+		rLoc = 6117;
+		rType = 0;
+		vrLen = 802;
+		vrLoc = 0;
+	};
+	B42DFC76108CED6600EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 16";
+		rLen = 0;
+		rLoc = 412;
+		rType = 0;
+		vrLen = 776;
+		vrLoc = 42;
+	};
+	B42DFC79108CED8200EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA307C107929CD00CA91EA /* MGTwitterHTTPURLConnection.m */;
+		name = "MGTwitterHTTPURLConnection.m: 93";
+		rLen = 0;
+		rLoc = 1446;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 1567;
+	};
+	B42DFC7A108CED8300EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 16";
+		rLen = 0;
+		rLoc = 412;
+		rType = 0;
+		vrLen = 776;
+		vrLoc = 42;
+	};
+	B42DFC7D108CED8C00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA307C107929CD00CA91EA /* MGTwitterHTTPURLConnection.m */;
+		name = "MGTwitterHTTPURLConnection.m: 93";
+		rLen = 0;
+		rLoc = 1446;
+		rType = 0;
+		vrLen = 924;
+		vrLoc = 1500;
+	};
+	B42DFC7E108CED8D00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 16";
+		rLen = 0;
+		rLoc = 412;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 78;
+	};
+	B42DFC80108CEDAA00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA307C107929CD00CA91EA /* MGTwitterHTTPURLConnection.m */;
+		name = "MGTwitterHTTPURLConnection.m: 93";
+		rLen = 0;
+		rLoc = 1446;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 1567;
+	};
+	B42DFC81108CEDAD00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 16";
+		rLen = 0;
+		rLoc = 412;
+		rType = 0;
+		vrLen = 433;
+		vrLoc = 5532;
+	};
+	B42DFC82108CEDAD00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
+		name = "PostTweetViewController.h: 26";
+		rLen = 0;
+		rLoc = 911;
+		rType = 0;
+		vrLen = 1003;
+		vrLoc = 0;
+	};
+	B42DFC83108CEDAD00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
+		name = "PictureChooserViewController.m: 10";
+		rLen = 34;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 41;
+	};
+	B42DFC86108CEDC300EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA307C107929CD00CA91EA /* MGTwitterHTTPURLConnection.m */;
+		name = "MGTwitterHTTPURLConnection.m: 93";
+		rLen = 0;
+		rLoc = 1446;
+		rType = 0;
+		vrLen = 924;
+		vrLoc = 1500;
+	};
+	B42DFC87108CEDC300EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
+		name = "PictureChooserViewController.m: 10";
+		rLen = 34;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 41;
+	};
+	B42DFC88108CEDC300EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 16";
+		rLen = 0;
+		rLoc = 412;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 5491;
+	};
+	B42DFC89108CEDC300EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 26";
+		rLen = 0;
+		rLoc = 882;
+		rType = 0;
+		vrLen = 938;
+		vrLoc = 185;
+	};
+	B42DFC8B108CEE7200EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
+		name = "PictureChooserDelegate.h: 6";
+		rLen = 0;
+		rLoc = 100;
+		rType = 0;
+		vrLen = 106;
+		vrLoc = 0;
+	};
+	B42DFC8C108CEE7200EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
+		name = "PostTweetViewController.h: 26";
+		rLen = 0;
+		rLoc = 911;
+		rType = 0;
+		vrLen = 1003;
+		vrLoc = 0;
+	};
+	B42DFC8D108CEE7200EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 27";
+		rLen = 0;
+		rLoc = 884;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 185;
+	};
+	B42DFC8E108CEE7200EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 27";
+		rLen = 0;
+		rLoc = 884;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 185;
+	};
+	B42DFC91108CEF4A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA307C107929CD00CA91EA /* MGTwitterHTTPURLConnection.m */;
+		name = "MGTwitterHTTPURLConnection.m: 93";
+		rLen = 0;
+		rLoc = 1446;
+		rType = 0;
+		vrLen = 924;
+		vrLoc = 1500;
+	};
+	B42DFC92108CEF4A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
+		name = "PictureChooserDelegate.h: 6";
+		rLen = 0;
+		rLoc = 100;
+		rType = 0;
+		vrLen = 106;
+		vrLoc = 0;
+	};
+	B42DFC93108CEF4A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF49F1089409100EEEB31 /* Twitpic.h */;
+		name = "Twitpic.h: 6";
+		rLen = 67;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 162;
+		vrLoc = 0;
+	};
+	B42DFC94108CEF4A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 8";
+		rLen = 0;
+		rLoc = 689;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 0;
+	};
+	B42DFC95108CEF4A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
+		name = "PostTweetViewController.h: 18";
+		rLen = 0;
+		rLoc = 516;
+		rType = 0;
+		vrLen = 990;
+		vrLoc = 0;
+	};
+	B42DFC96108CEF4A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 27";
+		rLen = 0;
+		rLoc = 882;
+		rType = 0;
+		vrLen = 969;
+		vrLoc = 413;
+	};
+	B42DFC97108CEF4A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 27";
+		rLen = 0;
+		rLoc = 862;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 414;
+	};
+	B42DFC9A108CEF6400EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA307C107929CD00CA91EA /* MGTwitterHTTPURLConnection.m */;
+		name = "MGTwitterHTTPURLConnection.m: 93";
+		rLen = 0;
+		rLoc = 1446;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 1567;
+	};
+	B42DFC9B108CEF6400EEEB31 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Incomplete implementation of class 'PostTweetViewController'";
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 210;
+		rType = 1;
+	};
+	B42DFC9C108CEF6400EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 5743;
+	};
+	B42DFC9F108CEF8000EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 652;
+		vrLoc = 5492;
+	};
+	B42DFCA2108CEF8700EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 652;
+		vrLoc = 5486;
+	};
+	B42DFCA3108CEF8700EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF49F1089409100EEEB31 /* Twitpic.h */;
+		name = "Twitpic.h: 6";
+		rLen = 67;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 162;
+		vrLoc = 0;
+	};
+	B42DFCA4108CEF8700EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 8";
+		rLen = 0;
+		rLoc = 689;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 0;
+	};
+	B42DFCA5108CEF8700EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78DCF1081535D0048C4A2 /* Account.h */;
+		name = "Account.h: 4";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 271;
+		vrLoc = 0;
+	};
+	B42DFCA6108CEF8700EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
+		name = "PictureChooserDelegate.h: 6";
+		rLen = 0;
+		rLoc = 100;
+		rType = 0;
+		vrLen = 106;
+		vrLoc = 0;
+	};
+	B42DFCA7108CEF8700EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
+		name = "PictureChooserViewController.m: 10";
+		rLen = 34;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 41;
+	};
+	B42DFCA8108CEF8700EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B210896C8A00EEEB31 /* PictureChooserViewController.h */;
+		name = "PictureChooserViewController.h: 9";
+		rLen = 0;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 417;
+		vrLoc = 0;
+	};
+	B42DFCA9108CEF8700EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
+		name = "PostTweetViewController.h: 18";
+		rLen = 0;
+		rLoc = 516;
+		rType = 0;
+		vrLen = 990;
+		vrLoc = 0;
+	};
+	B42DFCAA108CEF8700EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 543;
+		vrLoc = 5613;
+	};
+	B42DFCAB108CEF8700EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 26";
+		rLen = 0;
+		rLoc = 717;
+		rType = 0;
+		vrLen = 1196;
+		vrLoc = 414;
+	};
+	B42DFCAD108CEF9100EEEB31 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Incomplete implementation of class 'PostTweetViewController'";
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 210;
+		rType = 1;
+	};
+	B42DFCAE108CEF9100EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 5731;
+	};
+	B42DFCB1108CEF9A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 433;
+		vrLoc = 5713;
+	};
+	B42DFCB2108CEF9A00EEEB31 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Incomplete implementation of class 'PostTweetViewController'";
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 210;
+		rType = 1;
+	};
+	B42DFCB3108CEF9A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 24";
+		rLen = 0;
+		rLoc = 602;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 413;
+	};
+	B42DFCB7108CEFA600EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		rLen = 1;
+		rLoc = 24;
+		rType = 1;
+	};
+	B42DFCBA108CEFAB00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 5655;
+	};
+	B42DFCBB108CEFAC00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 24";
+		rLen = 0;
+		rLoc = 602;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 413;
+	};
+	B42DFCBC108CEFAC00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 24";
+		rLen = 0;
+		rLoc = 602;
+		rType = 0;
+		vrLen = 1178;
+		vrLoc = 436;
+	};
+	B42DFCC1108CEFCC00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 5655;
+	};
+	B42DFCC2108CEFCC00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 24";
+		rLen = 0;
+		rLoc = 602;
+		rType = 0;
+		vrLen = 1178;
+		vrLoc = 436;
+	};
+	B42DFCC3108CEFCC00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
+		name = "PictureChooserDelegate.h: 6";
+		rLen = 0;
+		rLoc = 100;
+		rType = 0;
+		vrLen = 106;
+		vrLoc = 0;
+	};
+	B42DFCC4108CEFCC00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
+		name = "PictureChooserViewController.m: 10";
+		rLen = 34;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 41;
+	};
+	B42DFCC5108CEFCC00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
+		name = "PictureChooserViewController.m: 91";
+		rLen = 0;
+		rLoc = 2975;
+		rType = 0;
+		vrLen = 992;
+		vrLoc = 2053;
+	};
+	B42DFCC9108CF30400EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 5655;
+	};
+	B42DFCCC108CF32000EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 5655;
+	};
+	B42DFCCD108CF32A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 25";
+		rLen = 0;
+		rLoc = 621;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 246;
+	};
+	B42DFCCE108CF32A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */;
+		name = "PictureChooserDelegate.h: 6";
+		rLen = 0;
+		rLoc = 100;
+		rType = 0;
+		vrLen = 106;
+		vrLoc = 0;
+	};
+	B42DFCCF108CF32A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */;
+		name = "PictureChooserViewController.m: 91";
+		rLen = 0;
+		rLoc = 2975;
+		rType = 0;
+		vrLen = 992;
+		vrLoc = 2052;
+	};
+	B42DFCD0108CF32A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B210896C8A00EEEB31 /* PictureChooserViewController.h */;
+		name = "PictureChooserViewController.h: 9";
+		rLen = 0;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 417;
+		vrLoc = 0;
+	};
+	B42DFCD1108CF32A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 8";
+		rLen = 0;
+		rLoc = 689;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 0;
+	};
+	B42DFCD2108CF32A00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 11";
+		rLen = 0;
+		rLoc = 451;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 0;
+	};
+	B42DFCD5108CF33600EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 5655;
+	};
+	B42DFCD6108CF33700EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 11";
+		rLen = 0;
+		rLoc = 532;
+		rType = 0;
+		vrLen = 926;
+		vrLoc = 0;
+	};
+	B42DFCDA108CF35C00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 5655;
+	};
+	B42DFCDB108CF35C00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 25";
+		rLen = 0;
+		rLoc = 621;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 246;
+	};
+	B42DFCDC108CF35C00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF49F1089409100EEEB31 /* Twitpic.h */;
+		name = "Twitpic.h: 6";
+		rLen = 67;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 162;
+		vrLoc = 0;
+	};
+	B42DFCDD108CF35C00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 11";
+		rLen = 0;
+		rLoc = 532;
+		rType = 0;
+		vrLen = 926;
+		vrLoc = 0;
+	};
+	B42DFCDE108CF35C00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 26";
+		rLen = 0;
+		rLoc = 1088;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 0;
+	};
+	B42DFCE0108CF36900EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 5733;
+	};
+	B42DFCE2108CF36B00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 26";
+		rLen = 0;
+		rLoc = 1088;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 0;
+	};
+	B42DFCE3108CF36B00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 25";
+		rLen = 44;
+		rLoc = 621;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 246;
+	};
+	B42DFCE4108CF37200EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 5733;
+	};
+	B42DFCE5108CF37800EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 25";
+		rLen = 44;
+		rLoc = 621;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 246;
+	};
+	B42DFCE6108CF37800EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 26";
+		rLen = 0;
+		rLoc = 1088;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 0;
+	};
+	B42DFCE7108CF37800EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 26";
+		rLen = 0;
+		rLoc = 1088;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 0;
+	};
+	B42DFCEA108CF3A100EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 5655;
+	};
+	B42DFCEB108CF3A200EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 12";
+		rLen = 0;
+		rLoc = 396;
+		rType = 0;
+		vrLen = 1013;
+		vrLoc = 20;
+	};
+	B42DFCF0108CF3D800EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 5655;
+	};
+	B42DFCF1108CF3D800EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 14";
+		rLen = 0;
+		rLoc = 530;
+		rType = 0;
+		vrLen = 1011;
+		vrLoc = 52;
+	};
+	B42DFCF6108CF3F200EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 5655;
+	};
+	B42DFCF7108CF3F200EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 12";
+		rLen = 0;
+		rLoc = 394;
+		rType = 0;
+		vrLen = 1046;
+		vrLoc = 52;
+	};
+	B42DFCFA108CF41100EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 5733;
+	};
+	B42DFCFD108CF41C00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 14";
+		rLen = 0;
+		rLoc = 527;
+		rType = 0;
+		vrLen = 1078;
+		vrLoc = 20;
+	};
+	B42DFCFE108CF41C00EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 211";
+		rLen = 0;
+		rLoc = 6141;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 5655;
+	};
+	B42DFCFF108CF43500EEEB31 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 14";
+		rLen = 0;
+		rLoc = 527;
+		rType = 0;
+		vrLen = 1046;
+		vrLoc = 52;
 	};
 	B42E81571083915600092982 /* 28-star.png */ = {
 		uiCtxt = {
@@ -5881,17 +6964,18 @@
 	};
 	B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 416}}";
-			sepNavSelRange = "{893, 0}";
-			sepNavVisRange = "{0, 976}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 403}}";
+			sepNavSelRange = "{516, 0}";
+			sepNavVisRange = "{0, 990}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
 		};
 	};
 	B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 2704}}";
-			sepNavSelRange = "{677, 33}";
-			sepNavVisRange = "{329, 911}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 2964}}";
+			sepNavSelRange = "{6141, 0}";
+			sepNavVisRange = "{5655, 491}";
+			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
 		};
 	};
 	B4B78C8310814D570048C4A2 /* AccountManager.h */ = {
@@ -5933,7 +7017,7 @@
 	};
 	B4B78DCF1081535D0048C4A2 /* Account.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 383}}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 388}}";
 			sepNavSelRange = "{67, 0}";
 			sepNavVisRange = "{0, 271}";
 		};
@@ -5985,7 +7069,7 @@
 		fRef = B4B78CEF108150D90048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 16";
 		rLen = 25;
-		rLoc = 427;
+		rLoc = 436;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 0;
@@ -6185,7 +7269,7 @@
 		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
 		name = "PostTweetViewController.h: 21";
 		rLen = 0;
-		rLoc = 842;
+		rLoc = 911;
 		rType = 0;
 		vrLen = 808;
 		vrLoc = 0;
@@ -6352,7 +7436,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1219, 1651}}";
 			sepNavSelRange = "{1446, 0}";
-			sepNavVisRange = "{1500, 924}";
+			sepNavVisRange = "{1567, 857}";
 		};
 	};
 	B4FA307D107929CD00CA91EA /* MGTwitterLibXMLParser.h */ = {

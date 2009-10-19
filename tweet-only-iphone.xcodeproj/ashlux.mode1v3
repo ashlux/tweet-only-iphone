@@ -350,7 +350,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
+									<integer>4</integer>
 									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -493,7 +493,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>PictureChooserViewController.m</string>
+								<string>Twitpic.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -501,11 +501,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>PictureChooserViewController.m</string>
+										<string>Twitpic.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B42DFC57108C395C00EEEB31</string>
+										<string>B42DFCFF108CF43500EEEB31</string>
 										<key>history</key>
 										<array>
 											<string>B4FA30F210792DB900CA91EA</string>
@@ -564,7 +564,6 @@
 											<string>B4C49280108933920079D730</string>
 											<string>B42DF4CA10894FD700EEEB31</string>
 											<string>B42DF52F108956EC00EEEB31</string>
-											<string>B42DF5BE10896C9300EEEB31</string>
 											<string>B42DFA3F108C122300EEEB31</string>
 											<string>B42DFA54108C131B00EEEB31</string>
 											<string>B42DFA70108C13BA00EEEB31</string>
@@ -572,16 +571,17 @@
 											<string>B42DFA7F108C149C00EEEB31</string>
 											<string>B42DFA80108C149C00EEEB31</string>
 											<string>B42DFA81108C149C00EEEB31</string>
-											<string>B42DFA96108C15BE00EEEB31</string>
 											<string>B42DFB55108C2DDC00EEEB31</string>
 											<string>B42DFB74108C2EC100EEEB31</string>
 											<string>B42DFB75108C2EC100EEEB31</string>
-											<string>B42DFBCF108C358700EEEB31</string>
-											<string>B42DFBD0108C358700EEEB31</string>
-											<string>B42DFBD1108C358700EEEB31</string>
-											<string>B42DFBD2108C358700EEEB31</string>
-											<string>B42DFC31108C380900EEEB31</string>
-											<string>B42DFC32108C380900EEEB31</string>
+											<string>B42DFCA5108CEF8700EEEB31</string>
+											<string>B42DFCA9108CEF8700EEEB31</string>
+											<string>B42DFCCE108CF32A00EEEB31</string>
+											<string>B42DFCCF108CF32A00EEEB31</string>
+											<string>B42DFCD0108CF32A00EEEB31</string>
+											<string>B42DFCDC108CF35C00EEEB31</string>
+											<string>B42DFCE5108CF37800EEEB31</string>
+											<string>B42DFCE6108CF37800EEEB31</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -764,7 +764,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>277625180.09497899</real>
+	<real>277673013.61981702</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -779,13 +779,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>B42DFC56108C395400EEEB31</string>
+		<string>B42DFD00108CF43500EEEB31</string>
 		<string>B42DF9DE108C0D1A00EEEB31</string>
 		<string>B42DF9C7108C0BCC00EEEB31</string>
 		<string>B42DF9C8108C0BCC00EEEB31</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>B4FA30C410792D1200CA91EA</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/ashlux/dev/tweet-only-iphone/tweet-only-iphone.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -810,7 +810,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MGTwitterHTTPURLConnection.m</string>
+								<string>PostTweetViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -1160,7 +1160,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

@@ -2,6 +2,6 @@
 
 @protocol PictureChooserDelegate
 
-- (void)pictureChosen:(UIImage*)image;
+- (void)pictureSelected:(UIImage*)image;
 
 @end
