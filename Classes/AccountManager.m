@@ -47,7 +47,7 @@ static NSString *keychainServiceName = @"password";
 		return [[[NSMutableArray alloc] initWithCapacity:0] autorelease];
 	}
 	NSArray *arr = [NSKeyedUnarchiver unarchiveObjectWithData:data];
-	return [arr mutableCopy];
+	return [[arr mutableCopy] autorelease];
 }
 
 - (Account*)getSelectedAccount {
@@ -67,17 +67,13 @@ static NSString *keychainServiceName = @"password";
 		account.username = (NSString*) username;	
 		account.selected = [self isSelectedUsername:(NSString*) username];
 		account.password = [self getPasswordForUsername:(NSString*) username];
-		[accounts addObject:account];
+		[accounts addObject:[account autorelease]];
 	}
 	
 	return [accounts autorelease];
 }
 
 - (void)saveAccountWithUsername:(NSString*)username withPassword:(NSString*)password {
-	Account *account = [[Account alloc] init];
-	account.username = username;
-	account.password = password;
-
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	NSMutableArray *usernames = [self getAccountUsernames];
 

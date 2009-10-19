@@ -2,11 +2,17 @@
 
 @implementation PictureChooserViewController
 
-- (UIImagePickerController*) pickerController {
-	if (!pickerController) {
-		pickerController = [[UIImagePickerController alloc] init];
+-(void) popMe {
+	[self dismissModalViewControllerAnimated:YES];
+}
+
+-(void) viewDidAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+	
+	if (pictureSelected) {
+		// See: http://stackoverflow.com/questions/1298893/calling-poptorootviewcontrolleranimated-after-uiimagepicker-finish-or-cancel-ip
+		[self performSelector:@selector(popMe) withObject:nil afterDelay:0.1];   
 	}
-	return pickerController;
 }
 
 - (void) setDelegate:(NSObject *)delegate {
@@ -26,10 +32,11 @@
 		return;
 	}
 	
-	UIImagePickerController *myPicker = [self pickerController];
+	UIImagePickerController *myPicker = [[UIImagePickerController alloc] init];
 	myPicker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
 	myPicker.delegate = self;
-	[self presentModalViewController:myPicker animated:YES];	
+	[self presentModalViewController:myPicker animated:NO];	
+	[myPicker release];
 }
 
 
@@ -46,46 +53,47 @@
 		return;
 	}
 	
-	UIImagePickerController *myPicker = [self pickerController];
+	UIImagePickerController *myPicker = [[UIImagePickerController alloc] init];
 	myPicker.sourceType = UIImagePickerControllerSourceTypeCamera;
 	myPicker.delegate = self;
-	[self presentModalViewController:myPicker animated:YES];
+	[self presentModalViewController:myPicker animated:NO];
+	[myPicker release];
 }
 
 - (IBAction) cancelAddingPhoto {
-	[self dismissModalViewControllerAnimated:YES];
+	[self dismissModalViewControllerAnimated:NO];
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
 	pictureSelected = YES;
+
+	[picker dismissModalViewControllerAnimated:YES];
 	
 	UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
 	CGImageRef cgImage = [image CGImage];
 	UIImage *copyOfImage = [[UIImage alloc] initWithCGImage:cgImage];
 	[_delegate pictureChosen:[copyOfImage autorelease]];
-	[[picker parentViewController] dismissModalViewControllerAnimated:YES];
 }
 
-- (void)imagePickerControllerDidCancel:(UIImagePickerController *)myPicker {
-	[self dismissModalViewControllerAnimated:YES];
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+	[picker dismissModalViewControllerAnimated:NO];
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker
 		didFinishPickingImage:(UIImage *)img
 				  editingInfo:(NSDictionary *)editingInfo {
 	pictureSelected = YES;
-	
+
+	[picker dismissModalViewControllerAnimated:YES];
+		
 	CGImageRef cgImage = [img CGImage];
 	UIImage *copyOfImage = [[UIImage alloc] initWithCGImage:cgImage];
 	[_delegate pictureChosen:[copyOfImage autorelease]];
-	
-	[self dismissModalViewControllerAnimated:YES];
-	[[picker parentViewController] dismissModalViewControllerAnimated:YES];
 }	
 
 - (void)dealloc {
 	_delegate = nil;
-	[pickerController release];
+
     [super dealloc];
 }
 

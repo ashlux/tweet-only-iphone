@@ -26,7 +26,7 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-		[super viewDidAppear:animated];
+	[super viewDidAppear:animated];
 	
 	// get the selected account because it might have changed
 	[usernameLabel setText:[NSString stringWithFormat:@"Tweeting with %@", [accountManager getSelectedAccount].username]];
@@ -51,11 +51,10 @@
 }
 
 - (IBAction)addPhoto {
-	PictureChooserViewController *aView = [[PictureChooserViewController alloc] initWithNibName:@"PictureChooserViewController" 
-																						 bundle:[NSBundle mainBundle]];
+	PictureChooserViewController *aView = [[[PictureChooserViewController alloc] initWithNibName:@"PictureChooserViewController" 
+																						 bundle:[NSBundle mainBundle]] autorelease];
 	[aView setDelegate:self];
 	[self presentModalViewController:aView animated:YES];
-	[aView release];
 }
 
 - (void)enableSubmitTweetButton

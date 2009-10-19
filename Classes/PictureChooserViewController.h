@@ -2,8 +2,6 @@
 #import "PictureChooserDelegate.h"
 
 @interface PictureChooserViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate> {
-	UIImagePickerController *pickerController;
-	
 	BOOL pictureSelected;
 
     __weak NSObject <PictureChooserDelegate> *_delegate;
