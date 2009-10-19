@@ -2,26 +2,22 @@
 
 @implementation PictureChooserViewController
 
-- (UIImagePickerController*) getPicker {
-	if (picker == nil) {
-		picker = [[UIImagePickerController alloc] init];
+- (UIImagePickerController*) pickerController {
+	if (!pickerController) {
+		pickerController = [[UIImagePickerController alloc] init];
 	}
-	return picker;
+	return pickerController;
 }
 
-- (UIImage*) getSelectedImage {
-	return (UIImage*) [info objectForKey:@"UIImagePickerControllerOriginalImage"];
+- (void) setDelegate:(NSObject *)delegate {
+	_delegate = delegate;
 }
 
-- (BOOL) imageWasSelected {
-	if ([self getSelectedImage] == nil) return NO;
-	else return YES;
-}
-
+// TODO: duplication
 - (IBAction) addExistingPhoto {
 	if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeSavedPhotosAlbum] == NO) {
 		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil 
-														message:@"Camera is not an available source." 
+														message:@"Photo album is not an available source on your device." 
 													   delegate:self 
 											  cancelButtonTitle:@"OK" 
 											  otherButtonTitles:nil];
@@ -30,16 +26,18 @@
 		return;
 	}
 	
-	UIImagePickerController *myPicker = [self getPicker];
+	UIImagePickerController *myPicker = [self pickerController];
 	myPicker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
 	myPicker.delegate = self;
 	[self presentModalViewController:myPicker animated:YES];	
 }
 
+
+// TODO: duplication
 - (IBAction) takeNewPhotoWithCamera {
 	if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera] == NO) {
 		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil 
-														message:@"Camera is not an available source." 
+														message:@"Camera is not an available source on your device." 
 													   delegate:self 
 											  cancelButtonTitle:@"OK" 
 											  otherButtonTitles:nil];
@@ -48,7 +46,7 @@
 		return;
 	}
 	
-	UIImagePickerController *myPicker = [self getPicker];
+	UIImagePickerController *myPicker = [self pickerController];
 	myPicker.sourceType = UIImagePickerControllerSourceTypeCamera;
 	myPicker.delegate = self;
 	[self presentModalViewController:myPicker animated:YES];
@@ -58,19 +56,37 @@
 	[self dismissModalViewControllerAnimated:YES];
 }
 
-- (void)imagePickerController:(UIImagePickerController *)myPicker didFinishPickingMediaWithInfo:(NSDictionary *)info {
-	[myPicker dismissModalViewControllerAnimated:YES];
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+	pictureSelected = YES;
+	
+	UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
+	CGImageRef cgImage = [image CGImage];
+	UIImage *copyOfImage = [[UIImage alloc] initWithCGImage:cgImage];
+	[_delegate pictureChosen:[copyOfImage autorelease]];
+	[[picker parentViewController] dismissModalViewControllerAnimated:YES];
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)myPicker {
-	[myPicker dismissModalViewControllerAnimated:YES];
-	[self cancelAddingPhoto];
+	[self dismissModalViewControllerAnimated:YES];
 }
 
-- (void)dealloc {
-    [super dealloc];
+- (void)imagePickerController:(UIImagePickerController *)picker
+		didFinishPickingImage:(UIImage *)img
+				  editingInfo:(NSDictionary *)editingInfo {
+	pictureSelected = YES;
 	
-	[picker release];
+	CGImageRef cgImage = [img CGImage];
+	UIImage *copyOfImage = [[UIImage alloc] initWithCGImage:cgImage];
+	[_delegate pictureChosen:[copyOfImage autorelease]];
+	
+	[self dismissModalViewControllerAnimated:YES];
+	[[picker parentViewController] dismissModalViewControllerAnimated:YES];
+}	
+
+- (void)dealloc {
+	_delegate = nil;
+	[pickerController release];
+    [super dealloc];
 }
 
 

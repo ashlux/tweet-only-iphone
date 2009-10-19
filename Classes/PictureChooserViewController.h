@@ -1,15 +1,18 @@
 #import <UIKit/UIKit.h>
+#import "PictureChooserDelegate.h"
 
-@interface PictureChooserViewController : UIViewController<UIImagePickerControllerDelegate> {
-	UIImagePickerController *picker;
-	NSDictionary *info;
+@interface PictureChooserViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate> {
+	UIImagePickerController *pickerController;
+	
+	BOOL pictureSelected;
+
+    __weak NSObject <PictureChooserDelegate> *_delegate;
 }
 
 - (IBAction) cancelAddingPhoto;
 - (IBAction) addExistingPhoto;
 - (IBAction) takeNewPhotoWithCamera;
 
-- (BOOL) imageWasSelected;
-- (UIImage*) getSelectedImage;
+-(void) setDelegate:(NSObject*)delegate;
 
 @end

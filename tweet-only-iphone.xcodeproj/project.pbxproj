@@ -135,6 +135,7 @@
 		B42DF5B210896C8A00EEEB31 /* PictureChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureChooserViewController.h; sourceTree = "<group>"; };
 		B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureChooserViewController.m; sourceTree = "<group>"; };
 		B42DF5B410896C8A00EEEB31 /* PictureChooserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PictureChooserViewController.xib; path = Classes/PictureChooserViewController.xib; sourceTree = "<group>"; };
+		B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureChooserDelegate.h; sourceTree = "<group>"; };
 		B42E7E971082E40700092982 /* AccountEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AccountEditViewController.xib; path = Resources/AccountEditViewController.xib; sourceTree = "<group>"; };
 		B42E7F3D1082F71B00092982 /* black-checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "black-checkmark.png"; path = "Resources/black-checkmark.png"; sourceTree = "<group>"; };
 		B42E7FC71082FF5B00092982 /* empty-checkmark-area.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "empty-checkmark-area.png"; path = "Resources/empty-checkmark-area.png"; sourceTree = "<group>"; };
@@ -363,6 +364,7 @@
 				B42DF4A01089409100EEEB31 /* Twitpic.m */,
 				B42DF5B210896C8A00EEEB31 /* PictureChooserViewController.h */,
 				B42DF5B310896C8A00EEEB31 /* PictureChooserViewController.m */,
+				B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */,
 			);
 			name = pics;
 			sourceTree = "<group>";

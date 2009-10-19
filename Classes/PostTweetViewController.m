@@ -14,10 +14,15 @@
 @synthesize submitTweetButton;
 @synthesize clearButton;
 
+@synthesize eagle;
 - (void)viewDidLoad {
     [super viewDidLoad];
 	twitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
 	accountManager = [[AccountManager alloc] init];
+}
+
+- (void)pictureChosen:(UIImage*)image {
+	[eagle setImage:image];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -48,6 +53,7 @@
 - (IBAction)addPhoto {
 	PictureChooserViewController *aView = [[PictureChooserViewController alloc] initWithNibName:@"PictureChooserViewController" 
 																						 bundle:[NSBundle mainBundle]];
+	[aView setDelegate:self];
 	[self presentModalViewController:aView animated:YES];
 	[aView release];
 }
