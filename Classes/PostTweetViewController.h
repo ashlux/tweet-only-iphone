@@ -26,5 +26,6 @@
 -(IBAction) submitTweet;
 -(IBAction) clearTweet;
 -(IBAction) addPhoto;
+-(IBAction) addFriend;
 
 @end

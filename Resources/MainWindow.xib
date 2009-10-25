@@ -211,8 +211,8 @@
 							</object>
 							<object class="IBUIButton" id="270627251">
 								<reference key="NSNextResponder" ref="482734253"/>
-								<int key="NSvFlags">-2147483356</int>
-								<string key="NSFrame">{{254, 205}, {53, 33}}</string>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{258, 205}, {54, 33}}</string>
 								<reference key="NSSuperview" ref="482734253"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -234,7 +234,7 @@
 							<object class="IBUIButton" id="8622480">
 								<reference key="NSNextResponder" ref="482734253"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{190, 205}, {53, 33}}</string>
+								<string key="NSFrame">{{197, 205}, {53, 33}}</string>
 								<reference key="NSSuperview" ref="482734253"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -520,6 +520,15 @@
 					</object>
 					<int key="connectionID">223</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">addFriend</string>
+						<reference key="source" ref="270627251"/>
+						<reference key="destination" ref="1024858337"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">224</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -592,8 +601,8 @@
 							<reference ref="47550247"/>
 							<reference ref="693857950"/>
 							<reference ref="722190127"/>
-							<reference ref="8622480"/>
 							<reference ref="270627251"/>
+							<reference ref="8622480"/>
 						</object>
 						<reference key="parent" ref="1024858337"/>
 					</object>
@@ -610,11 +619,6 @@
 							<reference ref="824763389"/>
 						</object>
 						<reference key="parent" ref="482734253"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">128</int>
-						<reference key="object" ref="824763389"/>
-						<reference key="parent" ref="504637587"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">144</int>
@@ -727,6 +731,11 @@
 						<reference key="object" ref="270627251"/>
 						<reference key="parent" ref="482734253"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">128</int>
+						<reference key="object" ref="824763389"/>
+						<reference key="parent" ref="504637587"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -828,7 +837,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">223</int>
+			<int key="maxID">224</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -856,12 +865,14 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>addFriend</string>
 							<string>addPhoto</string>
 							<string>clearTweet</string>
 							<string>submitTweet</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>

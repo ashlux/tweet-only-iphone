@@ -53,6 +53,10 @@
 	[(tweet_only_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:FALSE];	
 }
 
+-(IBAction) addFriend {
+	// show friend dialog
+}
+
 - (IBAction)addPhoto {
 	PictureChooserViewController *aView = [[[PictureChooserViewController alloc] initWithNibName:@"PictureChooserViewController" 
 																						 bundle:[NSBundle mainBundle]] autorelease];
