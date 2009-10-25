@@ -66,6 +66,7 @@
 		B42E81D01083915600092982 /* Read me first - license.txt in Resources */ = {isa = PBXBuildFile; fileRef = B42E81861083915600092982 /* Read me first - license.txt */; };
 		B42E822E1083B0B000092982 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B42E822D1083B0B000092982 /* Icon.png */; };
 		B42E82A11083B99A00092982 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B42E829F1083B99A00092982 /* Default.png */; };
+		B4408A5910949E970054D979 /* NetworkActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = B4408A5810949E970054D979 /* NetworkActivity.m */; };
 		B4A3F5311084273F00317150 /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A3F4F81084273F00317150 /* 86-camera.png */; };
 		B4A3F5491084273F00317150 /* 110-bug.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A3F5101084273F00317150 /* 110-bug.png */; };
 		B4A3F561108429D000317150 /* logo-subtitle.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A3F560108429D000317150 /* logo-subtitle.png */; };
@@ -173,6 +174,8 @@
 		B42E81861083915600092982 /* Read me first - license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Read me first - license.txt"; sourceTree = "<group>"; };
 		B42E822D1083B0B000092982 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
 		B42E829F1083B99A00092982 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		B4408A5710949E970054D979 /* NetworkActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkActivity.h; sourceTree = "<group>"; };
+		B4408A5810949E970054D979 /* NetworkActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkActivity.m; sourceTree = "<group>"; };
 		B4A3F4F81084273F00317150 /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera.png"; sourceTree = "<group>"; };
 		B4A3F5101084273F00317150 /* 110-bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "110-bug.png"; sourceTree = "<group>"; };
 		B4A3F560108429D000317150 /* logo-subtitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-subtitle.png"; path = "Resources/logo-subtitle.png"; sourceTree = "<group>"; };
@@ -258,7 +261,8 @@
 				B4B78C7E10814C8F0048C4A2 /* account */,
 				1D3623240D0F684500981E51 /* tweet_only_iphoneAppDelegate.h */,
 				1D3623250D0F684500981E51 /* tweet_only_iphoneAppDelegate.m */,
-				B4B78B33108125960048C4A2 /* keychain */,
+				B4408A5710949E970054D979 /* NetworkActivity.h */,
+				B4408A5810949E970054D979 /* NetworkActivity.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -423,6 +427,7 @@
 		B4B78C7E10814C8F0048C4A2 /* account */ = {
 			isa = PBXGroup;
 			children = (
+				B4B78B33108125960048C4A2 /* keychain */,
 				B4B78DCF1081535D0048C4A2 /* Account.h */,
 				B4B78DD01081535D0048C4A2 /* Account.m */,
 				B4B78C8310814D570048C4A2 /* AccountManager.h */,
@@ -617,6 +622,7 @@
 				B42DF4C310894F9700EEEB31 /* ASIS3Request.m in Sources */,
 				B42DF5041089557A00EEEB31 /* Reachability.m in Sources */,
 				B42DF5B510896C8A00EEEB31 /* PictureChooserViewController.m in Sources */,
+				B4408A5910949E970054D979 /* NetworkActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,8 +19,13 @@
     static NSInteger NumberOfCallsToSetVisible = 0;
     if (setVisible) {
         NumberOfCallsToSetVisible++;
+		
 	} else {
         NumberOfCallsToSetVisible--;
+		
+		if (NumberOfCallsToSetVisible < 0) {
+			NumberOfCallsToSetVisible = 0;
+		} 
 	} 
 		
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:(NumberOfCallsToSetVisible > 0)];

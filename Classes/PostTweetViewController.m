@@ -1,10 +1,9 @@
-
-#import "tweet_only_iphoneAppDelegate.h"
 #import "PostTweetViewController.h"
 #import "AccountManager.h"
 #import "AccountEditViewController.h"
 #import "PictureChooserViewController.h"w
 #import "Twitpic.h"
+#import "NetworkActivity.h"
 
 @implementation PostTweetViewController
 
@@ -23,7 +22,9 @@
 
 - (void)pictureSelected:(UIImage*)image {
 	Twitpic *twitpic = [[Twitpic alloc] init];
+	[NetworkActivity start];
 	NSString *twitpicUrl = [twitpic uploadPicture:image withAccount:[accountManager getSelectedAccount]];
+	[NetworkActivity stop];
 	[tweetTextView setText:[NSString stringWithFormat:@"%@ %@", tweetTextView.text, twitpicUrl]];
 	[twitpic release];
 }
@@ -40,17 +41,6 @@
 		[self presentModalViewController:aView animated:YES];
 		[aView hideCancelButton];
 	}
-}
-
-// TODO: Move to NetworkActivy class	
-- (void)turnOnNetworkActivityIndicator
-{
-	[(tweet_only_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:TRUE];	
-}
-
-- (void)turnOffNetworkActivityIndicator
-{
-	[(tweet_only_iphoneAppDelegate *)[[UIApplication sharedApplication] delegate] setNetworkActivityIndicatorVisible:FALSE];	
 }
 
 -(IBAction) addFriend {
@@ -100,7 +90,7 @@
 		return;
 	}
 	
-	[self turnOnNetworkActivityIndicator];
+	[NetworkActivity start];
 	[self disableSubmitTweetButton];
 	[tweetTextView resignFirstResponder];
 	Account *account = [accountManager getSelectedAccount];
@@ -109,7 +99,7 @@
 }
 
 - (void)requestSucceeded:(NSString *)requestIdentifier {
-	[self turnOffNetworkActivityIndicator];
+	[NetworkActivity stop];
 	[self enableSubmitTweetButton];
 	[tweetTextView setText:@""];
 	[tweetSizeLabel setText:@"0/140"];
@@ -124,7 +114,7 @@
 }
 
 - (void)requestFailed:(NSString *)requestIdentifier withError:(NSError *)error {
-	[self turnOffNetworkActivityIndicator];
+	[NetworkActivity stop];
 	[self enableSubmitTweetButton];
 	
 	NSLog(@"Twitter request failed! (%@) Error: %@ (%@)", 
@@ -143,31 +133,31 @@
 
 - (void)statusesReceived:(NSArray *)statuses forRequest:(NSString *)identifier
 {
-	[self turnOffNetworkActivityIndicator];
+	[NetworkActivity stop];
 	[self enableSubmitTweetButton];
 }
 
 - (void)directMessagesReceived:(NSArray *)messages forRequest:(NSString *)identifier
 {
-	[self turnOffNetworkActivityIndicator];
+	[NetworkActivity stop];
 	[self enableSubmitTweetButton];
 }
 
 - (void)userInfoReceived:(NSArray *)userInfo forRequest:(NSString *)identifier
 {
-	[self turnOffNetworkActivityIndicator];
+	[NetworkActivity stop];
 	[self enableSubmitTweetButton];
 }
 
 - (void)miscInfoReceived:(NSArray *)miscInfo forRequest:(NSString *)identifier
 {
-	[self turnOffNetworkActivityIndicator];
+	[NetworkActivity stop];
 	[self enableSubmitTweetButton];
 }
 
 - (void)imageReceived:(UIImage *)image forRequest:(NSString *)identifier 
 {
-	[self turnOffNetworkActivityIndicator];
+	[NetworkActivity stop];
 	[self enableSubmitTweetButton];
 }
 

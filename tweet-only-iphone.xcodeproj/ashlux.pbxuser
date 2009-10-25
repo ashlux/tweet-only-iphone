@@ -2,7 +2,7 @@
 {
 	1D3623240D0F684500981E51 /* tweet_only_iphoneAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 420}}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 405}}";
 			sepNavSelRange = "{225, 0}";
 			sepNavVisRange = "{0, 399}";
 		};
@@ -11,7 +11,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {946, 481}}";
 			sepNavSelRange = "{526, 52}";
-			sepNavVisRange = "{43, 831}";
+			sepNavVisRange = "{42, 862}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* Tweet Only */ = {
@@ -282,7 +282,7 @@
 	};
 	B42DF49F1089409100EEEB31 /* Twitpic.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 388}}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 430}}";
 			sepNavSelRange = "{89, 67}";
 			sepNavVisRange = "{0, 162}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
@@ -291,7 +291,7 @@
 	B42DF4A01089409100EEEB31 /* Twitpic.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {971, 430}}";
-			sepNavSelRange = "{137, 0}";
+			sepNavSelRange = "{493, 0}";
 			sepNavVisRange = "{0, 973}";
 		};
 	};
@@ -319,7 +319,7 @@
 	};
 	B42DF5B210896C8A00EEEB31 /* PictureChooserViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 388}}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 405}}";
 			sepNavSelRange = "{268, 0}";
 			sepNavVisRange = "{0, 417}";
 		};
@@ -328,7 +328,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {978, 1326}}";
 			sepNavSelRange = "{2975, 0}";
-			sepNavVisRange = "{2052, 992}";
+			sepNavVisRange = "{2245, 830}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
 		};
 	};
@@ -344,7 +344,7 @@
 	};
 	B42DFA0D108C0EDE00EEEB31 /* PictureChooserDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 388}}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 430}}";
 			sepNavSelRange = "{100, 0}";
 			sepNavVisRange = "{0, 106}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
@@ -515,7 +515,7 @@
 		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
 		name = "PostTweetViewController.m: 25";
 		rLen = 44;
-		rLoc = 621;
+		rLoc = 649;
 		rType = 0;
 		vrLen = 1131;
 		vrLoc = 246;
@@ -598,6 +598,20 @@
 		vrLen = 973;
 		vrLoc = 0;
 	};
+	B4408A5710949E970054D979 /* NetworkActivity.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 430}}";
+			sepNavSelRange = "{96, 0}";
+			sepNavVisRange = "{0, 102}";
+		};
+	};
+	B4408A5810949E970054D979 /* NetworkActivity.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 430}}";
+			sepNavSelRange = "{195, 0}";
+			sepNavVisRange = "{0, 345}";
+		};
+	};
 	B4A3F5661084356300317150 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = B42E822D1083B0B000092982 /* Icon.png */;
@@ -635,17 +649,17 @@
 	};
 	B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 403}}";
-			sepNavSelRange = "{516, 0}";
-			sepNavVisRange = "{0, 990}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 430}}";
+			sepNavSelRange = "{984, 23}";
+			sepNavVisRange = "{0, 1013}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
 		};
 	};
 	B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 2964}}";
-			sepNavSelRange = "{6141, 0}";
-			sepNavVisRange = "{5655, 491}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 2574}}";
+			sepNavSelRange = "{328, 0}";
+			sepNavVisRange = "{0, 953}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
 		};
 	};
