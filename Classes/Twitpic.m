@@ -4,12 +4,8 @@
 @implementation Twitpic
 
 - (NSString*)getUrlFromResponseXml:(NSString*)responseXml {
-	//mediaurl
 	NSRange rangeBeginTag = [responseXml rangeOfString:@"<mediaurl>"];
 	NSRange rangeEndTag = [responseXml rangeOfString:@"</mediaurl>"];
-	
-	NSLog(@"%d", rangeBeginTag.location + 10);
-	NSLog(@"%d", rangeEndTag.location - rangeBeginTag.location + 10);
 	
 	return [responseXml substringWithRange:NSMakeRange(rangeBeginTag.location + 10, rangeEndTag.location - rangeBeginTag.location - 10)];
 }
