@@ -4,6 +4,7 @@
 #import "PictureChooserViewController.h"w
 #import "Twitpic.h"
 #import "NetworkActivity.h"
+#import "FriendsViewController.h"
 
 @implementation PostTweetViewController
 
@@ -21,12 +22,19 @@
 }
 
 - (void)pictureSelected:(UIImage*)image {
+	// Upload picture to Twitpic and append URL to tweet
 	Twitpic *twitpic = [[Twitpic alloc] init];
 	[NetworkActivity start];
 	NSString *twitpicUrl = [twitpic uploadPicture:image withAccount:[accountManager getSelectedAccount]];
 	[NetworkActivity stop];
 	[tweetTextView setText:[NSString stringWithFormat:@"%@ %@", tweetTextView.text, twitpicUrl]];
 	[twitpic release];
+}
+
+
+- (void)friendSelected:(NSString*)username {
+	// append " @username" to tweet
+	[tweetTextView setText:[NSString stringWithFormat:@"%@ @%@", tweetTextView.text, username]];	
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -44,7 +52,9 @@
 }
 
 -(IBAction) addFriend {
-	// show friend dialog
+	FriendsViewController *aView = [FriendsViewController createInstance];
+	[aView setDelegate:self];
+	[self presentModalViewController:aView animated:YES];
 }
 
 - (IBAction)addPhoto {

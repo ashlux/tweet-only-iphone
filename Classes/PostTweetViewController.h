@@ -2,8 +2,9 @@
 #import "AccountManager.h"
 #import <UIKit/UIKit.h>
 #import "PictureChooserDelegate.h"
+#import "FriendChoosenDelegate.h"
 
-@interface PostTweetViewController : UIViewController<MGTwitterEngineDelegate, PictureChooserDelegate> {
+@interface PostTweetViewController : UIViewController<MGTwitterEngineDelegate, PictureChooserDelegate, FriendChoosenDelegate> {
     AccountManager *accountManager;
 	MGTwitterEngine *twitterEngine;
 	

@@ -181,6 +181,7 @@
 		B4408A861094A1790054D979 /* FriendsListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsListViewController.xib; sourceTree = "<group>"; };
 		B4408A8A1094A2690054D979 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
 		B4408A8B1094A2690054D979 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		B4408B9F1096A0500054D979 /* FriendChoosenDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendChoosenDelegate.h; sourceTree = "<group>"; };
 		B4A3F4F81084273F00317150 /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera.png"; sourceTree = "<group>"; };
 		B4A3F5101084273F00317150 /* 110-bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "110-bug.png"; sourceTree = "<group>"; };
 		B4A3F560108429D000317150 /* logo-subtitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-subtitle.png"; path = "Resources/logo-subtitle.png"; sourceTree = "<group>"; };
@@ -443,6 +444,7 @@
 			children = (
 				B4408A8A1094A2690054D979 /* FriendsViewController.h */,
 				B4408A8B1094A2690054D979 /* FriendsViewController.m */,
+				B4408B9F1096A0500054D979 /* FriendChoosenDelegate.h */,
 			);
 			name = friends;
 			sourceTree = "<group>";
