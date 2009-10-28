@@ -1,5 +1,4 @@
 #import "FriendsViewController.h"
-#import "MGTwitterEngine.h"
 #import "NetworkActivity.h"
 #import "AccountManager.h"
 
@@ -18,7 +17,9 @@
 }
 
 - (void)getFriendsForUsername:(NSString*)username withPassword:(NSString*)password {
-	MGTwitterEngine *twitterEngine = [[[MGTwitterEngine alloc] initWithDelegate:self] autorelease];
+	if (!twitterEngine) {
+		twitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
+	}
 	[twitterEngine setUsername:username password:password];
 	[NetworkActivity start];
 	[twitterEngine getRecentlyUpdatedFriendsFor:username  startingAtPage:0];
@@ -115,9 +116,13 @@
 }
 
 - (void)dealloc {
+	[NetworkActivity stop];
+	[twitterEngine closeAllConnections];
+	[twitterEngine release];
 	[friendsTable release];
 	[userInfo release];
-	_delegate = nil;
+
+	_delegate = nil;	
 	
     [super dealloc];
 }

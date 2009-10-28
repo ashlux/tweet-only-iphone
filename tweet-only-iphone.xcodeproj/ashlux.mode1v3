@@ -342,6 +342,8 @@
 								<string>B42DF5B110896C6700EEEB31</string>
 								<string>B4B78C7F10814C9C0048C4A2</string>
 								<string>B4B78C7E10814C8F0048C4A2</string>
+								<string>29B97315FDCFA39411CA2CEA</string>
+								<string>B4FA306A107929CD00CA91EA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>B4408A6A1094A1060054D979</string>
 								<string>1C37FBAC04509CD000000102</string>
@@ -351,8 +353,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>14</integer>
-									<integer>12</integer>
+									<integer>4</integer>
+									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -377,7 +379,7 @@
 							<real>251</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 59 1280 719 0 0 1280 778 </string>
+						<string>0 58 1280 719 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -479,7 +481,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1007, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 59 1280 719 0 0 1280 778 </string>
+								<string>0 58 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -494,7 +496,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>PostTweetViewController.m</string>
+								<string>FriendsViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -502,11 +504,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>PostTweetViewController.m</string>
+										<string>FriendsViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B4408BC21096A1F20054D979</string>
+										<string>B4408C551097F3B60054D979</string>
 										<key>history</key>
 										<array>
 											<string>B4FA30F210792DB900CA91EA</string>
@@ -581,22 +583,22 @@
 											<string>B4408AB0109692670054D979</string>
 											<string>B4408AB3109692670054D979</string>
 											<string>B4408AB4109692670054D979</string>
-											<string>B4408AB5109692670054D979</string>
-											<string>B4408AB6109692670054D979</string>
-											<string>B4408AB7109692670054D979</string>
 											<string>B4408B6910969AB60054D979</string>
-											<string>B4408B7E10969B670054D979</string>
-											<string>B4408B7F10969B670054D979</string>
-											<string>B4408BA81096A1AE0054D979</string>
-											<string>B4408BAA1096A1AE0054D979</string>
-											<string>B4408BAB1096A1AE0054D979</string>
-											<string>B4408BAC1096A1AE0054D979</string>
-											<string>B4408BB71096A1DD0054D979</string>
-											<string>B4408BB81096A1DD0054D979</string>
 											<string>B4408BB91096A1DD0054D979</string>
 											<string>B4408BBA1096A1DD0054D979</string>
-											<string>B4408BBB1096A1DD0054D979</string>
-											<string>B4408BC01096A1EC0054D979</string>
+											<string>B4408C181097F2400054D979</string>
+											<string>B4408C2D1097F2AC0054D979</string>
+											<string>B4408C2E1097F2AC0054D979</string>
+											<string>B4408C2F1097F2AC0054D979</string>
+											<string>B4408C411097F3270054D979</string>
+											<string>B4408C421097F3270054D979</string>
+											<string>B4408C431097F3270054D979</string>
+											<string>B4408C441097F3270054D979</string>
+											<string>B4408C451097F3270054D979</string>
+											<string>B4408C461097F3270054D979</string>
+											<string>B4408C501097F3AA0054D979</string>
+											<string>B4408C531097F3B60054D979</string>
+											<string>B4408C541097F3B60054D979</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -610,7 +612,7 @@
 								<key>Frame</key>
 								<string>{{0, 5}, {1007, 568}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 59 1280 719 0 0 1280 778 </string>
+								<string>0 58 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -630,7 +632,7 @@
 								<key>Frame</key>
 								<string>{{0, 578}, {1007, 102}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 59 1280 719 0 0 1280 778 </string>
+								<string>0 58 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -779,7 +781,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>278307314.73508501</real>
+	<real>278393782.80173898</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -794,17 +796,16 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>B4408BBE1096A1DD0054D979</string>
 		<string>B4408B47109699EF0054D979</string>
 		<string>B4408A7E1094A1370054D979</string>
 		<string>B4408A7F1094A1370054D979</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>B4FA30C410792D1200CA91EA</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/ashlux/dev/tweet-only-iphone/tweet-only-iphone.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 59 1280 719 0 0 1280 778 </string>
+	<string>0 58 1280 719 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -1175,7 +1176,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

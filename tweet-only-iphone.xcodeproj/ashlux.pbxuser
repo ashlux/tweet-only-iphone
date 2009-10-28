@@ -36,6 +36,17 @@
 		addToTargets = (
 		);
 		breakpoints = (
+			B4408BCE1097EFB20054D979 /* MGTwitterEngine.m:631 */,
+			B4408BD21097EFBF0054D979 /* MGTwitterEngine.m:598 */,
+			B4408BD41097EFC40054D979 /* MGTwitterEngine.m:640 */,
+			B4408BD61097EFC80054D979 /* MGTwitterEngine.m:674 */,
+			B4408BD81097EFCC0054D979 /* MGTwitterEngine.m:685 */,
+			B4408BDA1097EFD10054D979 /* MGTwitterEngine.m:712 */,
+			B4408BDC1097EFD80054D979 /* MGTwitterEngine.m:556 */,
+			B4408BDE1097EFDF0054D979 /* MGTwitterEngine.m:571 */,
+			B4408BE01097EFE10054D979 /* MGTwitterEngine.m:576 */,
+			B4408BE21097EFE30054D979 /* MGTwitterEngine.m:581 */,
+			B4408BE41097EFE50054D979 /* MGTwitterEngine.m:585 */,
 		);
 		codeSenseManager = B4FA30361078F76800CA91EA /* Code sense */;
 		executables = (
@@ -398,6 +409,82 @@
 			B4408BC01096A1EC0054D979 /* PBXTextBookmark */ = B4408BC01096A1EC0054D979 /* PBXTextBookmark */;
 			B4408BC11096A1EF0054D979 /* PBXTextBookmark */ = B4408BC11096A1EF0054D979 /* PBXTextBookmark */;
 			B4408BC21096A1F20054D979 /* PBXTextBookmark */ = B4408BC21096A1F20054D979 /* PBXTextBookmark */;
+			B4408BC51097EE8E0054D979 /* PBXTextBookmark */ = B4408BC51097EE8E0054D979 /* PBXTextBookmark */;
+			B4408BC61097EE8E0054D979 /* PBXTextBookmark */ = B4408BC61097EE8E0054D979 /* PBXTextBookmark */;
+			B4408BCB1097EEB60054D979 /* PBXTextBookmark */ = B4408BCB1097EEB60054D979 /* PBXTextBookmark */;
+			B4408BCC1097EEB70054D979 /* PBXTextBookmark */ = B4408BCC1097EEB70054D979 /* PBXTextBookmark */;
+			B4408BE81097EFEE0054D979 /* PBXTextBookmark */ = B4408BE81097EFEE0054D979 /* PBXTextBookmark */;
+			B4408BE91097EFEE0054D979 /* PBXTextBookmark */ = B4408BE91097EFEE0054D979 /* PBXTextBookmark */;
+			B4408BEA1097EFEE0054D979 /* PBXTextBookmark */ = B4408BEA1097EFEE0054D979 /* PBXTextBookmark */;
+			B4408BEB1097EFEE0054D979 /* PBXTextBookmark */ = B4408BEB1097EFEE0054D979 /* PBXTextBookmark */;
+			B4408BEC1097EFEE0054D979 /* PBXTextBookmark */ = B4408BEC1097EFEE0054D979 /* PBXTextBookmark */;
+			B4408BED1097EFEE0054D979 /* PBXTextBookmark */ = B4408BED1097EFEE0054D979 /* PBXTextBookmark */;
+			B4408BEE1097EFEE0054D979 /* PBXTextBookmark */ = B4408BEE1097EFEE0054D979 /* PBXTextBookmark */;
+			B4408BEF1097EFEE0054D979 /* PBXTextBookmark */ = B4408BEF1097EFEE0054D979 /* PBXTextBookmark */;
+			B4408BF01097EFEE0054D979 /* PBXTextBookmark */ = B4408BF01097EFEE0054D979 /* PBXTextBookmark */;
+			B4408BF11097EFEE0054D979 /* PBXTextBookmark */ = B4408BF11097EFEE0054D979 /* PBXTextBookmark */;
+			B4408BF51097F0010054D979 /* PBXTextBookmark */ = B4408BF51097F0010054D979 /* PBXTextBookmark */;
+			B4408BF61097F0020054D979 /* PBXTextBookmark */ = B4408BF61097F0020054D979 /* PBXTextBookmark */;
+			B4408BFA1097F0490054D979 /* PBXTextBookmark */ = B4408BFA1097F0490054D979 /* PBXTextBookmark */;
+			B4408BFB1097F0490054D979 /* PBXTextBookmark */ = B4408BFB1097F0490054D979 /* PBXTextBookmark */;
+			B4408BFF1097F0A30054D979 /* PBXTextBookmark */ = B4408BFF1097F0A30054D979 /* PBXTextBookmark */;
+			B4408C001097F0A40054D979 /* PBXTextBookmark */ = B4408C001097F0A40054D979 /* PBXTextBookmark */;
+			B4408C011097F0A40054D979 /* PBXTextBookmark */ = B4408C011097F0A40054D979 /* PBXTextBookmark */;
+			B4408C021097F0A40054D979 /* PBXTextBookmark */ = B4408C021097F0A40054D979 /* PBXTextBookmark */;
+			B4408C051097F0BC0054D979 /* PBXTextBookmark */ = B4408C051097F0BC0054D979 /* PBXTextBookmark */;
+			B4408C061097F0BC0054D979 /* PBXTextBookmark */ = B4408C061097F0BC0054D979 /* PBXTextBookmark */;
+			B4408C0B1097F1ED0054D979 /* PBXTextBookmark */ = B4408C0B1097F1ED0054D979 /* PBXTextBookmark */;
+			B4408C0E1097F2030054D979 /* PBXTextBookmark */ = B4408C0E1097F2030054D979 /* PBXTextBookmark */;
+			B4408C111097F2210054D979 /* PBXTextBookmark */ = B4408C111097F2210054D979 /* PBXTextBookmark */;
+			B4408C141097F2350054D979 /* PBXTextBookmark */ = B4408C141097F2350054D979 /* PBXTextBookmark */;
+			B4408C171097F2400054D979 /* PBXTextBookmark */ = B4408C171097F2400054D979 /* PBXTextBookmark */;
+			B4408C181097F2400054D979 /* PBXTextBookmark */ = B4408C181097F2400054D979 /* PBXTextBookmark */;
+			B4408C191097F2400054D979 /* PBXTextBookmark */ = B4408C191097F2400054D979 /* PBXTextBookmark */;
+			B4408C1A1097F2400054D979 /* PBXTextBookmark */ = B4408C1A1097F2400054D979 /* PBXTextBookmark */;
+			B4408C1B1097F2400054D979 /* PBXTextBookmark */ = B4408C1B1097F2400054D979 /* PBXTextBookmark */;
+			B4408C1C1097F2400054D979 /* PBXTextBookmark */ = B4408C1C1097F2400054D979 /* PBXTextBookmark */;
+			B4408C1D1097F2400054D979 /* PBXTextBookmark */ = B4408C1D1097F2400054D979 /* PBXTextBookmark */;
+			B4408C1F1097F24D0054D979 /* PBXTextBookmark */ = B4408C1F1097F24D0054D979 /* PBXTextBookmark */;
+			B4408C221097F2610054D979 /* PBXTextBookmark */ = B4408C221097F2610054D979 /* PBXTextBookmark */;
+			B4408C231097F2620054D979 /* PBXTextBookmark */ = B4408C231097F2620054D979 /* PBXTextBookmark */;
+			B4408C241097F2620054D979 /* PBXTextBookmark */ = B4408C241097F2620054D979 /* PBXTextBookmark */;
+			B4408C251097F2620054D979 /* PBXTextBookmark */ = B4408C251097F2620054D979 /* PBXTextBookmark */;
+			B4408C271097F2840054D979 /* XCBuildMessageTextBookmark */ = B4408C271097F2840054D979 /* XCBuildMessageTextBookmark */;
+			B4408C281097F2840054D979 /* PBXTextBookmark */ = B4408C281097F2840054D979 /* PBXTextBookmark */;
+			B4408C2B1097F2AC0054D979 /* PBXTextBookmark */ = B4408C2B1097F2AC0054D979 /* PBXTextBookmark */;
+			B4408C2C1097F2AC0054D979 /* PBXTextBookmark */ = B4408C2C1097F2AC0054D979 /* PBXTextBookmark */;
+			B4408C2D1097F2AC0054D979 /* PBXTextBookmark */ = B4408C2D1097F2AC0054D979 /* PBXTextBookmark */;
+			B4408C2E1097F2AC0054D979 /* PBXTextBookmark */ = B4408C2E1097F2AC0054D979 /* PBXTextBookmark */;
+			B4408C2F1097F2AC0054D979 /* PBXTextBookmark */ = B4408C2F1097F2AC0054D979 /* PBXTextBookmark */;
+			B4408C301097F2AC0054D979 /* PBXTextBookmark */ = B4408C301097F2AC0054D979 /* PBXTextBookmark */;
+			B4408C311097F2AC0054D979 /* PBXTextBookmark */ = B4408C311097F2AC0054D979 /* PBXTextBookmark */;
+			B4408C321097F2AC0054D979 /* PBXTextBookmark */ = B4408C321097F2AC0054D979 /* PBXTextBookmark */;
+			B4408C331097F2AC0054D979 /* PBXTextBookmark */ = B4408C331097F2AC0054D979 /* PBXTextBookmark */;
+			B4408C341097F2AC0054D979 /* PBXTextBookmark */ = B4408C341097F2AC0054D979 /* PBXTextBookmark */;
+			B4408C391097F2CC0054D979 /* PBXTextBookmark */ = B4408C391097F2CC0054D979 /* PBXTextBookmark */;
+			B4408C3A1097F2CC0054D979 /* PBXTextBookmark */ = B4408C3A1097F2CC0054D979 /* PBXTextBookmark */;
+			B4408C3B1097F2CC0054D979 /* PBXTextBookmark */ = B4408C3B1097F2CC0054D979 /* PBXTextBookmark */;
+			B4408C3C1097F2CC0054D979 /* PBXTextBookmark */ = B4408C3C1097F2CC0054D979 /* PBXTextBookmark */;
+			B4408C3D1097F2CC0054D979 /* PBXTextBookmark */ = B4408C3D1097F2CC0054D979 /* PBXTextBookmark */;
+			B4408C401097F3270054D979 /* PBXTextBookmark */ = B4408C401097F3270054D979 /* PBXTextBookmark */;
+			B4408C411097F3270054D979 /* PBXTextBookmark */ = B4408C411097F3270054D979 /* PBXTextBookmark */;
+			B4408C421097F3270054D979 /* PBXTextBookmark */ = B4408C421097F3270054D979 /* PBXTextBookmark */;
+			B4408C431097F3270054D979 /* PBXTextBookmark */ = B4408C431097F3270054D979 /* PBXTextBookmark */;
+			B4408C441097F3270054D979 /* PBXTextBookmark */ = B4408C441097F3270054D979 /* PBXTextBookmark */;
+			B4408C451097F3270054D979 /* PBXTextBookmark */ = B4408C451097F3270054D979 /* PBXTextBookmark */;
+			B4408C461097F3270054D979 /* PBXTextBookmark */ = B4408C461097F3270054D979 /* PBXTextBookmark */;
+			B4408C471097F3270054D979 /* PBXTextBookmark */ = B4408C471097F3270054D979 /* PBXTextBookmark */;
+			B4408C481097F3270054D979 /* PBXTextBookmark */ = B4408C481097F3270054D979 /* PBXTextBookmark */;
+			B4408C491097F3270054D979 /* PBXTextBookmark */ = B4408C491097F3270054D979 /* PBXTextBookmark */;
+			B4408C4D1097F34F0054D979 /* PBXTextBookmark */ = B4408C4D1097F34F0054D979 /* PBXTextBookmark */;
+			B4408C4E1097F3500054D979 /* PBXTextBookmark */ = B4408C4E1097F3500054D979 /* PBXTextBookmark */;
+			B4408C4F1097F3AA0054D979 /* PBXTextBookmark */ = B4408C4F1097F3AA0054D979 /* PBXTextBookmark */;
+			B4408C501097F3AA0054D979 /* PBXTextBookmark */ = B4408C501097F3AA0054D979 /* PBXTextBookmark */;
+			B4408C511097F3AA0054D979 /* PBXTextBookmark */ = B4408C511097F3AA0054D979 /* PBXTextBookmark */;
+			B4408C521097F3AA0054D979 /* PBXTextBookmark */ = B4408C521097F3AA0054D979 /* PBXTextBookmark */;
+			B4408C531097F3B60054D979 /* PBXTextBookmark */ = B4408C531097F3B60054D979 /* PBXTextBookmark */;
+			B4408C541097F3B60054D979 /* PBXTextBookmark */ = B4408C541097F3B60054D979 /* PBXTextBookmark */;
+			B4408C551097F3B60054D979 /* PBXTextBookmark */ = B4408C551097F3B60054D979 /* PBXTextBookmark */;
 			B4A3F5661084356300317150 = B4A3F5661084356300317150 /* PBXBookmark */;
 			B4B78C8F108150000048C4A2 = B4B78C8F108150000048C4A2 /* PBXTextBookmark */;
 			B4C492541089315D0079D730 = B4C492541089315D0079D730 /* PBXTextBookmark */;
@@ -475,7 +562,7 @@
 	};
 	B42DF49F1089409100EEEB31 /* Twitpic.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 511}}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 488}}";
 			sepNavSelRange = "{89, 67}";
 			sepNavVisRange = "{0, 162}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
@@ -483,7 +570,7 @@
 	};
 	B42DF4A01089409100EEEB31 /* Twitpic.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {971, 511}}";
+			sepNavIntBoundsRect = "{{0, 0}, {971, 488}}";
 			sepNavSelRange = "{493, 0}";
 			sepNavVisRange = "{0, 973}";
 		};
@@ -946,16 +1033,16 @@
 	B4408A8A1094A2690054D979 /* FriendsViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {946, 511}}";
-			sepNavSelRange = "{57, 0}";
-			sepNavVisRange = "{0, 387}";
+			sepNavSelRange = "{141, 52}";
+			sepNavVisRange = "{0, 447}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
 		};
 	};
 	B4408A8B1094A2690054D979 /* FriendsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 1612}}";
-			sepNavSelRange = "{399, 0}";
-			sepNavVisRange = "{0, 952}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 1586}}";
+			sepNavSelRange = "{704, 0}";
+			sepNavVisRange = "{370, 1281}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
 		};
 	};
@@ -978,7 +1065,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 2";
 		rLen = 0;
-		rLoc = 58;
+		rLoc = 86;
 		rType = 0;
 		vrLen = 93;
 		vrLoc = 0;
@@ -988,7 +1075,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 5";
 		rLen = 0;
-		rLoc = 3473;
+		rLoc = 3441;
 		rType = 0;
 		vrLen = 123;
 		vrLoc = 0;
@@ -1318,7 +1405,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 6";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 441;
 		rType = 0;
 		vrLen = 93;
 		vrLoc = 0;
@@ -1328,7 +1415,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 15";
 		rLen = 0;
-		rLoc = 1116;
+		rLoc = 1084;
 		rType = 0;
 		vrLen = 1270;
 		vrLoc = 0;
@@ -1338,7 +1425,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 8";
 		rLen = 0;
-		rLoc = 369;
+		rLoc = 341;
 		rType = 0;
 		vrLen = 1322;
 		vrLoc = 0;
@@ -1349,7 +1436,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 34;
+		rLoc = 35;
 		rType = 1;
 	};
 	B4408AC31096959E0054D979 /* PBXTextBookmark */ = {
@@ -1357,7 +1444,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 1116;
+		rLoc = 1084;
 		rType = 0;
 		vrLen = 1138;
 		vrLoc = 0;
@@ -1367,7 +1454,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 1011;
 		vrLoc = 0;
@@ -1377,7 +1464,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 1011;
 		vrLoc = 0;
@@ -1387,7 +1474,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 0;
@@ -1397,7 +1484,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 0;
@@ -1407,7 +1494,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 0;
@@ -1417,7 +1504,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -1447,7 +1534,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 9";
 		rLen = 0;
-		rLoc = 382;
+		rLoc = 442;
 		rType = 0;
 		vrLen = 115;
 		vrLoc = 0;
@@ -1457,7 +1544,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 1116;
+		rLoc = 1084;
 		rType = 0;
 		vrLen = 1330;
 		vrLoc = 0;
@@ -1467,7 +1554,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 66";
 		rLen = 0;
-		rLoc = 2394;
+		rLoc = 2362;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 2412;
@@ -1477,7 +1564,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -1487,7 +1574,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 66";
 		rLen = 0;
-		rLoc = 2394;
+		rLoc = 2362;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 2412;
@@ -1527,7 +1614,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -1547,7 +1634,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 9";
 		rLen = 0;
-		rLoc = 382;
+		rLoc = 442;
 		rType = 0;
 		vrLen = 115;
 		vrLoc = 0;
@@ -1557,7 +1644,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 66";
 		rLen = 0;
-		rLoc = 2394;
+		rLoc = 2362;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 2382;
@@ -1567,7 +1654,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 66";
 		rLen = 0;
-		rLoc = 2394;
+		rLoc = 2362;
 		rType = 0;
 		vrLen = 1383;
 		vrLoc = 34;
@@ -1577,7 +1664,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -1597,7 +1684,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 66";
 		rLen = 0;
-		rLoc = 2394;
+		rLoc = 2362;
 		rType = 0;
 		vrLen = 1355;
 		vrLoc = 62;
@@ -1607,7 +1694,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 9";
 		rLen = 0;
-		rLoc = 382;
+		rLoc = 442;
 		rType = 0;
 		vrLen = 115;
 		vrLoc = 0;
@@ -1617,7 +1704,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 9";
 		rLen = 0;
-		rLoc = 382;
+		rLoc = 442;
 		rType = 0;
 		vrLen = 115;
 		vrLoc = 0;
@@ -1627,7 +1714,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 840;
 		vrLoc = 0;
@@ -1637,7 +1724,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -1647,7 +1734,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 9";
 		rLen = 0;
-		rLoc = 382;
+		rLoc = 442;
 		rType = 0;
 		vrLen = 115;
 		vrLoc = 0;
@@ -1657,7 +1744,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 20";
 		rLen = 0;
-		rLoc = 831;
+		rLoc = 799;
 		rType = 0;
 		vrLen = 1355;
 		vrLoc = 62;
@@ -1707,7 +1794,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 21";
 		rLen = 0;
-		rLoc = 852;
+		rLoc = 820;
 		rType = 0;
 		vrLen = 1282;
 		vrLoc = 0;
@@ -1717,7 +1804,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 21";
 		rLen = 0;
-		rLoc = 852;
+		rLoc = 820;
 		rType = 0;
 		vrLen = 1282;
 		vrLoc = 0;
@@ -1727,7 +1814,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -1737,7 +1824,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 21";
 		rLen = 0;
-		rLoc = 859;
+		rLoc = 827;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 34;
@@ -1757,7 +1844,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 21";
 		rLen = 0;
-		rLoc = 859;
+		rLoc = 827;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 34;
@@ -1767,7 +1854,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 9";
 		rLen = 0;
-		rLoc = 382;
+		rLoc = 442;
 		rType = 0;
 		vrLen = 115;
 		vrLoc = 0;
@@ -1777,7 +1864,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 3";
 		rLen = 0;
-		rLoc = 96;
+		rLoc = 124;
 		rType = 0;
 		vrLen = 110;
 		vrLoc = 0;
@@ -1787,7 +1874,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -1797,7 +1884,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 3";
 		rLen = 0;
-		rLoc = 96;
+		rLoc = 124;
 		rType = 0;
 		vrLen = 110;
 		vrLoc = 0;
@@ -1806,7 +1893,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		rLen = 1;
-		rLoc = 90;
+		rLoc = 91;
 		rType = 1;
 	};
 	B4408B1C1096977B0054D979 /* PBXTextBookmark */ = {
@@ -1814,7 +1901,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 3";
 		rLen = 0;
-		rLoc = 96;
+		rLoc = 124;
 		rType = 0;
 		vrLen = 110;
 		vrLoc = 0;
@@ -1824,7 +1911,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 83";
 		rLen = 0;
-		rLoc = 2971;
+		rLoc = 2939;
 		rType = 0;
 		vrLen = 965;
 		vrLoc = 2104;
@@ -1834,7 +1921,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 83";
 		rLen = 0;
-		rLoc = 2971;
+		rLoc = 2939;
 		rType = 0;
 		vrLen = 1021;
 		vrLoc = 2048;
@@ -1844,7 +1931,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 83";
 		rLen = 0;
-		rLoc = 2971;
+		rLoc = 2939;
 		rType = 0;
 		vrLen = 974;
 		vrLoc = 2134;
@@ -1854,7 +1941,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 83";
 		rLen = 0;
-		rLoc = 2971;
+		rLoc = 2939;
 		rType = 0;
 		vrLen = 974;
 		vrLoc = 2134;
@@ -1864,7 +1951,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -1874,7 +1961,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 83";
 		rLen = 0;
-		rLoc = 2971;
+		rLoc = 2939;
 		rType = 0;
 		vrLen = 864;
 		vrLoc = 2246;
@@ -1884,7 +1971,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 83";
 		rLen = 0;
-		rLoc = 2971;
+		rLoc = 2939;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 34;
@@ -1894,7 +1981,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 14";
 		rLen = 0;
-		rLoc = 637;
+		rLoc = 621;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 0;
@@ -1904,7 +1991,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -1914,7 +2001,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 11";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 840;
 		vrLoc = 0;
@@ -1924,7 +2011,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 66";
 		rLen = 0;
-		rLoc = 2394;
+		rLoc = 2362;
 		rType = 0;
 		vrLen = 1286;
 		vrLoc = 1053;
@@ -1934,7 +2021,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 9";
 		rLen = 12;
-		rLoc = 282;
+		rLoc = 342;
 		rType = 0;
 		vrLen = 234;
 		vrLoc = 0;
@@ -1944,7 +2031,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 94";
 		rLen = 0;
-		rLoc = 3257;
+		rLoc = 3225;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 2038;
@@ -1954,7 +2041,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 96";
 		rLen = 0;
-		rLoc = 3257;
+		rLoc = 3225;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 2565;
@@ -1964,7 +2051,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -1974,7 +2061,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 9";
 		rLen = 0;
-		rLoc = 294;
+		rLoc = 354;
 		rType = 0;
 		vrLen = 235;
 		vrLoc = 0;
@@ -1984,7 +2071,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 7";
 		rLen = 0;
-		rLoc = 181;
+		rLoc = 153;
 		rType = 0;
 		vrLen = 1232;
 		vrLoc = 0;
@@ -1994,7 +2081,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 34";
 		rLen = 0;
-		rLoc = 1318;
+		rLoc = 1286;
 		rType = 0;
 		vrLen = 1252;
 		vrLoc = 459;
@@ -2004,7 +2091,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 840;
 		vrLoc = 0;
@@ -2014,7 +2101,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 88";
 		rLen = 0;
-		rLoc = 2987;
+		rLoc = 2955;
 		rType = 0;
 		vrLen = 1112;
 		vrLoc = 1996;
@@ -2024,7 +2111,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -2034,7 +2121,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 88";
 		rLen = 0;
-		rLoc = 2987;
+		rLoc = 2955;
 		rType = 0;
 		vrLen = 1109;
 		vrLoc = 1999;
@@ -2044,7 +2131,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 95";
 		rLen = 0;
-		rLoc = 3198;
+		rLoc = 3166;
 		rType = 0;
 		vrLen = 1110;
 		vrLoc = 1999;
@@ -2054,7 +2141,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -2064,7 +2151,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 95";
 		rLen = 0;
-		rLoc = 3198;
+		rLoc = 3166;
 		rType = 0;
 		vrLen = 1006;
 		vrLoc = 2105;
@@ -2074,7 +2161,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -2084,7 +2171,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 114";
 		rLen = 0;
-		rLoc = 3537;
+		rLoc = 3614;
 		rType = 0;
 		vrLen = 660;
 		vrLoc = 2661;
@@ -2094,7 +2181,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 0;
@@ -2104,7 +2191,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -2114,7 +2201,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 34";
 		rLen = 0;
-		rLoc = 1293;
+		rLoc = 1261;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 373;
@@ -2123,7 +2210,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		rLen = 1;
-		rLoc = 40;
+		rLoc = 41;
 		rType = 1;
 	};
 	B4408B6810969AB60054D979 /* PBXTextBookmark */ = {
@@ -2131,7 +2218,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -2161,7 +2248,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 34";
 		rLen = 0;
-		rLoc = 1293;
+		rLoc = 1261;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 613;
@@ -2171,7 +2258,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 34";
 		rLen = 0;
-		rLoc = 1293;
+		rLoc = 1261;
 		rType = 0;
 		vrLen = 1063;
 		vrLoc = 713;
@@ -2181,7 +2268,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 100";
 		rLen = 0;
-		rLoc = 3257;
+		rLoc = 3225;
 		rType = 0;
 		vrLen = 1028;
 		vrLoc = 2245;
@@ -2221,7 +2308,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 9";
 		rLen = 0;
-		rLoc = 294;
+		rLoc = 354;
 		rType = 0;
 		vrLen = 235;
 		vrLoc = 0;
@@ -2231,7 +2318,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 100";
 		rLen = 0;
-		rLoc = 3257;
+		rLoc = 3225;
 		rType = 0;
 		vrLen = 987;
 		vrLoc = 2286;
@@ -2241,7 +2328,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 7";
 		rLen = 0;
-		rLoc = 181;
+		rLoc = 153;
 		rType = 0;
 		vrLen = 1290;
 		vrLoc = 0;
@@ -2251,7 +2338,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -2261,7 +2348,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 7";
 		rLen = 0;
-		rLoc = 181;
+		rLoc = 153;
 		rType = 0;
 		vrLen = 1256;
 		vrLoc = 34;
@@ -2271,7 +2358,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -2281,7 +2368,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 7";
 		rLen = 0;
-		rLoc = 181;
+		rLoc = 153;
 		rType = 0;
 		vrLen = 951;
 		vrLoc = 2359;
@@ -2311,7 +2398,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 9";
 		rLen = 0;
-		rLoc = 294;
+		rLoc = 354;
 		rType = 0;
 		vrLen = 235;
 		vrLoc = 0;
@@ -2321,7 +2408,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 9";
 		rLen = 0;
-		rLoc = 294;
+		rLoc = 354;
 		rType = 0;
 		vrLen = 235;
 		vrLoc = 0;
@@ -2331,7 +2418,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -2341,7 +2428,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 9";
 		rLen = 0;
-		rLoc = 294;
+		rLoc = 354;
 		rType = 0;
 		vrLen = 235;
 		vrLoc = 0;
@@ -2350,7 +2437,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		rLen = 0;
-		rLoc = 40;
+		rLoc = 41;
 		rType = 1;
 	};
 	B4408B8810969B9C0054D979 /* PBXTextBookmark */ = {
@@ -2358,7 +2445,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 40";
 		rLen = 0;
-		rLoc = 1515;
+		rLoc = 1483;
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 887;
@@ -2368,7 +2455,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 840;
 		vrLoc = 0;
@@ -2378,7 +2465,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 34";
 		rLen = 0;
-		rLoc = 1293;
+		rLoc = 1261;
 		rType = 0;
 		vrLen = 1298;
 		vrLoc = 374;
@@ -2388,7 +2475,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 50";
 		rLen = 0;
-		rLoc = 1831;
+		rLoc = 1799;
 		rType = 0;
 		vrLen = 1321;
 		vrLoc = 821;
@@ -2398,7 +2485,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 0;
@@ -2408,7 +2495,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 50";
 		rLen = 0;
-		rLoc = 1831;
+		rLoc = 1799;
 		rType = 0;
 		vrLen = 1253;
 		vrLoc = 889;
@@ -2418,7 +2505,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -2428,7 +2515,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 50";
 		rLen = 0;
-		rLoc = 1865;
+		rLoc = 1833;
 		rType = 0;
 		vrLen = 1197;
 		vrLoc = 958;
@@ -2438,7 +2525,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 0;
@@ -2448,7 +2535,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 50";
 		rLen = 0;
-		rLoc = 1865;
+		rLoc = 1833;
 		rType = 0;
 		vrLen = 1184;
 		vrLoc = 974;
@@ -2458,14 +2545,14 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 13";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 0;
 	};
 	B4408B9F1096A0500054D979 /* FriendChoosenDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 511}}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 488}}";
 			sepNavSelRange = "{25, 0}";
 			sepNavVisRange = "{0, 108}";
 		};
@@ -2475,7 +2562,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 14";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 0;
@@ -2485,7 +2572,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 14";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 0;
@@ -2515,7 +2602,7 @@
 		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
 		name = "FriendsViewController.h: 2";
 		rLen = 0;
-		rLoc = 57;
+		rLoc = 85;
 		rType = 0;
 		vrLen = 387;
 		vrLoc = 0;
@@ -2525,7 +2612,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 60";
 		rLen = 0;
-		rLoc = 2078;
+		rLoc = 2046;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 1201;
@@ -2605,7 +2692,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 14";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 0;
@@ -2615,7 +2702,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 60";
 		rLen = 0;
-		rLoc = 2078;
+		rLoc = 2046;
 		rType = 0;
 		vrLen = 1281;
 		vrLoc = 1201;
@@ -2692,7 +2779,7 @@
 		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
 		name = "FriendsViewController.m: 14";
 		rLen = 0;
-		rLoc = 399;
+		rLoc = 371;
 		rType = 0;
 		vrLen = 952;
 		vrLoc = 0;
@@ -2706,6 +2793,960 @@
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 547;
+	};
+	B4408BC51097EE8E0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 14";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 1036;
+		vrLoc = 0;
+	};
+	B4408BC61097EE8E0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 4";
+		rLen = 0;
+		rLoc = 101;
+		rType = 0;
+		vrLen = 1443;
+		vrLoc = 267;
+	};
+	B4408BCB1097EEB60054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 14";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 1036;
+		vrLoc = 0;
+	};
+	B4408BCC1097EEB70054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 4";
+		rLen = 0;
+		rLoc = 101;
+		rType = 0;
+		vrLen = 1443;
+		vrLoc = 267;
+	};
+	B4408BCE1097EFB20054D979 /* MGTwitterEngine.m:631 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		functionName = "-connection:didReceiveResponse:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 631;
+		location = "Tweet Only";
+		modificationTime = 278393683.788832;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4408BD21097EFBF0054D979 /* MGTwitterEngine.m:598 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		functionName = "-parsingFailedForRequest:ofResponseType:withError:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 598;
+		location = "Tweet Only";
+		modificationTime = 278393683.791616;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4408BD41097EFC40054D979 /* MGTwitterEngine.m:640 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		functionName = "-connection:didReceiveResponse:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 640;
+		location = "Tweet Only";
+		modificationTime = 278393683.795065;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4408BD61097EFC80054D979 /* MGTwitterEngine.m:674 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		functionName = "-connection:didFailWithError:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 674;
+		location = "Tweet Only";
+		modificationTime = 278393683.796666;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4408BD81097EFCC0054D979 /* MGTwitterEngine.m:685 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		functionName = "-connectionDidFinishLoading:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 685;
+		location = "Tweet Only";
+		modificationTime = 278393683.798234;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4408BDA1097EFD10054D979 /* MGTwitterEngine.m:712 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		functionName = "-connectionDidFinishLoading:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 712;
+		location = "Tweet Only";
+		modificationTime = 278393683.799991;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4408BDC1097EFD80054D979 /* MGTwitterEngine.m:556 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		functionName = "-_isValidDelegateForSelector:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 556;
+		location = "Tweet Only";
+		modificationTime = 278393683.801462;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4408BDE1097EFDF0054D979 /* MGTwitterEngine.m:571 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		functionName = "-parsingSucceededForRequest:ofResponseType:withParsedObjects:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 571;
+		location = "Tweet Only";
+		modificationTime = 278393683.803259;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4408BE01097EFE10054D979 /* MGTwitterEngine.m:576 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		functionName = "-parsingSucceededForRequest:ofResponseType:withParsedObjects:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 576;
+		location = "Tweet Only";
+		modificationTime = 278393683.805163;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4408BE21097EFE30054D979 /* MGTwitterEngine.m:581 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		functionName = "-parsingSucceededForRequest:ofResponseType:withParsedObjects:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 581;
+		location = "Tweet Only";
+		modificationTime = 278393683.814131;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4408BE41097EFE50054D979 /* MGTwitterEngine.m:585 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		functionName = "-parsingSucceededForRequest:ofResponseType:withParsedObjects:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 585;
+		location = "Tweet Only";
+		modificationTime = 278393683.81597;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4408BE81097EFEE0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 14";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 0;
+	};
+	B4408BE91097EFEE0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 4";
+		rLen = 0;
+		rLoc = 101;
+		rType = 0;
+		vrLen = 1443;
+		vrLoc = 267;
+	};
+	B4408BEA1097EFEE0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3073107929CD00CA91EA /* MGTwitterEngine.h */;
+		name = "MGTwitterEngine.h: 106";
+		rLen = 28;
+		rLoc = 5283;
+		rType = 0;
+		vrLen = 2667;
+		vrLoc = 3024;
+	};
+	B4408BEB1097EFEE0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B210896C8A00EEEB31 /* PictureChooserViewController.h */;
+		name = "PictureChooserViewController.h: 14";
+		rLen = 41;
+		rLoc = 370;
+		rType = 0;
+		vrLen = 417;
+		vrLoc = 0;
+	};
+	B4408BEC1097EFEE0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 14";
+		rLen = 0;
+		rLoc = 493;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	B4408BED1097EFEE0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408B9F1096A0500054D979 /* FriendChoosenDelegate.h */;
+		name = "FriendChoosenDelegate.h: 3";
+		rLen = 0;
+		rLoc = 25;
+		rType = 0;
+		vrLen = 108;
+		vrLoc = 0;
+	};
+	B4408BEE1097EFEE0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
+		name = "FriendsViewController.h: 2";
+		rLen = 0;
+		rLoc = 85;
+		rType = 0;
+		vrLen = 387;
+		vrLoc = 0;
+	};
+	B4408BEF1097EFEE0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 24";
+		rLen = 0;
+		rLoc = 777;
+		rType = 0;
+		vrLen = 1201;
+		vrLoc = 0;
+	};
+	B4408BF01097EFEE0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 571";
+		rLen = 5;
+		rLoc = 17985;
+		rType = 0;
+		vrLen = 1584;
+		vrLoc = 17536;
+	};
+	B4408BF11097EFEE0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 685";
+		rLen = 5;
+		rLoc = 22410;
+		rType = 0;
+		vrLen = 1278;
+		vrLoc = 21556;
+	};
+	B4408BF51097F0010054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 14";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 0;
+	};
+	B4408BF61097F0020054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 685";
+		rLen = 5;
+		rLoc = 22410;
+		rType = 0;
+		vrLen = 1203;
+		vrLoc = 21678;
+	};
+	B4408BFA1097F0490054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 14";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 0;
+	};
+	B4408BFB1097F0490054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 685";
+		rLen = 5;
+		rLoc = 22410;
+		rType = 0;
+		vrLen = 1566;
+		vrLoc = 17491;
+	};
+	B4408BFF1097F0A30054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 14";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 0;
+	};
+	B4408C001097F0A40054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 685";
+		rLen = 5;
+		rLoc = 22410;
+		rType = 0;
+		vrLen = 1569;
+		vrLoc = 17488;
+	};
+	B4408C011097F0A40054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 24";
+		rLen = 0;
+		rLoc = 777;
+		rType = 0;
+		vrLen = 1293;
+		vrLoc = 0;
+	};
+	B4408C021097F0A40054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 24";
+		rLen = 0;
+		rLoc = 704;
+		rType = 0;
+		vrLen = 1179;
+		vrLoc = 34;
+	};
+	B4408C051097F0BC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 14";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 0;
+	};
+	B4408C061097F0BC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 24";
+		rLen = 0;
+		rLoc = 704;
+		rType = 0;
+		vrLen = 1240;
+		vrLoc = 90;
+	};
+	B4408C0B1097F1ED0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 15";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 990;
+		vrLoc = 0;
+	};
+	B4408C0E1097F2030054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 15";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 996;
+		vrLoc = 0;
+	};
+	B4408C111097F2210054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 14";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 895;
+		vrLoc = 0;
+	};
+	B4408C141097F2350054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 13";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 932;
+		vrLoc = 0;
+	};
+	B4408C171097F2400054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 13";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 931;
+		vrLoc = 0;
+	};
+	B4408C181097F2400054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3078107929CD00CA91EA /* MGTwitterEngine_Prefix.pch */;
+		name = "MGTwitterEngine_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 161;
+		vrLoc = 0;
+	};
+	B4408C191097F2400054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 82";
+		rLen = 0;
+		rLoc = 2368;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 2046;
+	};
+	B4408C1A1097F2400054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3073107929CD00CA91EA /* MGTwitterEngine.h */;
+		name = "MGTwitterEngine.h: 106";
+		rLen = 28;
+		rLoc = 5283;
+		rType = 0;
+		vrLen = 2667;
+		vrLoc = 2789;
+	};
+	B4408C1B1097F2400054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
+		name = "FriendsViewController.h: 3";
+		rLen = 0;
+		rLoc = 85;
+		rType = 0;
+		vrLen = 448;
+		vrLoc = 0;
+	};
+	B4408C1C1097F2400054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 2";
+		rLen = 0;
+		rLoc = 34;
+		rType = 0;
+		vrLen = 1181;
+		vrLoc = 0;
+	};
+	B4408C1D1097F2400054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 21";
+		rLen = 0;
+		rLoc = 569;
+		rType = 0;
+		vrLen = 1146;
+		vrLoc = 34;
+	};
+	B4408C1F1097F24D0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 49";
+		rLen = 0;
+		rLoc = 1485;
+		rType = 0;
+		vrLen = 1285;
+		vrLoc = 1639;
+	};
+	B4408C221097F2610054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 13";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 931;
+		vrLoc = 0;
+	};
+	B4408C231097F2620054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 49";
+		rLen = 0;
+		rLoc = 1485;
+		rType = 0;
+		vrLen = 1285;
+		vrLoc = 1639;
+	};
+	B4408C241097F2620054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		rLen = 0;
+		rLoc = 555;
+		rType = 1;
+	};
+	B4408C251097F2620054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 556";
+		rLen = 0;
+		rLoc = 17415;
+		rType = 0;
+		vrLen = 1566;
+		vrLoc = 17491;
+	};
+	B4408C271097F2840054D979 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'-friendSelected:' not found in protocol(s)";
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 60;
+		rType = 1;
+	};
+	B4408C281097F2840054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 62";
+		rLen = 0;
+		rLoc = 1949;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 1470;
+	};
+	B4408C2B1097F2AC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 62";
+		rLen = 0;
+		rLoc = 1949;
+		rType = 0;
+		vrLen = 1032;
+		vrLoc = 1470;
+	};
+	B4408C2C1097F2AC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408B9F1096A0500054D979 /* FriendChoosenDelegate.h */;
+		name = "FriendChoosenDelegate.h: 3";
+		rLen = 0;
+		rLoc = 25;
+		rType = 0;
+		vrLen = 108;
+		vrLoc = 0;
+	};
+	B4408C2D1097F2AC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF49F1089409100EEEB31 /* Twitpic.h */;
+		name = "Twitpic.h: 6";
+		rLen = 67;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 162;
+		vrLoc = 0;
+	};
+	B4408C2E1097F2AC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF4A01089409100EEEB31 /* Twitpic.m */;
+		name = "Twitpic.m: 14";
+		rLen = 0;
+		rLoc = 493;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 0;
+	};
+	B4408C2F1097F2AC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B42DF5B210896C8A00EEEB31 /* PictureChooserViewController.h */;
+		name = "PictureChooserViewController.h: 14";
+		rLen = 41;
+		rLoc = 370;
+		rType = 0;
+		vrLen = 417;
+		vrLoc = 0;
+	};
+	B4408C301097F2AC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 62";
+		rLen = 0;
+		rLoc = 1949;
+		rType = 0;
+		vrLen = 1303;
+		vrLoc = 1272;
+	};
+	B4408C311097F2AC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 556";
+		rLen = 0;
+		rLoc = 17415;
+		rType = 0;
+		vrLen = 1489;
+		vrLoc = 17491;
+	};
+	B4408C321097F2AC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3073107929CD00CA91EA /* MGTwitterEngine.h */;
+		name = "MGTwitterEngine.h: 106";
+		rLen = 28;
+		rLoc = 5283;
+		rType = 0;
+		vrLen = 1389;
+		vrLoc = 131;
+	};
+	B4408C331097F2AC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
+		name = "FriendsViewController.h: 12";
+		rLen = 0;
+		rLoc = 288;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	B4408C341097F2AC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
+		name = "FriendsViewController.h: 7";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	B4408C391097F2CC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 62";
+		rLen = 0;
+		rLoc = 1949;
+		rType = 0;
+		vrLen = 878;
+		vrLoc = 1470;
+	};
+	B4408C3A1097F2CC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
+		name = "FriendsViewController.h: 7";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	B4408C3B1097F2CC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 556";
+		rLen = 0;
+		rLoc = 17415;
+		rType = 0;
+		vrLen = 1381;
+		vrLoc = 16828;
+	};
+	B4408C3C1097F2CC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 62";
+		rLen = 0;
+		rLoc = 1949;
+		rType = 0;
+		vrLen = 1301;
+		vrLoc = 1272;
+	};
+	B4408C3D1097F2CC0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 62";
+		rLen = 0;
+		rLoc = 1949;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 2953;
+	};
+	B4408C401097F3270054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 62";
+		rLen = 0;
+		rLoc = 1949;
+		rType = 0;
+		vrLen = 1032;
+		vrLoc = 1470;
+	};
+	B4408C411097F3270054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78F42108192750048C4A2 /* AccountsViewController.h */;
+		name = "AccountsViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 231;
+		vrLoc = 0;
+	};
+	B4408C421097F3270054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C4810814A8B0048C4A2 /* AccountsViewController.m */;
+		name = "AccountsViewController.m: 16";
+		rLen = 0;
+		rLoc = 316;
+		rType = 0;
+		vrLen = 1113;
+		vrLoc = 0;
+	};
+	B4408C431097F3270054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6610814C2A0048C4A2 /* PostTweetViewController.h */;
+		name = "PostTweetViewController.h: 5";
+		rLen = 0;
+		rLoc = 147;
+		rType = 0;
+		vrLen = 1070;
+		vrLoc = 0;
+	};
+	B4408C441097F3270054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */;
+		name = "PostTweetViewController.m: 200";
+		rLen = 38;
+		rLoc = 5845;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 5358;
+	};
+	B4408C451097F3270054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 266";
+		rLen = 0;
+		rLoc = 5990;
+		rType = 0;
+		vrLen = 632;
+		vrLoc = 5738;
+	};
+	B4408C461097F3270054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408B9F1096A0500054D979 /* FriendChoosenDelegate.h */;
+		name = "FriendChoosenDelegate.h: 3";
+		rLen = 0;
+		rLoc = 25;
+		rType = 0;
+		vrLen = 108;
+		vrLoc = 0;
+	};
+	B4408C471097F3270054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
+		name = "FriendsViewController.h: 7";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	B4408C481097F3270054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 62";
+		rLen = 0;
+		rLoc = 1949;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 2951;
+	};
+	B4408C491097F3270054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 124";
+		rLen = 0;
+		rLoc = 3595;
+		rType = 0;
+		vrLen = 680;
+		vrLoc = 2953;
+	};
+	B4408C4D1097F34F0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 120";
+		rLen = 0;
+		rLoc = 3484;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 2951;
+	};
+	B4408C4E1097F3500054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 62";
+		rLen = 0;
+		rLoc = 1949;
+		rType = 0;
+		vrLen = 1032;
+		vrLoc = 1470;
+	};
+	B4408C4F1097F3AA0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 120";
+		rLen = 0;
+		rLoc = 3484;
+		rType = 0;
+		vrLen = 1335;
+		vrLoc = 1096;
+	};
+	B4408C501097F3AA0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8A1094A2690054D979 /* FriendsViewController.h */;
+		name = "FriendsViewController.h: 6";
+		rLen = 52;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	B4408C511097F3AA0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3073107929CD00CA91EA /* MGTwitterEngine.h */;
+		name = "MGTwitterEngine.h: 106";
+		rLen = 28;
+		rLoc = 5283;
+		rType = 0;
+		vrLen = 1515;
+		vrLoc = 128;
+	};
+	B4408C521097F3AA0054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3073107929CD00CA91EA /* MGTwitterEngine.h */;
+		name = "MGTwitterEngine.h: 16";
+		rLen = 0;
+		rLoc = 370;
+		rType = 0;
+		vrLen = 1515;
+		vrLoc = 128;
+	};
+	B4408C531097F3B60054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4FA3073107929CD00CA91EA /* MGTwitterEngine.h */;
+		name = "MGTwitterEngine.h: 16";
+		rLen = 0;
+		rLoc = 370;
+		rType = 0;
+		vrLen = 1515;
+		vrLoc = 128;
+	};
+	B4408C541097F3B60054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 120";
+		rLen = 0;
+		rLoc = 3484;
+		rType = 0;
+		vrLen = 1335;
+		vrLoc = 1096;
+	};
+	B4408C551097F3B60054D979 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4408A8B1094A2690054D979 /* FriendsViewController.m */;
+		name = "FriendsViewController.m: 25";
+		rLen = 0;
+		rLoc = 704;
+		rType = 0;
+		vrLen = 1281;
+		vrLoc = 370;
 	};
 	B4A3F5661084356300317150 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -2752,9 +3793,9 @@
 	};
 	B4B78C6710814C2A0048C4A2 /* PostTweetViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 2691}}";
-			sepNavSelRange = "{917, 0}";
-			sepNavVisRange = "{547, 1497}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 2808}}";
+			sepNavSelRange = "{5845, 38}";
+			sepNavVisRange = "{5358, 773}";
 			sepNavWindowFrame = "{{15, 19}, {1164, 754}}";
 		};
 	};
@@ -3035,21 +4076,21 @@
 	};
 	B4FA3073107929CD00CA91EA /* MGTwitterEngine.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1055, 1573}}";
-			sepNavSelRange = "{5283, 28}";
-			sepNavVisRange = "{3024, 2667}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 1807}}";
+			sepNavSelRange = "{370, 0}";
+			sepNavVisRange = "{128, 1515}";
 		};
 	};
 	B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 17940}}";
-			sepNavSelRange = "{40777, 28}";
-			sepNavVisRange = "{40130, 1361}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 18642}}";
+			sepNavSelRange = "{5990, 0}";
+			sepNavVisRange = "{5738, 632}";
 		};
 	};
 	B4FA3078107929CD00CA91EA /* MGTwitterEngine_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 511}}";
+			sepNavIntBoundsRect = "{{0, 0}, {946, 488}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 161}";
 		};
