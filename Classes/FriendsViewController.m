@@ -44,8 +44,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	NSDictionary *friend = [userInfo objectAtIndex:indexPath.row];
-//	NSLog(@"%@", friend);
-	
+
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -58,7 +57,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	[_delegate friendSelected:[[userInfo objectAtIndex:indexPath.row] objectForKey:@"screen_name"]];
+	NSString *screenName = [[userInfo objectAtIndex:indexPath.row] objectForKey:@"screen_name"];
+	[_delegate friendSelected:screenName];
 	[self dismissModalViewControllerAnimated:YES];	
 }
 

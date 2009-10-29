@@ -3,7 +3,7 @@
 #import "MGTwitterEngine.h"
 
 @interface FriendsViewController : UIViewController {
-	__weak NSObject<FriendChoosenDelegate> *_delegate;
+	__weak NSObject <FriendChoosenDelegate> *_delegate;
 
 	IBOutlet UITableView *friendsTable;
 	MGTwitterEngine *twitterEngine;
@@ -13,7 +13,7 @@
 
 @property (nonatomic, retain) IBOutlet UITableView *friendsTable;
 
-- (IBAction)cancel;
+-(IBAction)cancel;
 -(void) setDelegate:(NSObject*)delegate;
 
 + (id)createInstance;
