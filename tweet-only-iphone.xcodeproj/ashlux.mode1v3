@@ -302,6 +302,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -342,9 +344,8 @@
 								<string>B42DF5B110896C6700EEEB31</string>
 								<string>B4B78C7F10814C9C0048C4A2</string>
 								<string>B4B78C7E10814C8F0048C4A2</string>
-								<string>29B97315FDCFA39411CA2CEA</string>
-								<string>B4FA306A107929CD00CA91EA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>B4408A6B1094A1130054D979</string>
 								<string>B4408A6A1094A1060054D979</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FAAC04509CD000000102</string>
@@ -353,14 +354,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
-									<integer>6</integer>
-									<integer>1</integer>
+									<integer>38</integer>
+									<integer>31</integer>
+									<integer>30</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {251, 660}}</string>
+							<string>{{0, 190}, {251, 660}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -489,14 +490,12 @@
 							<string>0pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FriendsViewController.m</string>
+								<string>black-checkmark.png</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -504,11 +503,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FriendsViewController.m</string>
+										<string>black-checkmark.png</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B46441EC1099FF1C0031D830</string>
+										<string>B4644208109CBC5A0031D830</string>
 										<key>history</key>
 										<array>
 											<string>B4FA30F210792DB900CA91EA</string>
@@ -529,8 +528,6 @@
 											<string>B4FA323710793F0E00CA91EA</string>
 											<string>B4FA330D107947D100CA91EA</string>
 											<string>B4B78C8F108150000048C4A2</string>
-											<string>B4A3F5661084356300317150</string>
-											<string>B4E3FC9910884A3900240AF0</string>
 											<string>B4E3FCAE10884ADC00240AF0</string>
 											<string>B4C492541089315D0079D730</string>
 											<string>B4C49267108933920079D730</string>
@@ -566,10 +563,6 @@
 											<string>B42DFB75108C2EC100EEEB31</string>
 											<string>B4408A741094A1370054D979</string>
 											<string>B4408A751094A1370054D979</string>
-											<string>B4408A791094A1370054D979</string>
-											<string>B4408A7A1094A1370054D979</string>
-											<string>B4408A821094A14C0054D979</string>
-											<string>B4408A8F1094EEF70054D979</string>
 											<string>B4408A941094EEF70054D979</string>
 											<string>B4408AA3109692670054D979</string>
 											<string>B4408AA4109692670054D979</string>
@@ -598,7 +591,13 @@
 											<string>B46441E81099FF1C0031D830</string>
 											<string>B46441E91099FF1C0031D830</string>
 											<string>B46441EA1099FF1C0031D830</string>
-											<string>B46441EB1099FF1C0031D830</string>
+											<string>B4644201109CBC5A0031D830</string>
+											<string>B4644202109CBC5A0031D830</string>
+											<string>B4644203109CBC5A0031D830</string>
+											<string>B4644204109CBC5A0031D830</string>
+											<string>B4644205109CBC5A0031D830</string>
+											<string>B4644206109CBC5A0031D830</string>
+											<string>B4644207109CBC5A0031D830</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -781,7 +780,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>278527772.69250798</real>
+	<real>278707290.48988402</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -797,7 +796,6 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>B46441ED1099FF1C0031D830</string>
-		<string>B46441EE1099FF1C0031D830</string>
 		<string>B46441EF1099FF1C0031D830</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -821,8 +819,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -845,6 +841,8 @@
 							<string>436pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
