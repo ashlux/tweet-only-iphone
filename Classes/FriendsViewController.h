@@ -2,13 +2,12 @@
 #import "FriendChoosenDelegate.h"
 #import "MGTwitterEngine.h"
 
-@interface FriendsViewController : UIViewController {
+@interface FriendsViewController : UIViewController<MGTwitterEngineDelegate> {
 	__weak NSObject <FriendChoosenDelegate> *_delegate;
 
 	IBOutlet UITableView *friendsTable;
-	MGTwitterEngine *twitterEngine;
 	
-	NSArray *userInfo;	
+	NSArray *twitterUserInformation;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *friendsTable;

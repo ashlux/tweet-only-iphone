@@ -1,6 +1,6 @@
 #import "FriendsViewController.h"
-#import "NetworkActivity.h"
 #import "AccountManager.h"
+#import "NetworkActivity.h"
 
 @implementation FriendsViewController
 
@@ -16,21 +16,14 @@
 	_delegate = delegate;
 }
 
-- (void)getFriendsForUsername:(NSString*)username withPassword:(NSString*)password {
-	if (!twitterEngine) {
-		twitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
-	}
-	[twitterEngine setUsername:username password:password];
-	[NetworkActivity start];
-	[twitterEngine getRecentlyUpdatedFriendsFor:username  startingAtPage:0];
-}
-
 - (void)viewDidAppear:(BOOL)animated {
 	[super viewDidAppear:animated];
 	
 	AccountManager *accountManager = [[AccountManager alloc] init];
 	Account *account = [accountManager getSelectedAccount];
 	[accountManager release];
+	
+	[NetworkActivity start];
 	[self getFriendsForUsername:account.username withPassword:account.password];
 }
 
@@ -39,11 +32,11 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return [userInfo count];
+	return [twitterUserInformation count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSDictionary *friend = [userInfo objectAtIndex:indexPath.row];
+	NSDictionary *friend = [twitterUserInformation objectAtIndex:indexPath.row];
 
     static NSString *CellIdentifier = @"Cell";
     
@@ -57,7 +50,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSString *screenName = [[userInfo objectAtIndex:indexPath.row] objectForKey:@"screen_name"];
+	NSString *screenName = [[twitterUserInformation objectAtIndex:indexPath.row] objectForKey:@"screen_name"];
 	[_delegate friendSelected:screenName];
 	[self dismissModalViewControllerAnimated:YES];	
 }
@@ -76,7 +69,7 @@
 	NSLog(@"Twitter request failed! (%@) Error: %@ (%@)", 
           requestIdentifier, 
           [error localizedDescription], 
-          [[error userInfo] objectForKey:NSErrorFailingURLStringKey]);
+          [[error twitterUserInformation] objectForKey:NSErrorFailingURLStringKey]);
 	
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Sad panda..." 
 													message:@"Could not get list of friends." 
@@ -101,7 +94,7 @@
 {
 	[NetworkActivity stop];
 
-	userInfo = [userInfop retain];
+	twitterUserInformation = [userInfop retain];
 	[friendsTable reloadData];
 }
 
@@ -117,10 +110,8 @@
 
 - (void)dealloc {
 	[NetworkActivity stop];
-	[twitterEngine closeAllConnections];
-	[twitterEngine release];
 	[friendsTable release];
-	[userInfo release];
+	[twitterUserInformation release];
 
 	_delegate = nil;	
 	

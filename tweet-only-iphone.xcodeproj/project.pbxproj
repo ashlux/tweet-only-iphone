@@ -81,6 +81,7 @@
 		B4B78DD11081535D0048C4A2 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78DD01081535D0048C4A2 /* Account.m */; };
 		B4B78F64108193AD0048C4A2 /* AccountEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B78F63108193AD0048C4A2 /* AccountEditViewController.m */; };
 		B4CF35C510802CE100D6D204 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CF35C410802CE100D6D204 /* libxml2.dylib */; };
+		B4E4438D10C53F04005C2DA4 /* Friends.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E4438C10C53F04005C2DA4 /* Friends.m */; };
 		B4FA309F107929CD00CA91EA /* MGTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */; };
 		B4FA30A0107929CD00CA91EA /* MGTwitterHTTPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FA307C107929CD00CA91EA /* MGTwitterHTTPURLConnection.m */; };
 		B4FA30A1107929CD00CA91EA /* MGTwitterLibXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FA307E107929CD00CA91EA /* MGTwitterLibXMLParser.m */; };
@@ -201,6 +202,8 @@
 		B4B78F62108193AD0048C4A2 /* AccountEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountEditViewController.h; sourceTree = "<group>"; };
 		B4B78F63108193AD0048C4A2 /* AccountEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountEditViewController.m; sourceTree = "<group>"; };
 		B4CF35C410802CE100D6D204 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		B4E4438B10C53F04005C2DA4 /* Friends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friends.h; sourceTree = "<group>"; };
+		B4E4438C10C53F04005C2DA4 /* Friends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friends.m; sourceTree = "<group>"; };
 		B4FA3073107929CD00CA91EA /* MGTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterEngine.h; sourceTree = "<group>"; };
 		B4FA3074107929CD00CA91EA /* MGTwitterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTwitterEngine.m; sourceTree = "<group>"; };
 		B4FA3078107929CD00CA91EA /* MGTwitterEngine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterEngine_Prefix.pch; sourceTree = "<group>"; };
@@ -445,6 +448,8 @@
 				B4408A8A1094A2690054D979 /* FriendsViewController.h */,
 				B4408A8B1094A2690054D979 /* FriendsViewController.m */,
 				B4408B9F1096A0500054D979 /* FriendChoosenDelegate.h */,
+				B4E4438B10C53F04005C2DA4 /* Friends.h */,
+				B4E4438C10C53F04005C2DA4 /* Friends.m */,
 			);
 			name = friends;
 			sourceTree = "<group>";
@@ -659,6 +664,7 @@
 				B42DF5B510896C8A00EEEB31 /* PictureChooserViewController.m in Sources */,
 				B4408A5910949E970054D979 /* NetworkActivity.m in Sources */,
 				B4408A8D1094A2690054D979 /* FriendsViewController.m in Sources */,
+				B4E4438D10C53F04005C2DA4 /* Friends.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,6 +685,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_DIR)/usr/lib\"",
+					"\"$(SRCROOT)/adwhirl\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "Tweet Only";
@@ -700,6 +707,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_DIR)/usr/lib\"",
+					"\"$(SRCROOT)/adwhirl\"",
 				);
 				PRODUCT_NAME = "Tweet Only";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
