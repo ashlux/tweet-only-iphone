@@ -13,7 +13,7 @@ mkdir -p $OUTPUT
 PROFILE_HOME=~/Library/MobileDevice/Provisioning\ Profiles/
 KEYCHAIN=~/Library/Keychains/login.keychain
  
-. "$WORKSPACE/build/build.config"
+. "$WORKSPACE/build.config"
  
 [ -d "$PROFILE_HOME" ] || mkdir -p "$PROFILE_HOME"
 security unlock -p $PASSWORD
@@ -24,7 +24,7 @@ agvtool new-version -all $BUILD_NUMBER
 for sdk in $SDKS; do
 for config in $CONFIGURATIONS; do
 provision=$(eval echo \$`echo Provision$config`)
-        cert="$WORKSPACE/build/$provision"
+        cert="$WORKSPACE/$provision"
         archive="$OUTPUT/$JOB_NAME-$BUILD_NUMBER-$config.zip";
         [ -f "$cert" ] && cp "$cert" "$PROFILE_HOME"
         cd $WORKSPACE/iphone
